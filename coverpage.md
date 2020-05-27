@@ -1,7 +1,7 @@
 ![](/res/FT-logo.png)
 
-# Fiori Tracker
+# Fiori Apps' Usage
 
-Documentation automated (free tool)
+Importance recognized
 
 [Get Started](#main)

@@ -1,5 +1,5 @@
 # HelpURL
 
-**Sets URL to Fiori Tracker's manual**
+**Sets URL to Fiori Apps' usage's manual**
 
-Default value: http://help.fioritracker.org
+Default value: http://help.fioriappsusage.org
