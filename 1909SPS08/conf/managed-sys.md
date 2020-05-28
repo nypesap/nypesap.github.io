@@ -5,4 +5,4 @@ In this step, you can provide connection data for your managed systems by settin
 - `RFC address` – name of RFC connection from your Central system to the Managed system
 - `Is production` - enable this checkbox for your production system entry
 
-![](/res/modify_managed_systems.png)
+![](/res/managed-systems.png)
