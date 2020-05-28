@@ -8,11 +8,11 @@ Fiori Apps' usage application comes as a dedicated tile in your launchpad. After
 
 You can filter by Type and Area. 
 
-![](res/filtering-type.png)
+![](res/type.png)
 
 *Filters by Type option*
 
-![](res/filtering-area.png)
+![](res/area.png)
 
 *Filters by Area option*
 
