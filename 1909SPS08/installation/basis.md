@@ -1,4 +1,4 @@
-# Steps to be performed by Basis Expert
+# Steps by Basis Expert
 
 ## Step 1 - Import the transport
 
