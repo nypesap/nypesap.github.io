@@ -4,10 +4,10 @@ With Fiori Tracker you can easily export information about data usage into xlsx.
 
 ![](res/apps_usage_export_button.png)
 
-You can choose by which paremeter you want to epxort apps usage data -- note below screen, please. 
+You can choose by which parameter you want to export apps usage data -- note below screen, please. 
 
 ![](res/apps_usage_export_sorted_by.png)
 
-Next, you can choose a time perios from which you want your report and columns that you need in your report. 
+Next, you can choose a time period from which you want your report and columns that you need in your report. 
 
 ![](res/apps_usage_export_data_columns.png)
