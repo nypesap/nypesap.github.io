@@ -3,7 +3,7 @@
  - [Architecture](/how-it-works/architecture.md)
  - [Role assignment](/how-it-works/role-assignment.md)
 - [Installation 🏗️](/installation/intro.md)
- - [Basis expert](/installation/apps-usage-plugin-steps.md)
+ - [Basis expert](/installation/basis.md)
  - [Minimal requirements](/installation/minimal.md)
  - [Deployment options](/deployment/intro.md)
  - [Troubleshooting](/installation/troubleshooting.md)
