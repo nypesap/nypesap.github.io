@@ -16,7 +16,6 @@
  - [Administration Mode](/doc-cont/admin.md)
  - [Importing application data](/importing/intro.md)
  - [Exporting application list with status](/exporting/export.md)
- - [SAP Fiori apps usage report](/doc-cont/most-apps.md)
  - [Exporting apps usage data](/exporting/exportingAppsUsageIntoXlsx.md)
 - [Installation 🏗️](/installation/intro.md)
  - [Main part](installation/main.md)
