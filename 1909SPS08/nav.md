@@ -1,4 +1,4 @@
-- [For whom? ️🧭](/about/for-whom.md)
+- [For whom? ️🧭](/for-whom/intro.md)
 - [See how it works 📺](/how-it-works/intro.md)
  - [General concepts](/how-it-works/general-concepts.md)
     - [Architecture](/how-it-works/general/architecture.md)
