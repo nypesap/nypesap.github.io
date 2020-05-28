@@ -24,7 +24,7 @@ Run `SM30` transaction and add an entry to `ZFSL_SYST_CONFIG` table.
 
 !> RFC destination user must have authorizations to run function module: Z_FT_LOG_APPLICATION_USAGE
 
-![](/res/rfc_conf.png)
+![](res/rfc.png)
 
 ## Step 4 - Activate ICF nodes
 
