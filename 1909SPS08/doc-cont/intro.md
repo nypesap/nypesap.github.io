@@ -1,13 +1,20 @@
-# Fiori Tracker Launchpad Overview
+# Fiori Apps' Usage overview
 
-You can document your "to-be" state of Fiori launchpad content using applications from group "Fiori Tracker".
+Fiori Apps' usage application comes as a dedicated tile in your launchpad. After starting the app you will get a list of all your applications sorted by their usage. You can see which place in rank they have gotten along with their tile title and type. Also, you will see how many times it was used today, in the last calendar week, how much, in total, the application was used and by whom. 
 
-This is what you see after entering Fiori Tracker - Fiori Tracker Launchpad. It contains two modes - Display (upper) and Administration mode (bottom). In Administration mode, You can modify Your Fiori Tracker and see features that are not available in Display mode. To see what those features are - go to section Feature Overview. 
-
-![](/res/launchpad.png)
+![](/res/most_frequently_used_list.png)
 *fig.1. Start view*
 
-In the upper left corner, you can see a Little Man - it is where your profile is. There You can find your app (shortcut), go to settings or you can edit your Home Page. You can also find out about Recent Activity, see what was frequently used or Sign out. 
+You can filter by Type and Area. 
+
+![](/res/most_frequently_used_filtering_type.png)
+*fig.2. Filters by Type option*
+
+![](/res/most_frequently_used_filtering_area.png)
+*fig.2. Filters by Area option*
+
+Additional statistics can be prepared after exporting all application start reports to Excel spreadsheet.
+
 
 
 
