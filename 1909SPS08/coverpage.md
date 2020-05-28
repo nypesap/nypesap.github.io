@@ -1,4 +1,4 @@
-![](res/FT-logo.png)
+![](res/logo.png)
 
 # Fiori Apps' Usage
 
