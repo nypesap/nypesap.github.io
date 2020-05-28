@@ -15,6 +15,5 @@
 - [How to get started? 🎬](getstarted/how-to-get-started.md)
 - [Premier support 🏋](/premier-support.md)
 - [Other tools 🔧](/tools.md)
- - [Fiori Reporter](/fiori-reporter.md)
 - [What's new? 🌱](/whatsnew.md)
 - [Getting transports 🚚](/trans.md)

@@ -1,7 +1,6 @@
-# Other tools that are using Fiori Tracker database
+# Other tools that we have developed
 
-There are other tools that are using Fiori Tracker's database with the master data for SAP Fiori launchpad content:
+- [Fiori Tracker](http://help.fioritracker.org)
 
-- [Application usage report](/conf/apps-usage/intro.md)
-- [Fiori Reporter](conf/jira-integration/jira.md)
+- [Fiori Reporter](firoi-reporter.md)
 
