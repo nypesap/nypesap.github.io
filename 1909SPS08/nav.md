@@ -2,7 +2,6 @@
 - [See how it works 📺](/how-it-works/intro.md)
  - [Architecture](/how-it-works/architecture.md)
  - [Role assignment](/how-it-works/role-assignment.md)
- - [Exporting apps usage data](/exporting/exportingAppsUsageIntoXlsx.md)
 - [Installation 🏗️](/installation/intro.md)
  - [Basis expert](/installation/apps-usage-plugin-steps.md)
  - [Minimal requirements](/installation/minimal.md)
