@@ -5,7 +5,7 @@
 - [Installation 🏗️](/installation/intro.md)
  - [Basis expert](/installation/basis.md)
  - [Minimal requirements](/installation/minimal.md)
- - [Deployment options](/deployment/intro.md)
+ - [Deployment options](/installation/deployment/intro.md)
  - [Troubleshooting](/installation/troubleshooting.md)
  - [Known issues](/installation/known-issues.md)
 - [Configuration ⚙️](/conf/intro.md)
