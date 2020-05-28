@@ -1,5 +1,5 @@
 - [For whom? ️🧭](/about/for-whom.md)
-- [See how it works 📺](/doc-cont/intro.md)
+- [See how it works 📺](/how-it-works/intro.md)
  - [General concepts](/general-concepts.md)
     - [Architecture](/general/architecture.md)
     - [Role assignment](/general/role-assignment.md)
