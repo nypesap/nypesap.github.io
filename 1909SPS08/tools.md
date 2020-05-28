@@ -2,5 +2,5 @@
 
 - [Fiori Tracker](http://help.fioritracker.org)
 
-- [Fiori Reporter](firoi-reporter.md)
+- [Fiori Reporter](fiori-reporter.md)
 
