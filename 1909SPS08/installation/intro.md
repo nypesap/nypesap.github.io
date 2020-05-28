@@ -4,7 +4,7 @@ Fiori App's Usage report collects start count records for applications started f
 
 To obtain the installation files see section "[Getting transports](trans)".
 
-Section "[Location](/deployment/location.md)" explains where in your landscape "Main part" should be installed to.
+Section "[Location](/installation/deployment/location.md)" explains where in your landscape "Main part" should be installed to.
 
 Fiori apps' usage is composed of:
 - "Application usage plugin" - UI5 application that is loaded and run automatically as SAP Fiori launchpad plugin for all users with role ZFT_LOGGER
@@ -14,4 +14,4 @@ Fiori apps' usage a Managed systems. All described activities should be performe
 
 There is one set of activities to be performed:
 
-1. [Basis expert steps](/basis.md)
+1. [Basis expert steps](/installation/basis.md)
