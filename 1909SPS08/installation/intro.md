@@ -14,4 +14,4 @@ Fiori apps' usage a Managed systems. All described activities should be performe
 
 There is one set of activities to be performed:
 
-1. [Basis expert steps](basis.md)
+1. [Basis expert steps](/basis.md)
