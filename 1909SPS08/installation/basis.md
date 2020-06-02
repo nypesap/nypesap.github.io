@@ -2,7 +2,7 @@
 
 ## Step 1 - Import the transport
 
-Please import the transport requests that the Fiori Apps' Usage team provides as:
+Please import the transport requests that the Fiori Apps' Usage team [provides](/trans.md) as:
 
 - "Managed systems -> Applications usage plugin"
 - "Managed systems -> Role for application usage plugin"
@@ -13,7 +13,7 @@ In `PFCG` transaction assign the authorization role `ZFT_LOGGER` to the users th
 
 ## Step 3 - Define RFC destination of a Central system
 
-If you have a RFC pointing to the Central system just use it in the next step. If you do not have such RFC destination, plese prepare it in transaction `SM59`.
+If you have a RFC pointing to the Central system just use it in the next step. If you do not have such RFC destination, please prepare it in transaction `SM59`.
 
 Run `SM30` transaction and add an entry to `ZFSL_SYST_CONFIG` table.
 

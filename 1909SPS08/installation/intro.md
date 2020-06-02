@@ -8,10 +8,4 @@ Fiori apps' usage has two parts:
 1. "Application usage plugin" - UI5 application that is loaded and run automatically as SAP Fiori launchpad plugin for all users with role ZFT_LOGGER
 2. OData service used by SAP Fiori launchpad plugin
 
-For each SAP Gateway system that you plan to collect data from you need to execute the following steps:
-
-1. Import the transports
-
-To obtain the installation files see section "[Getting transports](trans)".
-
-2. Perform [Basis expert steps](/installation/basis.md)
+For each SAP Gateway system that you plan to collect data from your Basis expert needs to complete procedure described in [Basis expert steps](/installation/basis.md).
