@@ -2,7 +2,7 @@
 
 ## Step 1 - Import the transport
 
-Please import the transport requests that the Fiori Tracker team provides as:
+Please import the transport requests that the Fiori Apps' Usage team provides as:
 
 - "Managed systems -> Applications usage plugin"
 - "Managed systems -> Role for application usage plugin"

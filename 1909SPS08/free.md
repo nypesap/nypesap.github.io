@@ -1,4 +1,6 @@
-# Fiori Tracker is free of charge
+# Fiori Apps' Usage is free of charge
+
+Both the Fiori Apps' Usage tool and required tool Fiori Tracker are free.
 
 Nevertheless, as a team involved in developing the tool, we still get enough value from showcasing our skills and getting exposure.
 

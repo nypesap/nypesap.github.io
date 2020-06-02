@@ -20,7 +20,7 @@ Additional statistics can be prepared after exporting all application start repo
 
 ### Exporting apps usage data into Excel file
 
-With Fiori Tracker you can easily export information about data usage into xlsx. Just click on the export button in the applications list and download the .csv file. Ypu can open it with, f.e. Excel. 
+With Fiori Apps' Usage you can easily export information about data usage into xlsx. Just click on the export button in the applications list and download the .csv file. Ypu can open it with, f.e. Excel. 
 
 ![](res/button.png)
 

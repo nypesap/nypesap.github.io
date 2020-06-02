@@ -8,6 +8,7 @@
  - [Deployment options](/installation/deployment/intro.md)
  - [Troubleshooting](/installation/troubleshooting.md)
  - [Known issues](/installation/known-issues.md)
+ - [Technical Launchpad](/installation/technical-launchpad.md)
 - [Configuration ⚙️](/conf/intro.md)
 - [Premier support 🏋](/premier-support.md)
 - [Other tools 🔧](/tools.md)
