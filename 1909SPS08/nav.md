@@ -9,7 +9,6 @@
  - [Troubleshooting](/installation/troubleshooting.md)
  - [Known issues](/installation/known-issues.md)
 - [Configuration ⚙️](/conf/intro.md)
- - [Changing configuration](/conf/changing-config.md)
 - [Premier support 🏋](/premier-support.md)
 - [Other tools 🔧](/tools.md)
 - [What's new? 🌱](/whatsnew.md)
