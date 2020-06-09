@@ -6,13 +6,15 @@ Each time the user starts the application in SAP Fiori launchpad Fiori App's Usa
 
 1. Ranking o most frequently used applications
 2. Ranking of users that have used the chosen application most often
-3. Raw application id with username and timestamp as Excel file export 
+3. Raw usage records as Excel file export 
 
 ![](res/apps-usage.png)
 
 *1. Ranking o most frequently used applications*
 
 You can chose the system for which you would like to see the ranking, filter out the records from a specific functional area or specific application type.
+
+You can also sort the list of applications based on start collected within a day, last week or in total.
 
 
 

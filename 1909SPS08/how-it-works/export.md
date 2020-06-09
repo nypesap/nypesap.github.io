@@ -1,13 +1,15 @@
 ### Exporting start records into Excel file
 
-With Fiori Apps' Usage you can easily export information about data usage into xlsx. Just click on the export button in the applications list and download the .csv file. Ypu can open it with, f.e. Excel. 
+You can export all collected start records into an Excel file. With that you can prepare any statistic summary or charts, simply by processing the records from Excel file. 
+
+The file contains:
+1. application id
+2. application name
+3. username 
+4. timestamp
 
 ![](res/button.png)
 
-You can choose by which parameter you want to export apps usage data -- note below screen, please. 
+Next, you can choose a time period and columns to be exported.
 
-![](res/sorted.png)
-
-Next, you can choose a time period from which you want your report and columns that you need in your report. 
-
-![](res/columns.png)
+![](res/filters.png)
