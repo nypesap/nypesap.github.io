@@ -14,9 +14,11 @@ Each time the user starts the application in SAP Fiori launchpad Fiori App's Usa
 
 You can chose the system for which you would like to see the ranking, filter out the records from a specific functional area or specific application type.
 
+![](res/filters.png)
+
 You can also sort the list of applications based on start collected within a day, last week or in total.
 
-
+![](res/sort.png)
 
 
 

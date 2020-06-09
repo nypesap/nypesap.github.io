@@ -12,4 +12,3 @@ The file contains:
 
 Next, you can choose a time period and columns to be exported.
 
-![](res/filters.png)
