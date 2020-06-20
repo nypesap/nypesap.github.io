@@ -1,4 +1,4 @@
-# fiori-tracker-manual
+# fiori-apps usage-manual
 
 Standalone manual for Fiori Apps Usage
 
