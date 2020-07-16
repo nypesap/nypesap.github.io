@@ -12,5 +12,4 @@
 - [Configuration ⚙️](/conf/intro.md)
 - [Premier support 🏋](/premier-support.md)
 - [Other tools 🔧](/tools.md)
-- [What's new? 🌱](/whatsnew.md)
 - [Getting transports 🚚](/trans.md)
