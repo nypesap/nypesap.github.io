@@ -28,15 +28,10 @@ Run `SM30` transaction and add an entry to `ZFSL_SYST_CONFIG` table.
 
 ## Step 4 - Activate ICF nodes
 
-Run transaction `SICF` and activate the following ICF nodes:
+Run transaction `SICF` and activate the following two ICF nodes:
 
-Path: `/default_host/sap/bc/ui5_ui5/sap/`:
-- zfioristatslog
-
-Path: `/default_host/sap/opu/odata/sap/`:
-- zfioristatslog_srv
-
-![](res/sicf.png)
+Path: `/default_host/sap/bc/ui5_ui5/sap/`, node: `zfioristatslog`
+Path: `/default_host/sap/opu/odata/sap/`, node `zfioristatslog_srv`
 
 ## Step 5 - Add system alias
 
