@@ -20,6 +20,8 @@ You can also sort the list of applications based on start collected within a day
 
 ![](res/sort.png)
 
+You can also export all records to Excel file and prepare aby other report of you choice. 
+
 
 
 
