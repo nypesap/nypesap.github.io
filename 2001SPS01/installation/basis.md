@@ -2,10 +2,7 @@
 
 ## Step 1 - Import the transport
 
-Please import the transport requests that the Fiori Apps' Usage team [provides](/trans.md) as:
-
-- "Managed systems -> Applications usage plugin"
-- "Managed systems -> Role for application usage plugin"
+Please import the transport requests provided in [Getting transports section](/trans.md).
 
 ## Step 2 - Enable users to access plugin
 
