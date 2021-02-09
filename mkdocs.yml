@@ -1,5 +1,5 @@
 site_name: Fiori Apps' Usage Report
-site_url: https://help.fioriappsreport.org
+site_url: https://help.fioriappsusage.org
 nav:
     - Overview: FPS01/main.md
     - Installation: FPS01/inst.md
