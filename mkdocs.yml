@@ -1,0 +1,40 @@
+site_name: Fiori Apps' Usage Report
+site_url: https://help.fioriappsreport.org
+nav:
+    - Overview: FPS01/main.md
+    - Installation: FPS01/inst.md
+    - FAQ: faq.md
+theme: 
+  name: 'material'
+  favicon: 'assets/images/favicon.ico'
+  logo: 'assets/images/logo.png'
+  custom_dir: overrides
+plugins:
+  - macros
+  - search
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+google_analytics:
+  - UA-189272109-2
+  - auto
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/showcase/apps-usage-for-sap-fiori-launchpad
+    - icon: fontawesome/brands/twitter
+      link: http://twitter.com/fioritracker
+  prod:
+    fau:
+      name: 'Fiori Apps Usage'
+      main: '2020'
+      latestrel: 'FPS01'
+      cen: 'X'
+      man: ''
+      compatibleCoreLink: 'https://help.fioritracker.org/V2020/core/SPS02/main/'
+      compatibleAsisMainLink: 'https://help.fioritracker.org/V2020/asis/FPS01/main/'
+      compatibleAsisCenLink: 'https://help.fioritracker.org/V2020/asis/FPS01/inst-cen/'
+      compatibleAsisManLink: 'https://help.fioritracker.org/V2020/asis/FPS01/inst-man/'
+  
+  
