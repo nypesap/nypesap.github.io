@@ -7,7 +7,8 @@ In RFC Destination field provide the RFC destination of your Central system (see
 Configuration table: znypefaman_sc
 
 |Key|Value|
-|SYSTEM_ID| <SID that will show in central system as source SID>|
-|TARGET_RFC|<RFC destination of Central system>
+|--|--|
+|SYSTEM_ID|SID that will show in central system as source SID|
+|TARGET_RFC|RFC destination of Central system|
 
 Empty values will result in sending to local system as a central one and source system ID will be set as local system SID.
