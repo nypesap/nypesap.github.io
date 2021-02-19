@@ -1,4 +1,4 @@
-# Installation of Fiori App Usage Plugin located on Managed system
+# Installation of Fiori Apps' Usage Plugin located on Managed system
 
 Steps for Basis expert:
 
