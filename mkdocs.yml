@@ -1,9 +1,9 @@
 site_name: Fiori Apps' Usage Report
 site_url: https://help.fioriappsusage.org
 nav:
-    - Overview: FPS01/main.md
-    - Installation: FPS01/inst.md
-    - FAQ: faq.md
+    - Overview: 2020/FPS01/main.md
+    - Installation: 2020/FPS01/inst.md
+    - FAQ: 2020/faq.md
 theme: 
   name: 'material'
   favicon: 'assets/images/favicon.ico'
