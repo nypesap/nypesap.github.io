@@ -1,4 +1,4 @@
-# Installation of Fiori App Usage Report located on Central system
+# Installation of Fiori Apps' Usage Report located on Central system
 
 Steps for Basis expert:
 
