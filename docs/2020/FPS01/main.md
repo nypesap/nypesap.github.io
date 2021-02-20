@@ -22,16 +22,16 @@ You can also sort the list of applications based on start collected within a day
 ## [Installation](inst.md)
 
 ## Dependencies
-Requires: [As-is API]({{ prod.fau.compatibleAsisMainLink }}) (free)
+None.
 
 ## Location
 Located on Central system
 
 ## Available extensions
-None.
+[Fiori Tracker Core](extend-w-core.md)
 
 ## Other applications that might use the product
-[Fiori Tracker Core]({{ prod.fau.compatibleCoreLink }})
+[Fiori Tracker Core](extend-w-core.md)
 
 ## [Technical information](tech.md)
 
