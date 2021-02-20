@@ -1,5 +1,5 @@
-# SAP Fiori applications usage control
-Fiori Apps' Usage report identifies applications started by user in from SAP Fiori Launchpad.
+# SAP Fiori Apps' Usage Report
+Helping you monitor SAP Fiori launchpad application usage.
 
 # Key features
 The following are the key features of Fiori Apps’ Usage Report:
