@@ -14,8 +14,8 @@ Please send the screenshots form the application running in Chrome with URL and 
 
 Screenshot from respective SAP Gateway system from SAP Gui menu: System->Status SAP System Data -> Details.
 
+## 4. Is there any way that I can pull the historic data?
 
-
-
+Unfortunately the data is collected only when the Fiori Apps' Usage Plugin is active for the user, so there is no way to pull the historic data. 
 
 

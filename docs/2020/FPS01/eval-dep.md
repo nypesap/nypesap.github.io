@@ -5,7 +5,6 @@ The simplest deployment option to evaluate Fiori Apps' Usage is the installation
 The products that you need to install are:
 
 1. Fiori Apps' Usage Report
-2. "As-is" Main API
-3. "As-is" Connector
+2. Fiori Apps' Usage Plugin
 
 ![](res/eval-dep.png)

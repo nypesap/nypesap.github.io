@@ -4,7 +4,7 @@
 
 In RFC Destination field provide the RFC destination of your Central system (see [how to prepare it](rfc.md))
 
-Configuration table: znypefaman_sc
+Configuration table: **znypefaman_sc**
 
 |Key|Value|
 |--|--|

@@ -9,3 +9,7 @@
 
 See also [optional steps](inst-cen-optional.md).
 
+See the screen capture of all required steps:
+<div class="video-wrapper">
+  <iframe width="600" height="300" src="https://www.youtube.com/embed/4uAGrM2Hjzs" frameborder="0" allowfullscreen></iframe>
+</div>  

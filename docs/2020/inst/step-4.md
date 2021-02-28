@@ -2,4 +2,4 @@
 
 ### 1. Assign role
 
-Go to transaction *PFCG* and assign `Role` to all users who should access the installed product.
+Go to transaction *su02* and assign `Role` to the user who should access the installed product.
