@@ -4,7 +4,7 @@
 
 Transport Package: ZNYPE**FA**CEN
 
-oData Service Name: ZNYPEfACEN_SRV
+oData Service Name: ZNYPEFACEN_SRV
 
 #### App: "Fiori Apps' Usage Report"
 
