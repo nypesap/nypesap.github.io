@@ -35,8 +35,5 @@ extra:
       R2020FPS01:
         compatibleCoreRel: SPS03      
         compatibleCoreLink: 'https://help.fioritracker.org/V2020/core/SPS03/main/'
-        compatibleAsisMainLink: 'https://help.fioritracker.org/V2020/asis/FPS01/main/'
-        compatibleAsisCenLink: 'https://help.fioritracker.org/V2020/asis/FPS01/inst-cen/'
-        compatibleAsisManLink: 'https://help.fioritracker.org/V2020/asis/FPS01/inst-man/'
-  
+        
   
