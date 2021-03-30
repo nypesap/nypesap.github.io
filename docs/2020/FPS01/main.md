@@ -20,4 +20,4 @@ Located on Central system
 
 ## [Technical information](tech.md)
 
-
+## [Configuration](conf.md)
