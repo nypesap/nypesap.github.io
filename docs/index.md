@@ -4,8 +4,7 @@ Helping you understand value delivered with SAP Fiori launchpad applications.
 # Key features
 The following are the key features of Fiori Apps’ Usage Report:
 
--   Collecting usage records from all SAP Fiori launchpads in your landscape
--   Native Fiori app view on most frequently used apps
+-   Convenient, landscape-wide dashboard showing all SAP Fiori launchpads applications usage 
 -   Filtering on systems, functional area, application type (standard, custom, extended apps, etc)
 -   Linkage with exact application name and its details
 -   Raw usage records export to prepare statistics reports with your favorite analytical tool
