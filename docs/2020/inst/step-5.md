@@ -1,6 +1,7 @@
 # Step 5 - Enter the activation key
 
-1. Go to transaction *zfacenadmin* and start *2. Edit configuration*
+1. Go to transaction *zfacenadmin* and press button labeled: *2. Edit configuration*. This will open a maintenance view for table ZNYPEFACEN_SC.
+
 2. In configuration table add the following entry:
 
 |Config key|Config value|
