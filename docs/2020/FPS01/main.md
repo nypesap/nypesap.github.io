@@ -18,6 +18,4 @@ Located on Central system
 ## Available extensions
 [Fiori Tracker Core](extend-w-core.md)
 
-## [Technical information](tech.md)
-
 ## [Configuration](conf.md)
