@@ -2,7 +2,7 @@
 
 1. Go to transaction *zfacenadmin* and press button labeled: *2. Edit configuration*. This will open a maintenance view for table ZNYPEFACEN_SC:
 
-![](res/fa-conf.png)
+[![](res/fa-conf.png)](res/fa-conf.png)
 
 2. In configuration table add the following entry:
 

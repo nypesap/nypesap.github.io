@@ -12,10 +12,8 @@ With System filter you can list app usage for a specific system.
 
 ## [Installation](inst.md)
 
-## Location
-Located on Central system
+## [Configuration](conf.md)
 
 ## Available extensions
 [Fiori Tracker Core](extend-w-core.md)
 
-## [Configuration](conf.md)
