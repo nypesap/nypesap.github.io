@@ -7,4 +7,4 @@ The products that you need to install are:
 1. Fiori Apps' Usage Report
 2. Fiori Apps' Usage Plugin
 
-![](res/eval-dep.png)
+[![](res/eval-dep.png)](res/eval-dep.png)
