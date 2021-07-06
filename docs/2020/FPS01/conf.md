@@ -1,8 +1,7 @@
 # Apps' Usage Report - Configuration parameters
 
-| Key                          | Value     | Description                                                                                                                                                                    |
-|------------------------------|-----------|------------------------------------------------------------------------------|
-| ACTIVATION_KEY               | *key*     | Value is provided by Nype team         |
-| FLP_ICON                     | **HIDE**      | When Value is set to HIDE the SAP Fiori launchpad icon for the plugin is not displayed         |
-| MIN_GROUPING_INTERVAL_IN_SEC | *seconds* | The value sets the minimum interval in seconds in which the grouping of records takes place. This setting is to avoid excessive calculation requests that could impact the system's performance. |
-| INCOMP_HIDE                  | **TRUE** | When set to TRUE the version compatibility warning will not show |
+Apps' Usage Report component has two parts: Central (located on central system) and Managed (located on managed systems). Each part has a configuration table on its system.
+
+1. [Configure Central part](conf-cen.md)
+2. [Configure Managed part](conf-man.md)
+
