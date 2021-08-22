@@ -16,6 +16,7 @@ extra_css:
   - stylesheets/extra.css
 markdown_extensions:
   - admonition
+  - attr_list
 google_analytics:
   - UA-189272109-2
   - auto
