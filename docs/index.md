@@ -9,7 +9,7 @@ The following are the key features of Fiori Apps’ Usage Report:
 -   Linkage with an exact application name and its details
 -   Raw usage records export to prepare statistics reports with your favorite analytical tool
 
-[Get offer](mailto:greg.malewski@nypesap.com?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
+[Get an offer](mailto:greg.malewski@nypesap.com?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
 # Benefits
 The following are the key benefits:
 
