@@ -1,15 +1,14 @@
 # Overview
 
-Report enables monitoring of SAP Fiori application usage in your SAP landscape.
+The report enables monitoring of SAP Fiori application usage in your SAP landscape.
 
-Each time the user starts the application in SAP Fiori launchpad Fiori Apps' Usage plugin collects start records with time stamps. Based on the records, the tool provides report on most frequently used apps:
+Each time the user starts the application in SAP Fiori launchpad Fiori Apps' Usage plugin collects start records with time stamps. Based on the collected records, the tool provides a report on the most frequently used apps:
 
 [![](res/fa.png)](res/fa.png)
 
-You can chose the system for which you would like to see the ranking, filter out the records from a specific functional area or specific application type.
+You can filter out the records from a chosen system, specific functional area, or application type.
 
-With System filter you can list app usage for a specific system.
-
+All usage records are available for download in an Excel format. Downloaded data can be further analyzed or visualized in a separate application.
 ## [Installation](inst.md)
 
 ## [Configuration](conf.md)
