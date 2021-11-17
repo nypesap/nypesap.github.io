@@ -8,6 +8,7 @@ nav:
       - Records export: 2020/FPS01/recexp.md
       - Apps identification: 2020/FPS01/app-ids.md
     - Installation: 2020/FPS01/inst.md
+    - Configuration: 2020/FPS01/conf.md
     - FAQ: 2020/faq.md
 theme: 
   name: 'material'
