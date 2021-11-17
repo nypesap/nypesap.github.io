@@ -2,6 +2,8 @@ site_name: Fiori Apps' Usage Report
 site_url: https://help.fioriappsusage.org
 nav:
     - Overview: 2020/FPS01/main.md
+    - Usage cases:
+      - Priority setting: 2020/FPS01/use-cases/priority-setting.md
     - Features:
       - Records export: 2020/FPS01/recexp.md
     - Installation: 2020/FPS01/inst.md
