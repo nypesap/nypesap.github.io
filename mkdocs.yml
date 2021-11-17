@@ -6,6 +6,7 @@ nav:
       - Priority setting: 2020/FPS01/use-cases/priority-setting.md
     - Features:
       - Records export: 2020/FPS01/recexp.md
+      - Apps identification: 2020/FPS01/app-ids.md
     - Installation: 2020/FPS01/inst.md
     - FAQ: 2020/faq.md
 theme: 
