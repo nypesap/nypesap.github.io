@@ -9,7 +9,7 @@ The following are the key features of Fiori Apps’ Usage Report:
 -   Linkage with an exact [application name and its details](2020/FPS01/app-ids.md)
 -   Raw usage [records export](2020/FPS01/recexp.md) to prepare statistics reports with your favorite analytical tool
 
-[Get an offer](mailto:greg.malewski@nypesap.com?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
+[Get an offer](mailto:grzegorz.malewski@nype.pl?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
 # Benefits
 The following are the key benefits:
 
