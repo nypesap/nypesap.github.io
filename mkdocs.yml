@@ -3,9 +3,7 @@ site_url: https://help.fioriappsusage.org
 nav:
     - Overview: 2020/FPS01/main.md
     - Usage cases: 2020/use-cases.md
-    - Features:
-      - Records export: 2020/FPS01/recexp.md
-      - Apps identification: 2020/FPS01/app-ids.md   
+    - Features: 2020/features.md
     - Installation: 2020/FPS01/inst.md
     - Configuration: 2020/FPS01/conf.md
     - FAQ: 2020/faq.md
