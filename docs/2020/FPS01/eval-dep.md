@@ -8,3 +8,7 @@ The products that you need to install are:
 2. Fiori Apps' Usage Plugin
 
 [![](res/eval-dep.png)](res/eval-dep.png)
+
+## Other deployment options
+
+1. [Fiori Apps' Usage Report on production](deployment/prod.md)
