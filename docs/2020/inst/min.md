@@ -1,4 +1,6 @@
-# Minimal installation requirements for all Fiori Apps' Usage
+# Minimal installation requirements for Fiori Apps' Usage Report
+
+## Overview
 
 !!! Note
     The minimal requirement for Fiori Apps' Usage is any SAP system with GAP Gateway (software component SAP_GWFND).
@@ -6,6 +8,8 @@
 Fiori Apps' Usage frontend part requires SAP Gateway with SAP UI5 library at least version: 1.48.9 (UI software component in version: SAP_UI 752 SP00 (or above Support Package). For systems that do not offer UI5 library in recommended version Fiori Apps' Usage can be still run from [Technical launchpad](../ui5lib-options.md).
 
 Fiori Apps' Usage Suite will work in both HUB and Embedded deployment.
+
+## SAP S/4HANA compatibility 
 
 Here is the list of compatible SAP releases Fiori Apps' Usage Suite is compatible with:
 
