@@ -11,7 +11,7 @@ Fiori Apps' Usage Suite will work in both HUB and Embedded deployment.
 
 ## SAP S/4HANA compatibility 
 
-Here is the list of compatible SAP releases Fiori Apps' Usage Suite is compatible with:
+Here is the list SAP releases that Fiori Apps' Usage Report is compatible with:
 
 |1610|1709|1809|1909|2020|
 |--|--|--|--|--|
