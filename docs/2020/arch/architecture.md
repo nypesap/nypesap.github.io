@@ -1,4 +1,4 @@
-# Deployment option: Fiori Apps' Usage Report on production
+# Fiori Apps' Usage Report architecture
 
-[![](res/dep-opt-prd.png)](res/dep-opt-prd.png)
+[![](res/arch.png)](res/arch.png)
 

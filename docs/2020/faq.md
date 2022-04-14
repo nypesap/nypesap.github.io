@@ -20,10 +20,12 @@ The data is collected when the Fiori Apps' Usage Plugin is active for the user, 
 
 ## 5. What is the architecture of the solution?
 
-Please find the details in [the Architecture section](arch/architecutre.md).
+Please find the details in [the Architecture section](arch/architecture.md).
 
 ## 6. What is the recommended deployment option?
 
-We recommend using the production system to install and run as a Central System for Fiori Apps' Usage Report. Please find the details in [the deployment recommendation section](deployment/prod.md).
+We recommend using the production system to install and run as a Central System for Fiori Apps' Usage Report. Please find the details in [the deployment recommendation section](FPS01/deployment/prod.md).
 
+## 7. How much time does it take to implement the Fiori Apps' Usage and start collecting the usage records?
 
+You can set up and start using Fiori Apps' Usage in under one day. The detailed installation steps will guide you through the installation process.
