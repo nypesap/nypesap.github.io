@@ -22,9 +22,9 @@ The data is collected when the Fiori Apps' Usage Plugin is active for the user, 
 
 Please find the details in [the Architecture section](arch/architecture.md).
 
-## 6. What is the recommended deployment option?
+## 6. How is the solution deployed?
 
-We recommend using the production system to install and run as a Central System for Fiori Apps' Usage Report. Please find the details in [the deployment recommendation section](FPS01/deployment/prod.md).
+Fiori Apps' Usage Report is deployed by importing the transports. Please find the details in [deployment section](FPS01/deployment/deployment.md).
 
 ## 7. How much time does it take to implement the Fiori Apps' Usage and start collecting the usage records?
 

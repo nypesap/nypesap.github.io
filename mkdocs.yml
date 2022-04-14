@@ -1,11 +1,8 @@
 site_name: Fiori Apps' Usage Report
 site_url: https://help.fioriappsusage.org
 nav:
-    - Overview: 2020/FPS01/main.md
-    - Use cases: 2020/use-cases.md
-    - Features: 2020/features.md
+    - Learn more: 2020/learn-more.md
     - Installation: 2020/FPS01/inst.md
-    - Configuration: 2020/FPS01/conf.md
     - FAQ: 2020/faq.md
 theme: 
   name: 'material'

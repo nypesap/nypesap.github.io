@@ -1,4 +1,4 @@
-# Installation of Fiori Apps' Usage Report located on Central system
+# Installation of Fiori Apps' Usage Report 
 
 ## Steps for Basis expert:
 
@@ -8,9 +8,5 @@
 4. [Assign pfcg roles](../inst/step-4.md) for role `ZNYPE_FACEN`
 5. [Enter the activation key](../inst/step-5.md)
 
-See also [optional steps](inst-cen-optional.md).
 
-See the screen capture of all required steps:
-<div class="video-wrapper">
-  <iframe width="600" height="300" src="https://www.youtube.com/embed/4uAGrM2Hjzs" frameborder="0" allowfullscreen></iframe>
-</div>  
+

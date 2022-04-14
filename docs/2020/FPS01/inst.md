@@ -1,24 +1,13 @@
 # Installation
 
-## General Basis expert steps
+To start tracking application usage information on a chosen system, you need to execute the following steps on that system:
 
-You need to install two parts: for a central system, and for the managed system.
+1. [Obtain and import `Fiori Apps' Usage Report` and `Fiori Apps' Usage Plugin` transport files](../inst/step-1.md)
+2. [Activate `zftappusagerep`, `zfaadmin` and `zftappusageplug` frontend ICF nodes](../inst/step-2.md)
+3. [Enable `ZNYPEFACEN_SRV` and `ZNYPEFAMAN_SRV` backend odata services](../inst/step-3.md)
+4. [Assign `ZNYPE_FACEN` and `ZNYPE_FAMAN` pfcg roles](../inst/step-4.md) 
+5. [Enter the activation key](../inst/step-5.md)
 
-1. [Install Fiori Apps' Usage Report on Central system](inst-cen.md)
-2. [Install Fiori Apps' Usage Plugin on Managed system](inst-man.md)
 
-## Evaluation deployment
 
-If you are installing Fiori Apps' Usage for the first time, please check [Evaluation deployment](eval-dep.md) for details on installing it to one system (f.e. Sandbox).
 
-!!! Note
-    We designed each Fiori Apps' Usage Report product to work independently. Once you install the product and any dependent products are needed, it will guide the user to install those.
-
-## Products compatibility
-
-!!! Note
-    Release 2020 FPS01 is not downward compatible with previous releases. It should **not** be installed on top of older releases. If you have used previous releases and would like to move to release 2020 FPS01 then you need to move your data manually. If you need help with moving you data please contact our project manager for an offer (gm@nypesap.com)
-    
-| Main product              | Main prod. release | Uses product | Compatible release  |
-| ------------------------- | ------- | ------------- | ------------------- |
-| Fiori Apps' Usage Report  | FPS01   | Core         | {{ prod.fa.R2020FPS01.compatibleCoreRel }}               |

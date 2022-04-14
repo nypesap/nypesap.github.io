@@ -10,11 +10,13 @@ You can filter out the records from a chosen system, specific functional area, o
 
 All usage records are available for download in an [Excel format](recexp.md). Downloaded data can be further analyzed or visualized in a separate application.
 
-## [Use cases](use-cases.md)
+## [Use cases](FPS01/use-cases.md)
 
-## [Installation](inst.md)
+## [Features](FPS01/features.md)
 
-## [Configuration](conf.md)
+## [Installation](FPS01/inst.md)
+
+## [Configuration](FPS01/conf.md)
 
 ## Available extensions
 [Fiori Tracker Core](extend-w-core.md)

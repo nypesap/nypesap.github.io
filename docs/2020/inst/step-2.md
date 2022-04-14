@@ -1,11 +1,20 @@
 # Step 2 - Activate the Frontend ICF nodes
 
-!!! Note
-    To activate the needed Frontend ICF nodes complete the sub-steps described below for each node.
+### 1. Open the list of all frontend services 
 
-1. Run SAP Gui **SICF** transaction, choose **Execute** and in the tree of services for path Path: `/default_host/sap/bc/ui5_ui5/sap/`, use right click on service and choose **Activate** for each `ICF node` you and to activate <br/>
+From SAP Gui run the transaction **SICF** and choose **Execute**
 
-![](res/sicf-activate.png)
+### 2. Activate the services
+ 
+In the tree of services for path Path: `/default_host/sap/bc/ui5_ui5/sap/`, use right click and choose **Activate** for each of teh following services:
+
+`zftappusagerep`
+
+`zfaadmin`
+
+`zftappusageplug` 
+
+ ![](res/sicf-activate.png)
 
 
 
