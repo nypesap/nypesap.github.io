@@ -1,8 +1,9 @@
-# Step 4 - Assign Authorization role
+# Step 4 - Assign Authorization roles
 
-### 1. Assign role
+1. Go to SAP Gui transaction **su01** 
 
-Go to transaction *su01* and assign `Role` to the user who should access the installed product.
+2. Assign `ZNYPE_FACEN` role to Fori Apps' Report users
 
-!!! Note
-    If you would like to use your own role please [see how to create or extend it](../FPS01/extend-existing-role.md)
+3. Assign `ZNYPE_FAMAN` to all the users that you want to monitor for apps usage
+
+
