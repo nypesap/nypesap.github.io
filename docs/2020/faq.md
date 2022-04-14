@@ -28,4 +28,4 @@ We recommend using the production system to install and run as a Central System 
 
 ## 7. How much time does it take to implement the Fiori Apps' Usage and start collecting the usage records?
 
-You can set up and start using Fiori Apps' Usage in under one day. The detailed installation steps will guide you through the installation process.
+You can set up and start using Fiori Apps' Usage in a couple of hours. The descriptions in [the installation section](FPS01/inst.md) will guide you through all the required steps. Should you encounter any problem, you can reach Fiori Apps' Usage team on the support Slack channel or ask us for a screen-sharing session.
