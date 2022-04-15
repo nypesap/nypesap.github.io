@@ -1,10 +1,9 @@
 # Step 5 - Enter the activation key
 
-1. Go to transaction *zfacenadmin* and press button labeled: *2. Edit configuration*. This will open a maintenance view for table ZNYPEFACEN_SC:
+1. Go to SAP Gui transaction **ZFACENADMIN** and press the button labeled: *2. Edit configuration*. Pressing the button will open a maintenance view for table ZNYPEFACEN_SC:
 
 [![](res/fa-conf.png)](res/fa-conf.png)
-
-2. In configuration table add the following entry:
+2. In the configuration table add the following entry:
 
 |Config key|Config value|
 |--|--|
