@@ -19,5 +19,5 @@ All usage records are available for download in an [Excel format](FPS01/recexp.m
 ## [Configuration](FPS01/conf.md)
 
 ## Available extensions
-[Fiori Tracker Core](extend-w-core.md)
+[Fiori Tracker Core](FPS01/extend-w-core.md)
 
