@@ -28,8 +28,8 @@ Fiori Apps' Usage Report is deployed by importing the transports. Please find th
 
 ## 7. How much time does it take to implement the Fiori Apps' Usage and start collecting the usage records?
 
-You can set up and start using Fiori Apps' Usage in a couple of hours. The descriptions in [the installation section](FPS01/inst.md) will guide you through all the required steps. Should you encounter any problem, you can reach Fiori Apps' Usage team on the support Slack channel or ask us for a screen-sharing session.
+You can set up and start using Fiori Apps' Usage in a couple of hours. The descriptions in [the installation section](FPS01/inst.md) will guide you through all the required steps. Should you encounter any problem, you can reach Fiori Apps' Usage team on the support Slack channel or ask the team for a screen-sharing session.
 
-### 8. Can I use my own roles instead of using the ones provided in Fiori Apps' Usage transport requests?
+### 8. Can I use my roles instead of the ones provided in Fiori Apps' Usage transport requests?
 
 Yes. [See how to create or extend an existing role](FPS01/extend-existing-role.md)

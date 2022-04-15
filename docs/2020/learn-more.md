@@ -8,7 +8,7 @@ Each time the user starts the application in SAP Fiori launchpad Fiori Apps' Usa
 
 You can filter out the records from a chosen system, specific functional area, or application type.
 
-All usage records are available for download in an [Excel format](recexp.md). Downloaded data can be further analyzed or visualized in a separate application.
+All usage records are available for download in an [Excel format](FPS01/recexp.md). Downloaded data can be further analyzed or visualized in a separate application.
 
 ## [Use cases](FPS01/use-cases.md)
 
