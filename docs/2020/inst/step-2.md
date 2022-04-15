@@ -14,7 +14,7 @@ In the tree of services for path Path: `/default_host/sap/bc/ui5_ui5/sap/`, use 
 
 `zftappusageplug` 
 
- ![](res/sicf-activate.png)
+ [![](res/sicf-activate.png)](res/sicf-activate.png)
 
 
 
