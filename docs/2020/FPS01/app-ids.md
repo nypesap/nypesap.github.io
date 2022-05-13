@@ -1,6 +1,6 @@
 # Apps identification
 
-Usage report identifies applications names by matching their semantic object and action with corresponding "To-be" records. "To-be" records come from Fiori Tacker Core.
+Usage report identifies applications names by matching their semantic object and action with corresponding ["To-be" records](to-be-records.md). The "To-be" records come from Fiori Tacker Core.
 
 If you want to have an App ID listed please maintain that App ID for your semantic object action pair in FT Applications app from [Fiori Tracker Core]( {{ prod.fa.R2020FPS01.compatibleCoreLink }} ).
 
