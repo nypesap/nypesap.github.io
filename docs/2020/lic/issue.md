@@ -1,3 +1,3 @@
 # Issue with license
 
-Please contact us at gm@nypesap.com to resolve issue with license.
+Please contact us at ft@nypesap.com to resolve issue with license.

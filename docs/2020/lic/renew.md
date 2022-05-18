@@ -1,3 +1,3 @@
 # Renew license
 
-Please contact us at gm@nypesap.com to renew license.
+Please contact us at ft@nypesap.com to renew license.

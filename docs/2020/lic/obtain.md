@@ -1,3 +1,3 @@
 # Obtain license
 
-Please contact us at gm@nypesap.com to obtain license.
+Please contact us at ft@nypesap.com to obtain license.
