@@ -10,4 +10,4 @@
 |ACTIVATION_KEY|*key provided by Nype's representative*|
 
 
-
+See also: [How to get the SAP system installation number](installation-number.md)
