@@ -6,7 +6,7 @@ If you want to have an App ID listed please maintain that App ID for your semant
 
 For SAP standard apps for App ID use the "App ID" field from SAP Fiori Apps Reference Library. For example "F3140" (https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F3140')/S20OP). For custom apps, the BSP name. For example ZFTCA.  
 
-
+[![](res/app-ids.png)](res/app-ids.png)
 
 
 
