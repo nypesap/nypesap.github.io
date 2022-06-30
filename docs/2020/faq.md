@@ -33,3 +33,7 @@ You can set up and start using Fiori Apps' Usage in a couple of hours. The descr
 ### 8. Can I use my roles instead of the ones provided in Fiori Apps' Usage transport requests?
 
 Yes. [See how to create or extend an existing role](FPS01/extend-existing-role.md)
+
+### 9. How to get the SAP system installation number?
+
+Please check the [detailed description](inst/installation-number.md).
