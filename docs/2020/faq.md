@@ -37,3 +37,11 @@ Yes. [See how to create or extend an existing role](FPS01/extend-existing-role.m
 ### 9. How to get the SAP system installation number?
 
 Please check the [detailed description](inst/installation-number.md).
+
+### 10. Should we install Fiori Apps Usage Report on SAP Solution Manager?
+
+SAP Solution Manager is a very good choice when it comes to using Fiori Apps' Usage Report and Fiori Tracker suite tools when your main landscape can get temporarily offline (upgrades and other maintenance activities). The only reason we do not encourage our users to use SAP Solution Manager is that most of the installations are on NetWeaver below 7.52 while Fiori Tracker Suite component need at least NetWeaver 7.52. If your SAP Solution Manager is on 7.52 then it is a perfect place for installation.
+
+### 11. Do you have a demo of the application? 
+
+We can arrange a call to demo Fiori Apps Usage Report on our systems. Please let us know using [the "Get an offer" on the main page](https://help.fioriappsusage.org/)if you would like to have a call. We will send the timing proposition.
