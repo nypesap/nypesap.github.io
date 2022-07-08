@@ -4,6 +4,7 @@ nav:
     - Learn more: 2020/learn-more.md
     - Installation: 2020/FPS01/inst.md
     - FAQ: 2020/faq.md
+    - Impressum: impressum.md
 theme: 
   name: 'material'
   favicon: 'assets/images/favicon.ico'
