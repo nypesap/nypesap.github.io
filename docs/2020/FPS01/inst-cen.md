@@ -6,7 +6,7 @@
 2. [Activate Frontend ICF nodes](../inst/step-2.md) for node `zftappusagerep` and `zfaadmin`
 3. [Enable backend odata service](../inst/step-3.md) for service `ZNYPEFACEN_SRV`
 4. [Assign pfcg roles](../inst/step-4.md) for role `ZNYPE_FACEN`
-5. [Enter the activation key](../inst/step-5.md)
+5. [Set the parameters for activation key and log mode](../inst/step-5.md)
 
 
 
