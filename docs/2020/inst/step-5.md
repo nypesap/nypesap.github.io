@@ -1,4 +1,4 @@
-# Step 5 - Enter the activation key
+# Step 5 - Set the parameters for activation key and log mode
 
 1. Go to SAP Gui transaction **ZFACENADMIN** and press the button labeled: *2. Edit configuration*. Pressing the button will open a maintenance view for table ZNYPEFACEN_SC:
 
