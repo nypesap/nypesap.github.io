@@ -45,3 +45,7 @@ SAP Solution Manager is a very good choice when it comes to using Fiori Apps' Us
 ### 11. Do you have a demo of the application? 
 
 We can arrange a call to demo Fiori Apps Usage Report on our systems. Please let us know using [the "Get an offer" on the main page](https://help.fioriappsusage.org/)if you would like to have a call. We will send the timing proposition.
+
+### 12. What are all roles needed for manager and user?
+
+Please check the [summary](inst/roles.md)
