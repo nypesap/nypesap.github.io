@@ -11,3 +11,5 @@
 | LOGMODE                      | **FULL** |
 
 See also: [How to get the SAP system installation number](installation-number.md)
+
+3. Go to SAP Gui tansaction **ZFAMANADMIN** and press the button *1. Edit configuration*.
