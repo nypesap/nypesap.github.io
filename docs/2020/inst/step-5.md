@@ -1,4 +1,4 @@
-# Step 5 - Set the parameters for activation key and log mode
+# Step 5 - Set the parameters for activation key, log mode and target system
 
 1. Go to SAP Gui transaction **ZFACENADMIN** and press the button labeled: *2. Edit configuration*. Pressing the button will open a maintenance view for table ZNYPEFACEN_SC:
 
@@ -12,4 +12,6 @@
 
 See also: [How to get the SAP system installation number](installation-number.md)
 
-3. Go to SAP Gui tansaction **ZFAMANADMIN** and press the button *1. Edit configuration*.
+3. Go to SAP Gui tansaction **ZFAMANADMIN**. Entering transaction will initialize the plugin configuration.
+
+[![](res/faman-conf.png)](res/faman-conf.png)
