@@ -2,8 +2,8 @@
 
 1. Go to SAP Gui transaction **su01** 
 
-2. Assign `ZNYPE_FAMAN` role to Fori Apps' Report users
+2. Assign `ZNYPE_FAMAN` role to all the users you want to monitor 
 
-3. Assign `ZNYPE_FACEN` to all the users that you want to monitor for apps usage
+3. Assign `ZNYPE_FACEN` to users who should run the report
 
 
