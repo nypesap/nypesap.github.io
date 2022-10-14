@@ -5,3 +5,5 @@ Your business has had SAP S/4HANA for some time already with, let’s say, 100 S
 With the Fiori App Usage report you can learn which SAP Fiori applications your company might start using to get the most out of your S/4HANA investment.
 
 [![](res/rarely-used.png)](res/rarely-used.png)
+
+Knowing about unused applications creates opportunities for training and consultation.
