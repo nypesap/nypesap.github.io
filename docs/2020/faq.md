@@ -32,7 +32,7 @@ You can set up and start using Fiori Apps' Usage in a couple of hours. The descr
 
 ### 8. Can I use my roles instead of the ones provided in Fiori Apps' Usage transport requests?
 
-Yes. [See how to create or extend an existing role](FPS01/extend-existing-role.md)
+Yes. [See how to create or extend an existing role](FPS01/extend-existing-role.md).
 
 ### 9. How to get the SAP system installation number?
 
@@ -44,8 +44,14 @@ SAP Solution Manager is a very good choice when it comes to using Fiori Apps' Us
 
 ### 11. Do you have a demo of the application? 
 
-We can arrange a call to demo Fiori Apps Usage Report on our systems. Please let us know using [the "Get an offer" on the main page](https://help.fioriappsusage.org/)if you would like to have a call. We will send the timing proposition.
+We can arrange a call to demo Fiori Apps Usage Report on our systems. Please let us know using [the "Get an offer" on the main page](https://help.fioriappsusage.org/) if you would like to have a call. We will send the timing proposition.
 
 ### 12. What are all roles needed for manager and user?
 
-Please check the [summary](inst/roles.md)
+Please check the [summary](inst/roles.md).
+
+### 13. What is the Fiori App Usage impact on applications and system performance?
+
+Fiori Apps usage impacts overall system performance as little as possible. See the details in [Fiori App Usage performance influence section](FPS01/performance.md).
+
+
