@@ -7,5 +7,8 @@ With the Fiori App Usage report you can learn which SAP Fiori applications your 
 [![](res/rarely-used.png)](res/rarely-used.png)
 
 Knowing about unused applications:
+
 - creates opportunities for training and consultation
-- can trigger investigation on issues that make the business reluctant to use certain applications
+- can trigger an investigation into issues that make the business reluctant to use specific applications
+
+
