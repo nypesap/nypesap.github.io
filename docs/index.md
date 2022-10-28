@@ -1,5 +1,5 @@
 # SAP Fiori Apps' Usage Report
-Understanding how the business is using the system
+Insight into how business uses the system.
 
 # Benefits
 The following are the key benefits:
