@@ -4,11 +4,13 @@ Insight into how business uses the system.
 # Benefits
 The following are the key benefits:
 
--   Making the most of your system [by learning about unused applications](2020/FPS01/use-cases/learning-about-unused.md)
--   [The right priority choice when supporting the apps](2020/FPS01/use-cases/priority-setting.md)
--   Insight into [project testing progress](2020/FPS01/use-cases/testing.md)
--   Insight into [compliance with project scope](2020/FPS01/use-cases/out-of-scope.md)
--   Convenient review of user access
+- **Improved return on investment** – achieved by [learning about unused applications](2020/FPS01/use-cases/learning-about-unused.md)
+- **Proper use of the project team's time** – by [prioritizing based on affected users](2020/FPS01/use-cases/priority-setting.md)
+- **Informed PMO** – by getting [input on testing progress](2020/FPS01/use-cases/testing.md)
+- **Improved scope control** – by learning about [the use of apps outside of the scope](2020/FPS01/use-cases/out-of-scope.md)
+- **Convenient user access review**
+
+
 
 [Get an offer](mailto:ft@nypesap.com?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
 
