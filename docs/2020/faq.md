@@ -55,3 +55,7 @@ Please check the [summary](inst/roles.md).
 Fiori Apps usage impacts overall system performance as little as possible. See the details in [Fiori App Usage performance influence section](FPS01/performance.md).
 
 
+### 14. Why should we use a third-party solution instead of waiting for the same function delivered by SAP out of the box?
+
+Any solution to the application usage reporting problem will require identifying the applications covered by the project. As the Fiori Apps Usage Report's key aspect is the identification, you can start tracking the app's usage with the Fiori Apps Usage report and leverage the same app identification records if the standard out-of-the-box solution is ready.
+
