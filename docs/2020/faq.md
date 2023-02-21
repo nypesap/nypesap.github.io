@@ -6,7 +6,7 @@ The minimal requirement is any SAP system with GAP Gateway (software component S
 
 ### 2. Will the Fiori Tracker release 2020 work on my S/4 HANA system that is on the different releases (1610, 1709, 1809, 1909)?
 
-Yes. Fiori Tracker release numbering is independent of SAP release numbering. Fiori Tracker release 2020 is compatible with SAP S/4 HANA releases from 1610 to 2020. Refer [Minimal requirements](inst/min.md) for more details.
+Yes. Fiori Tracker release numbering is independent of SAP release numbering. Fiori Tracker release 2020 is compatible with SAP S/4 HANA releases from 1610 to 2022. Refer [Minimal requirements](inst/min.md) for more details.
 
 ### 3. What details do you need for troubleshooting the issues?
 
@@ -57,5 +57,5 @@ Fiori Apps usage impacts overall system performance as little as possible. See t
 
 ### 14. Why should we use a third-party solution instead of waiting for the same function delivered by SAP out of the box?
 
-Any solution to the application usage reporting problem will require identifying the applications covered by the project. As the Fiori Apps Usage Report's key aspect is the identification, you can start tracking the app's usage with the Fiori Apps Usage report and leverage the same app identification records if the standard out-of-the-box solution is ready.
+Any solution to the application usage reporting problem will require identifying the applications covered by the project. As the Fiori Apps Usage Report's key aspect is the identification, you can start tracking the app's usage with the Fiori Apps Usage report and leverage the same app identification records if the standard out-of-the-box solution will be developed.
 
