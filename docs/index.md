@@ -21,3 +21,6 @@ Insight into how business uses the system.
 -   Linkage with an exact [application name and its details](2020/FPS01/app-ids.md)
 -   [All records export](2020/FPS01/recexp.md) for your favorite analytical tool
 
+# Compatibility
+
+Compatible with SAP S/4HANA releases from 1610 to 2022.
