@@ -12,7 +12,7 @@ Insight into how business uses the system.
 
 
 
-[Get an offer](mailto:ft@nypesap.com?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
+[Get an offer](mailto:fau@npe.cm?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
 
 # Key features
 
