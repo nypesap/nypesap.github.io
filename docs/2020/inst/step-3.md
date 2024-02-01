@@ -66,7 +66,7 @@ If the entry is present, then move to sub Step 3 ("Add system alias to ICF node"
 
 3.6 If the ICF node is green and the alias is present, then the procedure is completed, if not, please execute the following steps:
 
-3.7 Choose **Add system alias**, **New entry** and type "ZNYPEFAMAN_SRV" in *Service Doc. Identifier* and "LOCAL" in *SAP System Alias* mark **Default System** check-mark.
+3.7 Choose **Add system alias**, **New entry** and type "ZNYPEFAMAN_SRV_0001" in *Service Doc. Identifier* and "LOCAL" in *SAP System Alias* mark **Default System** check-mark.
 
 3.8 Click on **ICF node** button and from dropdown chose **Activate**
 
