@@ -18,10 +18,10 @@ extra_css:
 markdown_extensions:
   - admonition
   - attr_list
-google_analytics:
-  - UA-189272109-2
-  - auto
 extra:
+  analytics:
+    provider: google
+    property: G-362773498
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/showcase/apps-usage-for-sap-fiori-launchpad
