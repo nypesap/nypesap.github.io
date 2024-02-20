@@ -1,4 +1,4 @@
-# SAP Fiori Apps' Usage Report
+# SAP Fiori App Usage Report
 Speed up project timelines with app insights.
 
 # Addressed challenges
