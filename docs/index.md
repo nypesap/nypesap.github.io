@@ -1,16 +1,12 @@
 # SAP Fiori Apps' Usage Report
-Insight into how business uses the system.
+Speed up project timelines with app insights.
 
-# Benefits
+# Addressed challenges
 
-
-- Improved return on investment – [unused applications](2020/FPS01/use-cases/learning-about-unused.md)
-- Proper use of the project team's time – [prioritizing based on affected users](2020/FPS01/use-cases/priority-setting.md)
-- Informed PMO – [input on testing progress](2020/FPS01/use-cases/testing.md)
-- Improved scope control – [out of scope applications](2020/FPS01/use-cases/out-of-scope.md)
-- Convenient user access review
-
-
+- Low investment returns due to overlooked app potential – [unused applications](2020/FPS01/use-cases/learning-about-unused.md)
+- Inadequate project team allocation due to unclear priorities  – [prioritizing based on affected users](2020/FPS01/use-cases/priority-setting.md)
+- Lack of visibility into testing progress and status – [input on testing progress](2020/FPS01/use-cases/testing.md)
+- Difficulty in managing project scope and controlling scope creep – [out of scope applications](2020/FPS01/use-cases/out-of-scope.md)
 
 [Get an offer](mailto:fau@npe.cm?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
 
