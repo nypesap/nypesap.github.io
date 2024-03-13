@@ -10,6 +10,9 @@ Speed up project timelines with app insights.
 
 [Get an offer](mailto:fau@npe.cm?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
 
+[Get it for free](mailto:fau@npe.cm?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
+by featuring yourself as a Fiori Apps Usage customer.
+
 # Key features
 
 -   Convenient, all SAP systems-wide report on SAP Fiori app usage 
