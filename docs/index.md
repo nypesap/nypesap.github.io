@@ -19,7 +19,7 @@ Speed up project timelines with app insights.
 -   Convenient, all SAP systems-wide report on SAP Fiori app usage 
 -   Filtering on systems, functional area, application type (standard, custom, extended apps, etc)
 -   Linkage with an exact [application name and its details](2020/FPS01/app-ids.md)
--   [All records export](2020/FPS01/recexp.md) for your favorite analytical tool
+-   [All records access or export](2020/FPS01/recexp.md) for your favorite analytical tool
 
 # Compatibility
 
