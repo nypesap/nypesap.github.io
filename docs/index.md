@@ -10,9 +10,9 @@ Speed up project timelines with app insights.
 
 [Get an offer](mailto:fau@npe.cm?subject=Fiori Apps Usage: Offer request){ .md-button .md-button--primary }
 
-[Get it for free](mailto:fau@npe.cm?subject=Fiori Apps Usage: Get for free request){ .md-button .md-button--primary }
+[Get it for free\*](mailto:fau@npe.cm?subject=Fiori Apps Usage: Get for free request){ .md-button .md-button--primary }
 
-by featuring yourself as a Fiori Apps Usage customer. 
+\* by featuring yourself as a product customer (limited number of slots). 
 
 # Key features
 
