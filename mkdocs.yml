@@ -28,6 +28,8 @@ extra:
       link: https://www.linkedin.com/showcase/apps-usage-for-sap-fiori-launchpad
     - icon: fontawesome/brands/twitter
       link: http://twitter.com/fioritracker
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/xGNzmej4KE
   prod:
     fa:
       name: 'Fiori App Usage'

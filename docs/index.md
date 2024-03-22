@@ -23,4 +23,4 @@ Speed up project timelines with app insights.
 
 # Compatibility
 
-Compatible with SAP S/4HANA releases from 1610 to 2022.
+Compatible with SAP S/4HANA releases from 1610 to 2023.
