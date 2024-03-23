@@ -1,5 +1,5 @@
 ---
-title: FAUR
+title: Fiori App Usage
 description: Speed up project timelines with app insights.
 ---
 # SAP Fiori App Usage Report
