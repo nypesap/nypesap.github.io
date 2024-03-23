@@ -4,7 +4,7 @@
 
 User sine Mar 2024
 
-Implemented and operated by: SAP Authorizations & Compliance Team
+Implemented and operated by: SAP Authorizations & Compliance Team<br>
 Monitored systems: SAP S4/HANA 2021 - production system with 400 users
 
 Use cases: 
