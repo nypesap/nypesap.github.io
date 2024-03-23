@@ -14,6 +14,7 @@ theme:
 plugins:
   - macros
   - search
+  - social
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
