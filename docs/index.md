@@ -1,3 +1,7 @@
+---
+title: FAUR
+description: Speed up project timelines with app insights.
+---
 # SAP Fiori App Usage Report
 Speed up project timelines with app insights.
 

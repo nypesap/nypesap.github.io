@@ -13,8 +13,8 @@ theme:
   custom_dir: overrides
 plugins:
   - social:
+      cards_layout: default/invert
       cards_layout_options:
-        title: Fiori App Usage
         description: Speed up project timelines with app insights.
   - macros
   - search
