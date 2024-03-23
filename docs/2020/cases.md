@@ -27,3 +27,25 @@ Use cases:
 - Prioritizing support
 - Testing progress
 
+## Luxury electric vehicles producer (USA)
+
+User since September 2022
+
+Implemented and operated by: SAP Portal team
+
+Use cases: 
+
+- Statistics in SAP S/4HANA production for 564 custom apps and 23 876 standard apps 
+- Trends on app popularity
+- Prioritizing support
+- Testing progress
+
+## Subsidiary of world's largest automobiles amd motorcycles manufacturer (Australia)
+
+User since February 2022
+
+Implemented and operated by: Audit team
+
+Use cases:
+
+- Audits
