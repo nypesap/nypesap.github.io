@@ -1,5 +1,7 @@
 # Installation
 
+:fontawesome-brands-youtube:{ .youtube } [How to install Fiori App Usage Report](https://youtu.be/4uAGrM2Hjzs) - :octicons-clock-24: 6m
+
 To start tracking application usage information on a chosen system, you need to execute the following steps on that system:
 
 1. [Obtain and import `Fiori Apps' Usage Report` and `Fiori Apps' Usage Plugin` transport files](../inst/step-1.md)
