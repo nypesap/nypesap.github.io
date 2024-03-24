@@ -12,7 +12,7 @@ Speed up project timelines with app insights.
 - Lack of visibility into testing progress and status – [input on testing progress](2020/FPS01/use-cases/testing.md)
 - Difficulty in managing project scope and controlling scope creep – [out of scope applications](2020/FPS01/use-cases/out-of-scope.md)
 
-[Get an offer](mailto:fau@npe.cm?subject=Fiori App Usage: Offer request){ .md-button .md-button--primary }
+[Get an offer :fontawesome-solid-paper-plane:](mailto:fau@npe.cm?subject=Fiori App Usage: Offer request){ .md-button .md-button--primary }
 
 [Get it for free](2020/get-for-free.md){ .md-button .md-button--primary }
 

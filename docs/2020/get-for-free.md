@@ -8,5 +8,5 @@ Get our product for free by allowing us to feature your company name as Fiori Ap
 
 Limited slots available!
 
-[Get it for free](mailto:fau@npe.cm?subject=Fiori App Usage: Get for free request){ .md-button .md-button--primary }
+[Get it for free :fontawesome-solid-paper-plane:](mailto:fau@npe.cm?subject=Fiori App Usage: Get for free request){ .md-button .md-button--primary }
 
