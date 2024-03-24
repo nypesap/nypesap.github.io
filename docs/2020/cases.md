@@ -49,3 +49,16 @@ Implemented and operated by: Audit team
 Use cases:
 
 - Audits
+
+## Mining and processing minerals like silica, clays and feldspathics (Belgium)
+
+User since May 2021
+
+Implemented and operated by: SAP Application Services
+
+Use cases: 
+
+- Fiori usage analytics in PowerBI
+- Trends on app popularity
+- Prioritizing support
+- Testing progress
