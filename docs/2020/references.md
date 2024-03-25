@@ -1,5 +1,5 @@
 
-[![](res/Sibelco-logo.png)](res/Sibelco-logo.png)
+![](res/Sibelco-logo.png)
 
 Mining and processing minerals like silica, clays and feldspathics (Belgium)
 
