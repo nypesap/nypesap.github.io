@@ -21,7 +21,7 @@ Implemented and operated by: SAP Portal team
 
     ***Radhika​​​​ Kuthiala***<br>
     *SAP BTP Architect*<br>
-    *Karam Automowive LLC* 
+    *Karma Automoive LLC* 
 
 
 At a glance: 
