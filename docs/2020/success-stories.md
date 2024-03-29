@@ -19,7 +19,7 @@ description: Sibelco - Upgrade preparation aid - Key apps and potential for depr
 
     [![Sibelco](res/Sibelco-logo.png){ align=right }](https://www.sibelco.com/)
 
-    *Nick De Groof*<br>
+    ***Nick De Groof***<br>
     *Information Services – Service Delivery*<br>
     *Application Service Owner global ERP*<br>
     *SIBELCO* 
