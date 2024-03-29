@@ -1,3 +1,6 @@
+---
+description: Sibelco - Upgrade preparation aid - Key apps and potential for deprecation identification - Simplified analysis
+---
 # Success stories
 
 
@@ -14,7 +17,7 @@
     *The report has also helped us, more than once, to audit which user had executed -unwillingly- a certain wrong action, enabling us to further optimize the roles associated to the App.  The Fiori Tracker Suite is filling a huge gap left by SAP to make such usage statistics visible to the customer.*
 
 
-    ![Sibelco](res/Sibelco-logo.png){ align=right }
+    [![Sibelco](res/Sibelco-logo.png){ align=right }](https://www.sibelco.com/)
 
     *Nick De Groof*<br>
     *Information Services – Service Delivery*<br>
