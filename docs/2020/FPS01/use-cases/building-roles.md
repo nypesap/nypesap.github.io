@@ -11,9 +11,9 @@ One of the approaches to building the user's roles is to enable all or a wide ra
 
 Other use cases:
 
-[Learning about unused applications](use-cases/learning-about-unused.md)   
-[Understanding apps value](use-cases/understand-apps-value.md) 
-[Priority setting](use-cases/priority-setting.md)      
-[Testing progress](use-cases/testing.md)       
-[Apps out of scope](use-cases/out-of-scope.md)
+[Learning about unused applications](learning-about-unused.md)   
+[Understanding apps value](understand-apps-value.md) 
+[Priority setting](priority-setting.md)      
+[Testing progress](testing.md)       
+[Apps out of scope](out-of-scope.md)
 
