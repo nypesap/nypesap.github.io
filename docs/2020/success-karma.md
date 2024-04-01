@@ -4,11 +4,9 @@ description: SAP S/4HANA production for 564 custom apps and 23 876 standard apps
 ---
 # Karma - success story
 
-Luxury electric vehicles producer (USA)
-
-User since September 2022
-
-Implemented and operated by: SAP Portal team
+- Luxury electric vehicles producer (USA)
+- User since September 2022
+- Implemented and operated by: SAP Portal team
 
 !!! quote " "
 

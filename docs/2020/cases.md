@@ -27,7 +27,7 @@ Use cases:
 - Prioritizing support
 - Testing progress
 
-## Subsidiary of world's largest automobiles amd motorcycles manufacturer (Australia)
+## Subsidiary of world's largest automobiles and motorcycles manufacturer (Australia)
 
 User since February 2022
 
