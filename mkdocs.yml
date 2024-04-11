@@ -18,6 +18,7 @@ plugins:
         description: Speed up project timelines with app insights.
   - macros
   - search
+copyright: Copyright &copy; 2016 - 2024 Nype
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
@@ -26,6 +27,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 extra:
   analytics:
     provider: google
