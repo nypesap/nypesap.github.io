@@ -1,3 +1,7 @@
-.md-header {
-    background-color: #011742;
+@font-face {
+    font-family: "EtelkaLight";
+    src: url("fonts/EtelkaLight.otf");
+}
+:root {
+    --md-text-font: "EtelkaLight"; 
 }
