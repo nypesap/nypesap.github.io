@@ -6,7 +6,6 @@ nav:
   - Experience:
     - blog/index.md
   - Fiori Tracker: fiori-tracker.md
-  - Fiori App Usage: fiori-apps-usage.md
 theme: 
   name: 'material'
   palette:
