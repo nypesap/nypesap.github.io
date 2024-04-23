@@ -11,6 +11,8 @@ description: Track your SAP Fiori launchpad apps.
   }
 </style>
 
-Fiori tracker is an application that serves as a central registry of the Fiori applications that you are implementing or supporting in your SAP S/4 HANA system.
+Fiori Tracker is an suite of applications that simplifies Fiori launchpad content management and provides insight on application usage.
 
-Learn more on [Fiori App Usage page](https://help.fioritracker.org/).
+Learn more on 
+
+[Fiori Tracker](https://help.fioritracker.org/) and [Fiori App Usage](https://help.fioriappsusage.org/) pages.
