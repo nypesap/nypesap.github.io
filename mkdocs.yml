@@ -42,7 +42,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: G-P4B1TZK8MT
+    property: G-XYHV0G23QV
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/nypesap
