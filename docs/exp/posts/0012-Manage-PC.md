@@ -14,7 +14,7 @@ date: 2024-03-31
 
 <!-- more -->
 
-App: Manage Purchase Orders [F0862]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0842A%27)/S23OP ) Extension
+App: Manage Purchase Contracts [F3144]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F3144%27)/S23OP ) Extension
 
 ## Business scenarios
 
