@@ -15,4 +15,4 @@ Fiori Tracker is an suite of applications that simplifies Fiori launchpad conten
 
 Learn more on 
 
-[Fiori Tracker](https://help.fioritracker.org/) and [Fiori App Usage](https://help.fioriappsusage.org/) pages.
+[Fiori Tracker](https://fioritracker.org/) and [Fiori App Usage](https://help.fioriappsusage.org/) pages.
