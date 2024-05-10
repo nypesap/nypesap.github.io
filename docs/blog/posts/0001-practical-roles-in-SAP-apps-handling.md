@@ -7,6 +7,7 @@ tags:
   - SAP UI5
   - SAP Fiori
   - SAP Fiori Launchpad
+  - SAP S/4HANA
 date: 2022-03-11
 ---
 
