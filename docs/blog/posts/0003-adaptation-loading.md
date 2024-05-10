@@ -6,7 +6,7 @@ tags:
   - SAP Fiori Launchpad
 categories:
   - Quick tips
-date: 2024-03-31
+date: 2022-10-31
 ---
 
 # How to check if the adaptation project is loading correctly?
