@@ -6,7 +6,7 @@ nav:
   - Fiori Tracker: fiori-tracker.md
   - Career: 
     - jobs/index.md
-  - Blogs: blog/index.md
+  - Blog: blog/index.md
   - Contact: contact.md
 theme: 
   name: 'material'
@@ -19,12 +19,12 @@ theme:
     - navigation.tabs
 plugins:
   - blog:
+      blog_dir: blog
+  - blog:
       blog_dir: exp
       post_readtime: false
       authors: false
       archive_name: Annual recap
-  - blog:
-      blog_dir: blog
   - blog:
       blog_dir: jobs
       post_readtime: false
