@@ -17,6 +17,4 @@ date: 2024-03-31
 
 App: "My Purchase Requisition extension" ([F1639]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F1639%27)/S23OP ))
 
-## Screenshots
 
-[![Extended SAP Fiori app F1639 ](res/F1639.png)](res/F1639.png)
