@@ -3,7 +3,6 @@ hide:
   - navigation
   - toc
 description: Fiori Tracker is an suite of applications that simplifies Fiori launchpad content management and provides insight on application usage. 
-
 ---
 <style>
   .md-typeset h1,

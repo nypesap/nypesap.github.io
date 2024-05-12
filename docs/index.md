@@ -2,7 +2,7 @@
 hide:
   - navigation
   - toc
-title: Nype - SAP Fiori Beautique
+  
 description: Speed up project timelines with app insights.
 ---
 <style>

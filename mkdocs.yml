@@ -6,7 +6,8 @@ nav:
   - Fiori Tracker: fiori-tracker.md
   - Career: 
     - jobs/index.md
-  - Blog: blog/index.md
+  - Blog: 
+    - blog/index.md
   - Contact: contact.md
 theme: 
   name: 'material'
