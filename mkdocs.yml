@@ -24,7 +24,7 @@ plugins:
       blog_dir: blog
   - blog:
       blog_dir: exp
-      post_date_format: "YYYY-MM"
+      post_date_format: yyyy/MM/dd
       post_readtime: false
       authors: false
       archive_name: Annual recap
