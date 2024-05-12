@@ -11,6 +11,7 @@ nav:
   - Contact: contact.md
 theme: 
   name: 'material'
+  language: en
   palette:
     - scheme: slate
   favicon: 'assets/images/favicon.ico'
@@ -23,6 +24,7 @@ plugins:
       blog_dir: blog
   - blog:
       blog_dir: exp
+      post_date_format: "YYYY-MM"
       post_readtime: false
       authors: false
       archive_name: Annual recap
