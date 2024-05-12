@@ -5,3 +5,7 @@
 :root {
     --md-text-font: "EtelkaLight"; 
 }
+
+.md-post--excerpt { 
+    margin-bottom: 0rem;
+}
