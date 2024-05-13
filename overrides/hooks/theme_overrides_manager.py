@@ -5,6 +5,7 @@ It gathers all files from other hooks and triggers their functions.
 
 MIT Licence 2023 Kamil Krzyśków (HRY)
 """
+
 import enum
 import filecmp
 import logging

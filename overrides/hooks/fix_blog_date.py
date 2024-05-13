@@ -1,18 +1,21 @@
-"""MkDocs hook, which adds flag emojis to the language selector.
+"""MkDocs hook, which patches the Blog plugin to fix the `post_date_format` option.
 Works only with the Material theme, and requires the "theme_overrides_manager" hook.
 
-The hook dynamically on the fly modifies the "header.html" template of the Material theme before the build.
-It uses the theme_overrides_manager hook to assure original file preservation.
-Works both with and without the "i18n" MkDocs plugin.
+By default when using multiple blog instance the `post_date_format` option of the last instance
+modifies the date format for all instances. The patch makes it so every instance has their own
+date format.
 
-MIT Licence 2023 Kamil Krzyśków (HRY)
-Parts adapted from the translations.py hook
-https://github.com/squidfunk/mkdocs-material/blob/master/src/.overrides/hooks/translations.py
-and from the materialx.emoji and pymdownx.emoji modules.
+The hook dynamically on the fly modifies the "partials/post.html" and "blog-post.html" templates
+of the Material theme / in the users overrides before the build.
+It uses the theme_overrides_manager hook to assure original file preservation after the build ends.
+
+MIT Licence 2024 Kamil Krzyśków (HRY)
 """
+
+import inspect
 import logging
 from pathlib import Path
-from typing import Dict, Optional, Union
+from typing import Callable, Dict, List, Optional, Tuple, Union
 
 from jinja2 import Environment
 from mkdocs.config.defaults import MkDocsConfig
@@ -22,8 +25,43 @@ from pymdownx.emoji import TWEMOJI_SVG_CDN
 
 # region Core Logic Events
 
+_IS_PATCHED_BLOG = True
+"""If the patch is not supported it will be set to False"""
 
-def on_env(*_, config: MkDocsConfig, **__) -> Optional[Environment]:
+
+def on_config(config: MkDocsConfig) -> Optional[MkDocsConfig]:
+    """Posts are resolved in on_files, so the patch has to be applied before that"""
+
+    global _IS_PATCHED_BLOG
+
+    func_signature: str = "(file: 'File', config: 'MkDocsConfig')"
+
+    def resolve_post_wrapper(func):
+        self = func.__self__
+
+        def wrapper(file, config):
+            post = func(file, config)
+            post.generator = self
+            return post
+
+        return wrapper
+
+    for name, plugin in config.plugins.items():
+        if name.startswith("material/blog"):
+            if not hasattr(plugin, "_resolve_post"):
+                _IS_PATCHED_BLOG = False
+                break
+
+            if str(inspect.signature(plugin._resolve_post)) != func_signature:
+                _IS_PATCHED_BLOG = False
+                break
+
+            setattr(plugin, "_resolve_post", resolve_post_wrapper(plugin._resolve_post))
+
+    return None
+
+
+def on_env(env: Environment, *, config: MkDocsConfig, **__) -> Optional[Environment]:
     """Main function. Triggers just before the build begins."""
 
     LOG.debug('Running "on_env"')
@@ -33,10 +71,37 @@ def on_env(*_, config: MkDocsConfig, **__) -> Optional[Environment]:
 
     import material
 
-    partials: Path = Path(material.__file__).parent / "templates" / "partials"
-    header: Path = partials / "alternate.html"
+    paths_to_fix_date: List[str] = ["partials/post.html", "blog-post.html"]
+    paths_with_processors: List[Tuple[Path, Callable]] = []
 
-    config.extra[HOOK_MANAGER].paths_with_processors.append((header, _add_flags))
+    overrides_templates: Path = Path(config.theme.custom_dir)
+    material_templates: Path = Path(material.__file__).parent / "templates"
+
+    for path in paths_to_fix_date:
+        if path.startswith("blog"):
+            processor = _fix_blog_post
+        else:
+            processor = _fix_partials_post
+
+        current = overrides_templates / path
+        if current.exists():
+            paths_with_processors.append((current, processor))
+            continue
+
+        current = material_templates / path
+        if current.exists():
+            paths_with_processors.append((current, processor))
+
+    if len(paths_to_fix_date) != len(paths_with_processors):
+        LOG.warning("Mismatch in defined paths and processed paths")
+        return None
+
+    if not _is_patched_blog(config=config, env=env):
+        LOG.warning("The blog plugin version doesn't support patching")
+        return None
+
+    for pair in paths_with_processors:
+        config.extra[HOOK_MANAGER].paths_with_processors.append(pair)
 
     LOG.info(f"Registered processors")
 
@@ -54,27 +119,43 @@ def _is_runnable(*, config: MkDocsConfig) -> bool:
         LOG.info('Only the "material" theme is supported')
         return False
 
-    if "alternate" not in config["extra"]:
-        LOG.info('"extra.alternate" not detected')
+    return True
+
+
+def _is_patched_blog(*, config: MkDocsConfig, env: Environment) -> bool:
+    """Patch the BlogPlugin class to include the attach a refrence to each created Post class"""
+
+    global _IS_PATCHED_BLOG
+
+    if not _IS_PATCHED_BLOG:
         return False
 
-    if len(config["extra"]["alternate"]) < 2:
-        LOG.info(f"Not enough languages")
-        return False
+    def get_creation_date(post):
+        if not hasattr(post, "generator"):
+            post = post.post
+        format = post.generator.config.post_date_format
+        return post.generator._format_date(post.config.date.created, format, config)
+
+    def get_update_date(post):
+        if not hasattr(post, "generator"):
+            post = post.post
+        format = post.generator.config.post_date_format
+        return post.generator._format_date(post.config.date.updated, format, config)
+
+    env.filters["post_date_created"] = get_creation_date
+    env.filters["post_date_updated"] = get_update_date
 
     return True
 
 
-def _add_flags(*, partial: Path, config: MkDocsConfig, **__) -> None:
-    """Process the "header.html" partial and add flags to the language selector template."""
+def _fix_blog_post(*, partial: Path, config: MkDocsConfig, **__) -> None:
 
     # Configure the tokens
     tokens: Dict[str, str] = {
-        "START": '<div class="md-select">',
-        "CONFIG": '{% set icon = config.theme.icon.alternate or "material/translate" %}',
-        "SELECTOR": '{% include ".icons/" ~ icon ~ ".svg" %}',
-        "LINK": "{{ alt.name }}",
-        "END": "</div>",
+        "START": "{% block container %}",
+        "CREATED": ".config.date.created | date",
+        "UPDATED": ".config.date.updated | date",
+        "END": "{% endblock %}",
     }
 
     # A negative number means the same level as the START token.
@@ -83,35 +164,22 @@ def _add_flags(*, partial: Path, config: MkDocsConfig, **__) -> None:
     override_manager = config.extra[HOOK_MANAGER]
 
     loaded_section: str = override_manager.load_section(
-        partial=partial,
-        tokens=tokens,
-        end_level=end_indent_level,
+        partial=partial, tokens=tokens, end_level=end_indent_level
     )
 
     # Do not continue when section is not loaded
     if not loaded_section:
         return
 
-    # Load all flags relevant to the current build
-    flag_mapping: Dict[str, str] = {
-        alt["lang"]: _flag_svg(alt["lang"]) for alt in config["extra"]["alternate"]
+    # Configure replacements
+    replacements: Dict[str, str] = {
+        "CREATED": " | post_date_created",
+        "UPDATED": " | post_date_updated",
     }
 
-    # Set the "flag_mapping" selector
-    # Choose different selector for the "i18n" plugin
-    selector: str = "i18n_page_locale" if "i18n" in config.plugins else "config.theme.language"
-
-    modified_section: str = (
-        loaded_section.replace(
-            tokens["CONFIG"], "{% set flag_mapping = " + str(flag_mapping) + " %}"
-        )
-        .replace(tokens["SELECTOR"], "{{ flag_mapping[" + selector + "] }}")
-        .replace(
-            tokens["LINK"],
-            "{{ flag_mapping[alt.lang] }} "
-            + '{{ alt.name | replace(alt.lang, "") | replace(" ", "") | replace("-", "") }}',
-        )
-    )
+    modified_section: str = loaded_section.replace(
+        tokens["CREATED"], replacements["CREATED"]
+    ).replace(tokens["UPDATED"], replacements["UPDATED"])
 
     # Modify the partial
     override_manager.save_section(
@@ -121,27 +189,39 @@ def _add_flags(*, partial: Path, config: MkDocsConfig, **__) -> None:
     LOG.debug(f'Processed "{partial.name}".')
 
 
-def _flag_svg(alternate_lang: str) -> str:
-    """Returns a str with a <img> tag containing the flag. Adapted from materialx.emoji and pymdownx.emoji"""
+def _fix_partials_post(*, partial: Path, config: MkDocsConfig, **__) -> None:
 
-    emoji_code: str = f":flag_{COUNTRIES[alternate_lang]}:"
+    # Configure the tokens
+    tokens: Dict[str, str] = {
+        "START": "<article",
+        "CREATED": ".config.date.created | date",
+        "END": "</article>",
+    }
 
-    shortname: str = INDEX["aliases"].get(emoji_code, emoji_code)
-    emoji: Dict[str, Optional[str]] = INDEX["emoji"].get(shortname, None)
+    # A negative number means the same level as the START token.
+    end_indent_level: int = -1
 
-    if not emoji:
-        return emoji_code
+    override_manager = config.extra[HOOK_MANAGER]
 
-    unicode: Optional[str] = emoji.get("unicode")
-    unicode_alt: Optional[str] = emoji.get("unicode_alt", unicode)
+    loaded_section: str = override_manager.load_section(
+        partial=partial, tokens=tokens, end_level=end_indent_level
+    )
 
-    title: str = shortname
-    alt: str = shortname
+    # Do not continue when section is not loaded
+    if not loaded_section:
+        return
 
-    if unicode_alt is not None:
-        alt = "".join((util.get_char(int(c, 16)) for c in unicode_alt.split("-")))
+    # Configure replacements
+    replacements: Dict[str, str] = {"CREATED": " | post_date_created"}
 
-    return f'<img alt="{alt}" class="twemoji" src="{TWEMOJI_SVG_CDN}{unicode}.svg" title="{title}">'
+    modified_section: str = loaded_section.replace(tokens["CREATED"], replacements["CREATED"])
+
+    # Modify the partial
+    override_manager.save_section(
+        partial=partial, original_section=loaded_section, modified_section=modified_section
+    )
+
+    LOG.debug(f'Processed "{partial.name}".')
 
 
 # endregion
@@ -149,84 +229,11 @@ def _flag_svg(alternate_lang: str) -> str:
 
 # region Constants
 
-COUNTRIES: Dict[str, str] = {
-    "af": "za",
-    "ar": "ae",
-    "bg": "bg",
-    "bn": "bd",
-    "ca": "es",
-    "cs": "cz",
-    "da": "dk",
-    "de": "de",
-    "el": "gr",
-    "en": "gb",
-    "eo": "eu",
-    "es": "es",
-    "et": "ee",
-    "fa": "ir",
-    "fi": "fi",
-    "fr": "fr",
-    "gl": "es",
-    "he": "il",
-    "hi": "in",
-    "hr": "hr",
-    "hu": "hu",
-    "hy": "am",
-    "id": "id",
-    "is": "is",
-    "it": "it",
-    "ja": "jp",
-    "ka": "ge",
-    "ko": "kr",
-    "lt": "lt",
-    "lv": "lv",
-    "mk": "mk",
-    "mn": "mn",
-    "ms": "my",
-    "my": "mm",
-    "nb": "no",
-    "nl": "nl",
-    "nn": "no",
-    "pl": "pl",
-    "pt-BR": "br",
-    "pt": "pt",
-    "ro": "ro",
-    "ru": "ru",
-    "sh": "rs",
-    "si": "lk",
-    "sk": "sk",
-    "sl": "si",
-    "sr": "rs",
-    "sv": "se",
-    "th": "th",
-    "tl": "ph",
-    "tr": "tr",
-    "uk": "ua",
-    "ur": "pk",
-    "uz": "uz",
-    "vi": "vn",
-    "zh": "cn",
-    "zh-Hant": "cn",
-    "zh-TW": "tw",
-}
-"""Mapping of ISO 639-1 (languages) to ISO 3166 (countries)."""
-# Adapted from
-# https://github.com/squidfunk/mkdocs-material/blob/master/src/.overrides/hooks/translations.py
-
-HOOK_NAME: str = "language_flags"
+HOOK_NAME: str = "fix_blog_date"
 """Name of this hook. Used in logging."""
 
 HOOK_MANAGER: str = "theme_overrides_manager"
 """Name of the hook manager. Used to access it in `config.extra`."""
-
-INDEX: Dict[str, Union[str, Dict]] = {
-    "name": "twemoji",
-    "emoji": twemoji_db.emoji,
-    "aliases": twemoji_db.aliases,
-}
-"""Copy of the Twemoji index."""
-# Adapted from
-# materialx.emoji
 
 LOG: PrefixedLogger = PrefixedLogger(
     HOOK_NAME, logging.getLogger(f"mkdocs.hooks.theme_overrides.{HOOK_NAME}")
