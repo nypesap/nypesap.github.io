@@ -25,14 +25,14 @@ from pymdownx.emoji import TWEMOJI_SVG_CDN
 
 # region Core Logic Events
 
-_IS_PATCHED_BLOG = True
+_SUPPORTS_BLOG_PATCH = True
 """If the patch is not supported it will be set to False"""
 
 
 def on_config(config: MkDocsConfig) -> Optional[MkDocsConfig]:
     """Posts are resolved in on_files, so the patch has to be applied before that"""
 
-    global _IS_PATCHED_BLOG
+    global _SUPPORTS_BLOG_PATCH
 
     func_signature: str = "(file: 'File', config: 'MkDocsConfig')"
 
@@ -49,11 +49,11 @@ def on_config(config: MkDocsConfig) -> Optional[MkDocsConfig]:
     for name, plugin in config.plugins.items():
         if name.startswith("material/blog"):
             if not hasattr(plugin, "_resolve_post"):
-                _IS_PATCHED_BLOG = False
+                _SUPPORTS_BLOG_PATCH = False
                 break
 
             if str(inspect.signature(plugin._resolve_post)) != func_signature:
-                _IS_PATCHED_BLOG = False
+                _SUPPORTS_BLOG_PATCH = False
                 break
 
             setattr(plugin, "_resolve_post", resolve_post_wrapper(plugin._resolve_post))
@@ -123,11 +123,11 @@ def _is_runnable(*, config: MkDocsConfig) -> bool:
 
 
 def _is_patched_blog(*, config: MkDocsConfig, env: Environment) -> bool:
-    """Patch the BlogPlugin class to include the attach a refrence to each created Post class"""
+    """Patch the BlogPlugin class to include the attach a reference to each created Post class"""
 
-    global _IS_PATCHED_BLOG
+    global _SUPPORTS_BLOG_PATCH
 
-    if not _IS_PATCHED_BLOG:
+    if not _SUPPORTS_BLOG_PATCH:
         return False
 
     def get_creation_date(post):
