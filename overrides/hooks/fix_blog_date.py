@@ -132,13 +132,13 @@ def _is_patched_blog(*, config: MkDocsConfig, env: Environment) -> bool:
 
     def get_creation_date(post):
         if not hasattr(post, "generator"):
-            post = post.post
+            post.generator = post.post.generator
         format = post.generator.config.post_date_format
         return post.generator._format_date(post.config.date.created, format, config)
 
     def get_update_date(post):
         if not hasattr(post, "generator"):
-            post = post.post
+            post.generator = post.post.generator
         format = post.generator.config.post_date_format
         return post.generator._format_date(post.config.date.updated, format, config)
 
