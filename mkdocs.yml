@@ -58,5 +58,6 @@ extra:
       link: https://www.linkedin.com/company/nypesap
     - icon: fontawesome/brands/twitter
       link: http://twitter.com/nypesap
-     
-  
+hooks:
+  - overrides/hooks/theme_overrides_manager.py
+  - overrides/hooks/fix_blog_date.py
