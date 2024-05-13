@@ -24,7 +24,7 @@ plugins:
       blog_dir: blog
   - blog:
       blog_dir: exp
-      post_date_format: yyyy/MM/dd
+      post_date_format: yyyy MMMM  # due to a bug in the plugin, this option requires the patch_blog.py script
       post_readtime: false
       authors: false
       archive_name: Annual recap
@@ -57,5 +57,5 @@ extra:
       link: https://www.linkedin.com/company/nypesap
     - icon: fontawesome/brands/twitter
       link: http://twitter.com/nypesap
-     
-  
+hooks:
+  - .github/patch_blog.py  # Patches the blog internally in the theme permanently 
