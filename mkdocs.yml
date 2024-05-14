@@ -33,7 +33,6 @@ plugins:
       post_readtime: false
   - tags:
       tags_file: tags.md
-  - macros
   - search
 copyright: Copyright &copy; 2010 - 2024 Nype
 extra_css:
