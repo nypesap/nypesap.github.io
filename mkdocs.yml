@@ -60,4 +60,4 @@ extra:
       link: http://twitter.com/nypesap
 hooks:
   - overrides/hooks/theme_overrides_manager.py
-  - overrides/hooks/fix_blog_date.py
+  - overrides/hooks/patch_blog_date.py
