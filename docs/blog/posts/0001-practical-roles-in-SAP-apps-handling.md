@@ -42,3 +42,23 @@ autonumber
     Note right of Authorizations Expert: Copies or references <br/> the tile and target <br/>from the test catalog <br/>into the catalogs chosen <br/> by Functional Expert 
     Note right of Authorizations Expert: New app is available <br/> to end-users
 ```
+
+2. Preparing roles and authorizations concept and FLP content management concept
+
+``` mermaid
+sequenceDiagram
+autonumber
+    Note right of Developer: Prepares the new<br/>custom app or extension<br/>in DEV system
+    Note right of Developer: Configures the target <br/>mapping and tile in the<br/> test catalog
+    Note right of Functional Expert: An adjusted version<br/>of Roles list
+    Note right of Functional Expert:  An adjusted version of <br/>apps mapping to catalogs
+    
+    Note right of Developer: Custom/extended <br/>app objects developed
+    Note right of Developer: Tile in the test catalog<br/> configured, and unit tested
+    Developer ->> Functional Expert: App handover document
+    Developer ->> Authorizations Expert: App handover document
+    Note right of Functional Expert:  Decides how to fit<br/>a custom or extended app<br/>into the existing<br/> catalogs
+    Functional Expert->> Authorizations Expert: List of the catalogs to hold<br/> the app
+    Note right of Authorizations Expert: Copies or references <br/> the tile and target <br/>from the test catalog <br/>into the catalogs chosen <br/> by Functional Expert 
+    Note right of Authorizations Expert: New app is available <br/> to end-users
+```
