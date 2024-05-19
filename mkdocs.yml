@@ -24,7 +24,9 @@ plugins:
       blog_dir: blog
   - blog:
       blog_dir: exp
-      post_date_format: yyyy/MM/dd
+      # post_date_format: yyyy MMMM
+      # Due to a bug in the plugin, this option doesn't work per instance basis.
+      # The patch_blog_date.py hook applies the date format for this instance.
       post_readtime: false
       authors: false
       archive_name: Annual recap
@@ -57,5 +59,5 @@ extra:
       link: https://www.linkedin.com/company/nypesap
     - icon: fontawesome/brands/twitter
       link: http://twitter.com/nypesap
-     
-  
+hooks:
+  - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
