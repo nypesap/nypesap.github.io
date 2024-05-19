@@ -24,7 +24,7 @@ plugins:
       blog_dir: blog
   - blog:
       blog_dir: exp
-      post_date_format: yyyy MMMMM
+      post_date_format: yyyy MMMM  # due to a bug in the plugin, this option requires the patch_blog_date.py hook
       post_readtime: false
       authors: false
       archive_name: Annual recap
@@ -33,7 +33,6 @@ plugins:
       post_readtime: false
   - tags:
       tags_file: tags.md
-  - macros
   - search
 copyright: Copyright &copy; 2010 - 2024 Nype
 extra_css:

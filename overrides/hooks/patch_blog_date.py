@@ -1,7 +1,7 @@
 """MkDocs hook, which patches the Blog plugin to fix the `post_date_format` option.
 Works only with the Material theme, and requires the "theme_overrides_manager" hook.
 
-By default when using multiple blog instance the `post_date_format` option of the last instance
+By default when using multiple blog instances the `post_date_format` option of the last instance
 modifies the date format for all instances. The patch makes it so every instance has their own
 date format.
 
@@ -9,7 +9,7 @@ The hook dynamically on the fly modifies the "partials/post.html" and "blog-post
 of the Material theme / in the users overrides before the build.
 It uses the theme_overrides_manager hook to assure original file preservation after the build ends.
 
-MIT Licence 2024 Kamil Krzyśków (HRY)
+MIT Licence 2024 Kamil Krzyśków (HRY) for Nype (npe.cm)
 """
 
 import inspect
@@ -37,6 +37,9 @@ def on_config(config: MkDocsConfig) -> Optional[MkDocsConfig]:
     func_signature: str = "(file: 'File', config: 'MkDocsConfig')"
 
     def resolve_post_wrapper(func):
+        if func.__name__ == "wrapper":
+            return func
+
         self = func.__self__
 
         def wrapper(file, config):
@@ -49,12 +52,16 @@ def on_config(config: MkDocsConfig) -> Optional[MkDocsConfig]:
     for name, plugin in config.plugins.items():
         if name.startswith("material/blog"):
             if not hasattr(plugin, "_resolve_post"):
+                LOG.warning(f"The _resolve_post function isn't present")
                 _SUPPORTS_BLOG_PATCH = False
                 break
 
-            if str(inspect.signature(plugin._resolve_post)) != func_signature:
-                _SUPPORTS_BLOG_PATCH = False
-                break
+            current_signature = str(inspect.signature(plugin._resolve_post))
+            if current_signature != func_signature:
+                if plugin._resolve_post.__name__ != "wrapper":
+                    LOG.warning(f"The _resolve_post signature has changed: {current_signature}")
+                    _SUPPORTS_BLOG_PATCH = False
+                    break
 
             setattr(plugin, "_resolve_post", resolve_post_wrapper(plugin._resolve_post))
 
