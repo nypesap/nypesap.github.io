@@ -69,6 +69,7 @@ extra:
 hooks:
   - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
   - overrides/hooks/change_logo_for_social_cards.py  # Instead of logo.png use social_logo.png
+  - overrides/hooks/add_industry_blog_view.py  # Adds the Industry view for the Experience blog
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
