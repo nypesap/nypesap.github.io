@@ -10,7 +10,7 @@ tags:
   - SAP S/4HANA 2021
   - App ID F1991
   - Industry Administration
-date: 2024-03-31
+date: 2023-07-30
 ---
 
 <!-- more -->
