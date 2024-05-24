@@ -1,0 +1,7 @@
+{% extends "blog.html" %}
+
+{% block extrahead %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ 'stylesheets/show-only-content.css' | url }}">
+    {% set _ = page.meta.update({ 'hide': ['navigation', 'toc']}) %}
+{% endblock%}    

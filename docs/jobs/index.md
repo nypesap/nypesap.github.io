@@ -1,15 +1,8 @@
 ---
-hide:
-  - navigation
-  - toc
+title: Career
+template: blog-only-content.html
 description: Explore our current vacancies.
 ---
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
 
 **Tired of old, outdated ways of working? Looking for a more dynamic environment where your talents are put to good use?**
 

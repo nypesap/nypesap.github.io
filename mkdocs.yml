@@ -1,6 +1,7 @@
 site_name: Nype
 site_url: https://npe.cm
 nav:
+  - Nype: index.md
   - Experience:
     - exp/index.md 
   - Fiori Tracker: fiori-tracker.md
@@ -18,7 +19,9 @@ theme:
   logo: 'assets/images/logo.png'
   custom_dir: overrides
   features:
-    - navigation.tabs
+    - navigation.tabs     # Tabs in nav bar
+    - navigation.indexes  # index pages merged with section names
+    - navigation.expand   # Sections are open by default
 plugins:
   - blog:
       blog_dir: blog

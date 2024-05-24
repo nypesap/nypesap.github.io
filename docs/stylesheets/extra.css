@@ -1,3 +1,4 @@
+/* Custom font */
 @font-face {
     font-family: "EtelkaLight";
     src: url("fonts/EtelkaLight.otf");
@@ -6,6 +7,17 @@
     --md-text-font: "EtelkaLight"; 
 }
 
+/* Small blog post excerpts */
 .md-post--excerpt { 
     margin-bottom: 0rem;
+}
+
+/* Enforce site_name visibility in the nav bar */
+/* Hide the current scroll title in the navigation bar */
+.md-header__title--active .md-header__topic {
+    transform: none;
+    opacity: 1;
+}
+[data-md-component="header-topic"] {
+    display: none;
 }

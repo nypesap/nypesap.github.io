@@ -1,16 +1,8 @@
 ---
-hide:
-  - navigation
-  - toc
+title: Contact
+template: main-only-content.html
 description: Explore our current vacancies.
 ---
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
-
 **Get in touch – we’d love to hear from you.**
 
 Whether you’re looking for developers for your upcoming SAP UI5 or SAP Fiori project or more information on Nype, don’t hesitate to get in touch.
