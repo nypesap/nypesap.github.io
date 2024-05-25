@@ -39,6 +39,10 @@ plugins:
   - tags:
       tags_file: tags.md
   - search
+  - social:
+      enabled: !ENV [CI, false]
+      cards_layout_options:
+        background_color: "#001d68"  # same color as the edges in the social_logo.png
 copyright: Copyright &copy; 2010 - 2024 Nype
 extra_css:
   - stylesheets/extra.css
@@ -64,3 +68,4 @@ extra:
       link: http://twitter.com/nypesap
 hooks:
   - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
+  - overrides/hooks/change_logo_for_social_cards.py  # Instead of logo.png use social_logo.png
