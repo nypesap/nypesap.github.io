@@ -23,6 +23,6 @@ Expand the "Flexibility section"
 
 If the adaptation project is active, you should see the custom namespace. For example: "com.acme"
 
-[![Diagnostic tool screen shot](R0004/diag-tool.png)](R0004/condiag-tools.png)
+[![Diagnostic tool screen shot](R0004/diag-tool.png)](R0004/diag-tool.png)
 
 See also: Quick tip: How to check if the adaptation project is loading correctly?

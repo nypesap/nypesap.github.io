@@ -1,6 +1,7 @@
 site_name: Nype
 site_url: https://npe.cm
 nav:
+  - Nype: index.md
   - Experience:
     - exp/index.md 
   - Fiori Tracker: fiori-tracker.md
@@ -18,7 +19,9 @@ theme:
   logo: 'assets/images/logo.png'
   custom_dir: overrides
   features:
-    - navigation.tabs
+    - navigation.tabs     # Tabs in nav bar
+    - navigation.indexes  # index pages merged with section names
+    - navigation.expand   # Sections are open by default
 plugins:
   - blog:
       blog_dir: blog
@@ -36,6 +39,10 @@ plugins:
   - tags:
       tags_file: tags.md
   - search
+  - social:
+      enabled: !ENV [CI, false]
+      cards_layout_options:
+        background_color: "#001d68"  # same color as the edges in the social_logo.png
 copyright: Copyright &copy; 2010 - 2024 Nype
 extra_css:
   - stylesheets/extra.css
@@ -61,3 +68,22 @@ extra:
       link: http://twitter.com/nypesap
 hooks:
   - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
+  - overrides/hooks/change_logo_for_social_cards.py  # Instead of logo.png use social_logo.png
+
+# Explicitly confirm there is awareness of files not in nav
+not_in_nav: |
+  /career.md
+  /fiori-apps-usage.md
+  /tags.md
+
+# Together with --strict flag it allows to crash CI if an error occurs and prevent shipping broken sites
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn  # If needed change to 'relative_to_docs'
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: warn  # If needed change to 'relative_to_docs'
+    unrecognized_links: warn

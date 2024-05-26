@@ -1,16 +1,8 @@
 ---
-hide:
-  - navigation
-  - toc
+title: Fiori Apps Usage
+template: main-only-content.html
 description: Track your SAP Fiori launchpad apps.
 ---
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
-
 Log apps usage
 Speed up project timelines with app insights.
 

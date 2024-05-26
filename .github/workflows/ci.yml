@@ -4,6 +4,8 @@ on:
     branches:
       - master 
       - main
+env:
+  CI: true
 permissions:
   contents: write
 jobs:
@@ -18,13 +20,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - run: mkdir -p .cache; echo mkdocs-material > .cache/safe
       - uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
+          key: mkdocs-material-${{ hashfiles('.cache/**') }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+      - run: pip install -r requirements.txt
+      - run: mkdocs gh-deploy --strict --force
       
