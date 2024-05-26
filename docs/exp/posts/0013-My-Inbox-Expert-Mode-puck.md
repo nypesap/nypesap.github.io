@@ -1,5 +1,5 @@
 ---
-title: My Inbox F0862 Extension
+title: My Inbox (Expert mode) F0862 Extension
 description: >
   My Inbox F0862 Extension
 authors:

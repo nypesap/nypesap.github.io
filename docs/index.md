@@ -3,7 +3,7 @@ hide:
   - navigation
   - toc
   
-description: Speed up project timelines with app insights.
+description: SAP UI5 developers.
 ---
 <style>
   .md-typeset h1,
