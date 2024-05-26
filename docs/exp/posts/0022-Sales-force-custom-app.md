@@ -6,10 +6,11 @@ authors:
   - nype
 categories:
   - Custom app
+industries:
+  - Clothing, retail (Switzerland)
 tags:
   - ECC 6.0 (SAP Business Suite)
   - SAP Retail
-  - Fashion
   - Manufacturer of construction products
 date: 2017-04-01
 ---
@@ -28,7 +29,4 @@ Application for real-time reporting of turnover and turnover related information
 -	SAP UI5 development
 -	Backend ABAP programming for SAP S/4HANA
 -	oData service configuration 
-
-
-
 
