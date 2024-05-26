@@ -1,16 +1,8 @@
 ---
-hide:
-  - navigation
-  - toc
-  
+template: main-only-content.html
 description: SAP UI5 developers.
 ---
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
+# Nype
 
 **Nype is a team of SAP UI5 developers with a uniquely business-aware mindset.**
 

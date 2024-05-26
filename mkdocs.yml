@@ -1,7 +1,6 @@
 site_name: Nype
 site_url: https://npe.cm
 nav:
-  - Nype: index.md
   - Experience:
     - exp/index.md 
   - Fiori Tracker: fiori-tracker.md
@@ -72,6 +71,7 @@ hooks:
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
+  /index.md
   /career.md
   /fiori-apps-usage.md
   /tags.md
