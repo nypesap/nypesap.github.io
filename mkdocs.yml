@@ -62,10 +62,14 @@ extra:
     provider: google
     property: G-XYHV0G23QV
   social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/nypesap
-    - icon: fontawesome/brands/twitter
-      link: http://twitter.com/nypesap
+    - icon: fontawesome/brands/github
+      link: https://github.com/nypesap/
+    - icon: fontawesome/brands/linkedin-in
+      link: https://linkedin.com/company/nypesap/
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/nypesap/
+    - icon: fontawesome/brands/facebook-f
+      link: https://facebook.com/nypesap/
 hooks:
   - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
   - overrides/hooks/change_logo_for_social_cards.py  # Instead of logo.png use social_logo.png
