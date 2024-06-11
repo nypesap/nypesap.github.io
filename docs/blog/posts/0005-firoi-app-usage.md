@@ -28,9 +28,9 @@ Fiori App Usage Report report is part of Fiori Tracker Suite  a custom solution 
 ## How Fiori Tracker Works
 
 Fiori Tracker collects app launch records across the SAP S/4HANA landscape. The app gathers the metrics including:
-- App ID 
-- Time stamp
-- Username
+- App ID <br>
+- Time stamp <br>
+- Username<br>
 
 These insights can be accessed with report showing all logged records or most frequently used apps in overall, last week, or day.
 All data is available for access or export to visualize or analyze with your favorite analytics tool. 
@@ -46,4 +46,4 @@ For insights into tracking SAP Fiori application usage, refer to the following S
 
 ## Final note
 
-Since its creation in 2019 Fiori Tracker has been improved numerous times. The latest version from May 2024 among other improvements includes [Fiori Roles Testing](https://fioriroletesting.com/).
+Since its creation in 2019 Fiori Tracker has been improved numerous times. The latest version from May 2024 among other improvements includes [Fiori Role Testing](https://fioriroletesting.com/).
