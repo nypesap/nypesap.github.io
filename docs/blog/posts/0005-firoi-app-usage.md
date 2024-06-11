@@ -7,6 +7,7 @@ tags:
 categories:
   - Project organization
 date: 2019-12-20
+description: In SAP Fiori's changing landscape, tracking app usage is crucial for organization and optimization, but standard SAP lacks built-in reporting tools for this.
 ---
 
 # Tracking SAP Fiori Application Usage
@@ -24,6 +25,10 @@ This missing feature has been a significant issue for many users. To tackle it, 
 ## Introducing Fiori Tracker with Fiori App Usage Report
 
 Fiori App Usage Report report is part of Fiori Tracker Suite  a custom solution developed by the Nype team to fill the gap left by SAP’s standard.
+
+[![Fiori App Usage Report screen shot](R0005/fa.png)](R0005/fa.png)
+
+[![Fiori App Usage Log screen shot](R0005/faul.png)](R0005/faul.png)
 
 ## How Fiori Tracker Works
 
