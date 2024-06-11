@@ -11,7 +11,7 @@ date: 2019-12-20
 
 # Tracking SAP Fiori Application Usage
 
-In the the evolving landscape of SAP Fiori, tracking application usage is essential for optimizing, yet standard SAP does not  offer built-in reporting tools for this purpose.
+In the the evolving landscape of SAP Fiori, tracking application usage is essential for project organization and optimizing, yet standard SAP does not  offer built-in reporting tools for this purpose.
 
 <!-- more -->
 
@@ -27,13 +27,23 @@ Fiori App Usage Report report is part of Fiori Tracker Suite  a custom solution 
 
 ## How Fiori Tracker Works
 
-Fiori Tracker collects data on user activity across the SAP S/4HANA landscape. 
+Fiori Tracker collects app launch records across the SAP S/4HANA landscape. The app gathers the metrics including:
+- App ID 
+- Time stamp
+- Username
 
-# SAP Notes on Usage Reporting
+These insights can be accessed with report showing all logged records or most frequently used apps in overall, last week, or day.
+All data is available for access or export to visualize or analyze with your favorite analytics tool. 
+
+## SAP Notes on Usage Reporting
 
 For insights into tracking SAP Fiori application usage, refer to the following SAP notes:
 
-2586237 – Metrics about SAP Fiori Launchpad (is now archived. SAP consolidated all KBAs regarding Fiori Metrics into KBA 3203036.)
-2444406 – Google Analytics Integration with SAP Fiori
-2506498 – Monitoring SAP Fiori Application Usage
-2469965 – Tracking usage of mobile applications with SAP Fiori
+2586237 – Metrics about SAP Fiori Launchpad (is now archived. SAP consolidated all KBAs regarding Fiori Metrics into KBA 3203036.)<br>
+2444406 – Google Analytics Integration with SAP Fiori<br>
+2506498 – Monitoring SAP Fiori Application Usage<br>
+2469965 – Tracking usage of mobile applications with SAP Fiori<br>
+
+## Final note
+
+Since its creation in 2019 Fiori Tracker has been improved numerous times. The latest version from May 2024 among other improvements includes [Fiori Roles Testing](https://fioriroletesting.com/).
