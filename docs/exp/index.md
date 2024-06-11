@@ -1,5 +1,6 @@
 ---
 title: Experience
+description: Explore our portfolio, showcasing our delivery across industries and technologies.
 ---
 
 Our team at Nype brings 8 years of SAP Fiori expertise, developing applications in demanding projects. 
