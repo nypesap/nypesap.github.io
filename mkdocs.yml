@@ -25,6 +25,7 @@ theme:
 plugins:
   - blog:
       blog_dir: blog
+      post_url_format: "{slug}"
   - blog:
       blog_dir: exp
       # post_date_format: yyyy MMMM
@@ -43,6 +44,14 @@ plugins:
       enabled: !ENV [CI, false]
       cards_layout_options:
         background_color: "#001d68"  # same color as the edges in the social_logo.png
+  - redirects:
+      redirect_maps:
+        "blog/2022/03/11/practical-project-roles-in-sap-fiori-application-handling.md": "blog/posts/0001-practical-roles-in-SAP-apps-handling.md"
+        "blog/2022/08/22/instead-of-activating-individual-sap-fiori-applications-use-the-standard-sap-roles-as-a-template.md": "blog/posts/0002-instead-activation-use-the-standard-roles.md"
+        "blog/2022/10/31/how-to-check-if-the-adaptation-project-is-loading-correctly.md": "blog/posts/0003-adaptation-loading.md"
+        "blog/2022/10/31/how-to-check-if-the-changes-from-the-adaptation-project-are-active.md": "blog/posts/0004-adaptation-active.md"
+        "blog/2019/12/20/tracking-sap-fiori-application-usage.md": "blog/posts/0005-firoi-app-usage.md"
+        "report-on-sap-fiori-application-usage-apps-popularity.md": "blog/posts/0005-firoi-app-usage.md"
 copyright: Copyright &copy; 2010 - 2024 Nype
 extra_css:
   - stylesheets/extra.css
@@ -73,6 +82,7 @@ hooks:
   - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
   - overrides/hooks/change_logo_for_social_cards.py  # Instead of logo.png use social_logo.png
   - overrides/hooks/add_industry_blog_view.py  # Adds the Industry view for the Experience blog
+  - overrides/hooks/adjust_redirects_html.py  # Properly sets noindex, follow in the robots meta, and sets absolute links
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
