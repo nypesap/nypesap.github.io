@@ -38,4 +38,4 @@ If the component ID and the catalog are correct, the adaptation project is loadi
 
 [![Console screen shot](R0001/cons.png)](R0001/cons.png)
 
-See also: Quick tip: How to check if the changes from the adaptation project are active?
+See also: [Quick tip: How to check if the changes from the adaptation project are active?](0004-adaptation-active.md)

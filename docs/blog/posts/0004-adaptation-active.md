@@ -25,4 +25,4 @@ If the adaptation project is active, you should see the custom namespace. For ex
 
 [![Diagnostic tool screen shot](R0004/diag-tool.png)](R0004/diag-tool.png)
 
-See also: Quick tip: How to check if the adaptation project is loading correctly?
+See also: [Quick tip: How to check if the adaptation project is loading correctly?](0003-adaptation-loading.md)
