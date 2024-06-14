@@ -12,12 +12,25 @@
     margin-bottom: 0rem;
 }
 
-/* Enforce site_name visibility in the nav bar */
-/* Hide the current scroll title in the navigation bar */
-.md-header__title--active .md-header__topic {
-    transform: none;
-    opacity: 1;
+/* Hide website name as it's visible in the logo */
+.md-header__ellipsis div:first-child {
+    display: none;
 }
-[data-md-component="header-topic"] {
+
+/* Hide whole ellipsis as default when not scrolled */
+/* The navigatin buttons light up when selected, no need for top level topic */
+header:not(.md-header--shadow) .md-header__ellipsis {
+    display: none;
+}
+
+/* Make sure page topic is visible on blog views */
+/* It only appears when scrolled due to the previous selector */
+#extBlogViewHeader + header .md-header__ellipsis div:last-child {
+    opacity: 1;
+    transform: unset;
+}
+
+/* hide topic text on the hope page as it's visible in the logo */
+#extHomePageHeader + header .md-header__ellipsis {
     display: none;
 }
