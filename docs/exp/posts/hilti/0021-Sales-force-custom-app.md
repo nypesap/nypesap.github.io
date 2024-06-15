@@ -9,8 +9,8 @@ categories:
 tags:
   - ECC 6.0 (SAP Business Suite)
   - SAP CRM
-  - Industry manufacturing
-  - Manufacturer of construction products
+industries:
+  - Construction (Switzerland)
 date: 2017-03-01
 ---
 

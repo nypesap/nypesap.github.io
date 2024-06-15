@@ -8,6 +8,8 @@ categories:
   - Migrations
 tags:
   - SAP S/4HANA 2021
+industries:
+  - Finance (Germany)
 date: 2023-09-29
 ---
 <!-- more -->

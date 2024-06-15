@@ -9,8 +9,8 @@ categories:
 tags:
   - ECC 6.0 (SAP Business Suite)
   - SAP GRC
-  - Industry manufacturing
-  - Manufacturer of home appliances
+industries:
+  - Home appliances (Germany)
 date: 2016-08-01
 ---
 

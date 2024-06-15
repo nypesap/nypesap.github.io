@@ -9,7 +9,8 @@ categories:
 tags:
   - SAP S/4HANA 2021
   - App ID F1851
-  - Industry Administration
+industries:
+  - Finance (Germany)
 date: 2024-03-31
 ---
 

@@ -1,20 +1,22 @@
 ---
-title: My Inbox F0862 Extension
+title: Manage Purchase Orders F0842A Extension
 description: >
-  My Inbox F0862 Extension
+  Manage Purchase Orders F0842A Extension
 authors:
   - nype
 categories:
   - Extensions of standard apps
 tags:
   - SAP S/4HANA 2021
-  - App ID F1991
+  - App ID F0842A
+industries:
+  - Finance (Germany)
 date: 2024-03-31
 ---
 
 <!-- more -->
 
-App: My Inbox [F0862]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0862%27)/S23OP ) Extension
+App: Manage Purchase Orders [F0842A]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0842A%27)/S23OP ) Extension
 
 ## Business scenarios
 

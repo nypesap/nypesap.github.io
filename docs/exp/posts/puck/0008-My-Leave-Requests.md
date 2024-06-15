@@ -10,7 +10,8 @@ tags:
   - SAP Business Suite 2020 12 (SAP ERP 6.0)
   - App ID F1311A
   - SAP Human Resources
-  - Industry Administration
+industries:
+  - Administration (Germany)
 date: 2024-04-25
 ---
 

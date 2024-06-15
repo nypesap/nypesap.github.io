@@ -7,11 +7,10 @@ authors:
 categories:
   - Upgrades
 industries:
-  - Automobile manufacturer (Germany)
+  - Finance (Germany)
 tags:
   - SAP S/4HANA 2021
   - SAP S/4HANA 1809
-  - Industry Finance
 date: 2023-10-20
 ---
 <!-- more -->
