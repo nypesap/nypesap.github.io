@@ -50,9 +50,9 @@ plugins:
         "blog/2022/08/22/instead-of-activating-individual-sap-fiori-applications-use-the-standard-sap-roles-as-a-template.md": "blog/posts/0002-instead-activation-use-the-standard-roles.md"
         "blog/2022/10/31/how-to-check-if-the-adaptation-project-is-loading-correctly.md": "blog/posts/0003-adaptation-loading.md"
         "blog/2022/10/31/how-to-check-if-the-changes-from-the-adaptation-project-are-active.md": "blog/posts/0004-adaptation-active.md"
-        "blog/2019/12/20/tracking-sap-fiori-application-usage.md": "blog/posts/0005-firoi-app-usage.md"
-        "report-on-sap-fiori-application-usage-apps-popularity.md": "blog/posts/0005-firoi-app-usage.md"
-copyright: Copyright &copy; 2010 - 2024 Nype
+        "blog/2019/12/20/tracking-sap-fiori-application-usage.md": "blog/posts/0005-fiori-app-usage.md"
+        "report-on-sap-fiori-application-usage-apps-popularity.md": "blog/posts/0005-fiori-app-usage.md"
+copyright: Copyright &copy; 2024 Nype
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
@@ -90,6 +90,7 @@ not_in_nav: |
   /career.md
   /fiori-apps-usage.md
   /tags.md
+  /exp/pending/*
 
 # Together with --strict flag it allows to crash CI if an error occurs and prevent shipping broken sites
 validation:

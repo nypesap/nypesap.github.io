@@ -1,7 +1,7 @@
 ---
 title: Travel management employee self service custom app
 description: >
-  SAP UI5 custom ap
+  SAP UI5 custom app
 authors:
   - nype
 categories:
@@ -9,7 +9,7 @@ categories:
 tags:
   - ECC 6.0 (SAP Business Suite)
 industries:
-- Pharmaceuticals and Diagnostics (Switzerland)
+- Pharmaceuticals (Switzerland)
 date: 2016-08-01
 ---
 

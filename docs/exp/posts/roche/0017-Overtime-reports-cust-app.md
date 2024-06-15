@@ -8,7 +8,8 @@ categories:
   - Custom app
 tags:
   - ECC 6.0 (SAP Business Suite)
-  - Industry Pharmaceuticals
+industries:
+  - Pharmaceuticals (Switzerland)
 date: 2016-08-01
 ---
 

@@ -7,7 +7,7 @@ authors:
 categories:
   - Custom app
 industries:
-  - Clothing, retail (Switzerland)
+  - Clothing retail (Switzerland)
 tags:
   - ECC 6.0 (SAP Business Suite)
   - SAP Retail
