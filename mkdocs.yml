@@ -15,7 +15,7 @@ theme:
   language: en
   palette:
     - scheme: slate
-  favicon: 'assets/images/logo-syg.png'
+  favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.png'
   custom_dir: overrides
   features:
