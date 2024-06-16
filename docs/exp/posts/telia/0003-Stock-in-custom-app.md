@@ -8,7 +8,6 @@ categories:
   - Custom apps
 tags:
   - SAP S/4HANA 1909
-  - App ID F2229
   - SAP Purchasing
 industries:
   - Telecommunication (Lithuania)
@@ -23,9 +22,19 @@ Custom application for  to
 
 Updating field representatives' dedicated stock. The stock represented items transported in the car. 
 
-App accessible on the road from tables.
+App accessible on the road from tablets.
 
-Serial numbers handling
+Serial numbers handling.
+
+Two modes:
+1. Stock based
+
+Stocking out materials based on stock data.
+
+2. 
+
+
+
 
 
 
