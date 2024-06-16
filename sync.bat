@@ -1,4 +1,5 @@
 git add -A
-git commit -am "upd"
+git commit -am "docs: upd"
+git pull --rebase
 git push
-mkdocs gh-deploy
+
