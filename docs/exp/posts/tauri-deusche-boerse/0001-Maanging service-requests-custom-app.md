@@ -9,7 +9,7 @@ categories:
 industries:
   - Finance (Germany)
 tags:
-  - SAP CRM
+  - SAP CRM 7.0
 
 date: 2022-01-01
 ---
@@ -19,12 +19,13 @@ date: 2022-01-01
 Managing infrastructure service requests - custom SAP UI5 app
 
 ## Business scenarios
-- SAP 
+- Service of IT infrastructure components
 
 ## Details
 
 Managing infrastructure service requests - custom SAP UI app.
 
-- Extensive SAP UI5 application composed of multiple modules
-- Custom SAP UI5 scaffolding 
+- Set of extensive SAP UI5 applications with modular UI components
+- Custom reusable SAP UI5 scaffolding including common components
+
 
