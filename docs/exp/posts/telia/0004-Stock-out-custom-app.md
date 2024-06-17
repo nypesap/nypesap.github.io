@@ -16,7 +16,7 @@ date: 2018-11-01
 
 <!-- more -->
 
-Custom application for  to 
+Custom application.
 
 ## Business scenario
 
