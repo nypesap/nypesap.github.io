@@ -11,6 +11,8 @@ industries:
 tags:
   - My Inbox  
   - App ID F0862
+  - SAP S/4HANA 1809
+  - SAP ERP 6.0
 date: 2024-05-30
 ---
 
@@ -23,5 +25,5 @@ My Inbox integration with multiple backends.
 
 ## Details
 
-Integration of workflows from multiple systems in SAP Fiori app "My Inbox" (F0862).
+Integration of workflows from multiple systems in SAP Fiori app "My Inbox" [F0862]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0862%27)/S12OP )
 
