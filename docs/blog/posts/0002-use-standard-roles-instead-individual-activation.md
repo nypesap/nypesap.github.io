@@ -11,7 +11,7 @@ tags:
 date: 2022-08-22
 ---
 
-# Instead of activating individual SAP Fiori applications, use the standard SAP roles as a template
+# Use SAP's standard roles instead of activating each SAP Fiori app individually
 
 Many SAP S/4HANA projects struggle with activating a subset of SAP Fiori applications chosen during fit gap analysis. Enabling the applications in this approach takes weeks and requires countless work days by the Basis and Fiori team to fix errors, which results in high implementation costs.
 <!-- more -->

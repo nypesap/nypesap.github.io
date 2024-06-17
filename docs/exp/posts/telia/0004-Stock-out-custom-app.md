@@ -24,10 +24,19 @@ Updating field representatives' dedicated stock. The stock represented items tra
 
 App accessible on the road from tablets.
 
-Serial numbers handling
+Serial numbers handling. Two modes of picking:
+    - Stock backed 
+    - Delivery based
+
+1. Stock based
 
 [![Stock out screen - stock based 1](res/stock-out-stock-based-1.png)](res/stock-out-stock-based-1.png)
 
 [![Stock out screen - stock based 2](res/stock-out-stock-based-2.png)](res/stock-out-stock-based-2.png)
 
+2. Delivery based
+[![Stock out screen - delivery based 2](res/stock-out-delivery-based-1.png)](res/stock-out-delivery-based-1.png)
 
+[![Stock out screen - delivery based 2](res/stock-out-delivery-based-2.png)](res/stock-out-delivery-based-2.png)
+
+[![Stock out screen - delivery based 2](res/stock-out-delivery-based-3.png)](res/stock-out-delivery-based-3.png)
