@@ -1,5 +1,5 @@
 git add -A
-git commit -am "docs: %1"
+git commit -am "docs: %*"
 git pull --rebase
 git push
 
