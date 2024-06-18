@@ -92,6 +92,7 @@ hooks:
 not_in_nav: |
   /index.md
   /career.md
+  /contact-success.md
   /fiori-apps-usage.md
   /tags.md
   /exp/pending/*
