@@ -78,4 +78,3 @@ ul. Ludwika Braillea 2a/23<br>
 60-687 Poznan<br>
 Poland<br>
 
-[Find us on Google Maps :simple-googlemaps:](https://maps.app.goo.gl/YcrdNKbLfqYLEk557)

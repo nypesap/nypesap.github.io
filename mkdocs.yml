@@ -83,8 +83,6 @@ extra:
       link: https://twitter.com/nypesap/
     - icon: custom/fioritracker
       link: https://fioritracker.org/?ref=npe
-    - icon: custom/appusage
-      link: https://help.fioriappsusage.org/?ref=npe
 
 hooks:
   - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
