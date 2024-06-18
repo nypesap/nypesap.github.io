@@ -13,7 +13,11 @@ description: The Fiori Tracker plugin for SAP Fiori Launchpad speeds up Jira iss
 
 # How to speed up Jira issue creation for SAP Fiori applications
 
-There are two main phases in the SAP systems life cycle when gathering feedback on how SAP Fiori applications are performing is important: implementation and support. In both cases, quick and accurate problem reports save time on issue-solving. This is particularly true for SAP Fiori applications, where non-technical users or even members of the implementation team may not know how to identify the specific application they are experiencing problems with.
+There are two main phases in the SAP systems life cycle when gathering feedback on how SAP Fiori applications are performing is important: implementation and support. In both cases, quick and accurate problem reports save time on issue-solving.
+
+<!-- more -->
+This is particularly true for SAP Fiori applications, where non-technical users or even members of the implementation team may not know how to identify the specific application they are experiencing problems with.
+
 To address that issue we have prepared the plugin for SAP Fiori Launchpad that enables users to report problems directly from the application that is having problems. The plugin is a part of the Fiori Tracker tool and uses the information collected in its tables to identify automatically the running SAP Fiori application and populate the contents of the Jira ticket with relevant technical information.
 With the press of one button, the user gets a prefilled issue title with the precise name of the SAP Fiori application together with its technical ID. In the description field, the user is only required to provide the nature of the problem he encountered.
 
