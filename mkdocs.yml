@@ -98,6 +98,7 @@ not_in_nav: |
   /fiori-apps-usage.md
   /tags.md
   /exp/pending/*
+  /discord.md
 
 # Together with --strict flag it allows to crash CI if an error occurs and prevent shipping broken sites
 validation:
