@@ -6,20 +6,27 @@ tags:
   - SAP Fiori Launchpad
 categories:
   - Project organization
-date: 2018-07-20
+date: 2019-02-10
 description: The Fiori Tracker plugin for SAP Fiori Launchpad speeds up Jira issue creation by automatically identifying the problem app and pre-filling technical details.
 ---
 
 
 # How to speed up Jira issue creation for SAP Fiori applications
 
-There are two main phases in the SAP systems life cycle when gathering feedback on how SAP Fiori applications are performing is important: implementation and support. In both cases, quick and accurate problem reports save time on issue-solving.
+Gathering feedback on SAP Fiori applications is crucial during both the implementation and support phases of the SAP system lifecycle. Quick, accurate problem reports save valuable time.
 
 <!-- more -->
-This is particularly true for SAP Fiori applications, where non-technical users or even members of the implementation team may not know how to identify the specific application they are experiencing problems with.
 
-To address that issue we have prepared the plugin for SAP Fiori Launchpad that enables users to report problems directly from the application that is having problems. The plugin is a part of the Fiori Tracker tool and uses the information collected in its tables to identify automatically the running SAP Fiori application and populate the contents of the Jira ticket with relevant technical information.
-With the press of one button, the user gets a prefilled issue title with the precise name of the SAP Fiori application together with its technical ID. In the description field, the user is only required to provide the nature of the problem he encountered.
+SAP Fiori apps often face the challenge of non-technical users or team members not knowing which application is causing issues. To solve this, we've developed a plugin for the SAP Fiori Launchpad. This plugin allows users to report problems directly from the problematic app.
 
-Additionally, the plugin automatically collects the screenshot and gives the user the option to decide whether to include it automatically in the created Jira issue.
-With Fiori Tracker and the “Reporting issue” function, your team will love the ease of recording Jira tickets while testing!
+Here's how it works:
+
+Auto-Identify the App: The plugin is part of the Fiori Tracker tool. It automatically detects the running SAP Fiori application and fills in the Jira ticket with relevant technical info. Users just click a button to get a prefilled issue title, including the exact name and technical ID of the app.
+
+Simplified Problem Reporting: In the Jira ticket's description field, users only need to describe the problem they're facing.
+
+Screenshot Option: The plugin also captures a screenshot and lets users choose whether to include it in the Jira issue.
+
+With the Fiori Tracker and its "Report Issue" function, reporting problems during testing becomes simple and fast. Your team will appreciate the streamlined process!
+
+:fontawesome-brands-youtube:{ .youtube } [How Fiori Tracker - Report Issue function works](https://youtu.be/adMJJYTxhks?si=xt0QxRs2tVMbRvTI) - :octicons-clock-24: 1m30s
