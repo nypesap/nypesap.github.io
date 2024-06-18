@@ -53,7 +53,7 @@ plugins:
         "blog/2019/12/20/tracking-sap-fiori-application-usage.md": "blog/posts/0005-fiori-app-usage.md"
         "report-on-sap-fiori-application-usage-apps-popularity.md": "blog/posts/0005-fiori-app-usage.md"
         "career": "jobs"
-        "sap-fiori-atlassian-jira-integration-creating-a-support-message": "blog/posts/0006-jira-integration.md"
+        "sap-fiori-atlassian-jira-integration-creating-a-support-message.md": "blog/posts/0006-jira-integration.md"
       
 
 copyright: Copyright &copy; 2024 Nype
