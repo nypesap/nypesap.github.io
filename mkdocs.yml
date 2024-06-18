@@ -52,7 +52,7 @@ plugins:
         "blog/2022/10/31/how-to-check-if-the-changes-from-the-adaptation-project-are-active.md": "blog/posts/0004-adaptation-active.md"
         "blog/2019/12/20/tracking-sap-fiori-application-usage.md": "blog/posts/0005-fiori-app-usage.md"
         "report-on-sap-fiori-application-usage-apps-popularity.md": "blog/posts/0005-fiori-app-usage.md"
-        "career": "jobs"
+        "career.md": "jobs"
         "sap-fiori-atlassian-jira-integration-creating-a-support-message.md": "blog/posts/0006-jira-integration.md"
       
 
