@@ -54,7 +54,8 @@ plugins:
         "report-on-sap-fiori-application-usage-apps-popularity.md": "blog/posts/0005-fiori-app-usage.md"
         "career.md": "jobs/index.md"
         "sap-fiori-atlassian-jira-integration-creating-a-support-message.md": "blog/posts/0006-jira-integration.md"
-      
+        "sap-ui5-pl.md": "index.md"
+        "sap-fiori.md": "index.md"
 
 copyright: Copyright &copy; 2024 Nype
 extra_css:
