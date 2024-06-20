@@ -24,7 +24,7 @@ This missing feature has been a significant issue for many users. To tackle it, 
 
 ## Introducing Fiori Tracker with Fiori App Usage Report
 
-Fiori App Usage Report report is part of Fiori Tracker Suite  a custom solution developed by the Nype team to fill the gap left by SAP’s standard.
+[Fiori App Usage Report report](https://fioriappsusage.org) is part of [Fiori Tracker Suite](https://fioritracker.org)  a custom solution developed by the Nype team to fill the gap left by SAP’s standard.
 
 [![Fiori App Usage Report screen shot](R0005/fa.png)](R0005/fa.png)
 
