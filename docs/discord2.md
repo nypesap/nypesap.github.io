@@ -1,0 +1,3 @@
+---
+template: discord-widget.html
+---
