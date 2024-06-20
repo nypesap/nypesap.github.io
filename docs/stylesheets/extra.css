@@ -91,6 +91,7 @@ header:not(.md-header--shadow) .md-header__ellipsis {
 
 /* Contact form success settings */
 .twemoji.extLargeSVG {
+    height: 7rem;
     width: 100%;
 }
 
@@ -99,4 +100,33 @@ header:not(.md-header--shadow) .md-header__ellipsis {
     width: 7rem;
     margin: 0 auto;
     max-height: unset;
+}
+
+/* Home page settings for logo */
+@media screen and (max-width: 45em) {
+    :root {
+        --ext-nype-home-logo-height: 7rem;
+    }
+}
+
+@media screen and (min-width: 45em) {
+    :root {
+        --ext-nype-home-logo-height: 10rem;
+    }
+}
+
+.twemoji.extHomeLogoSVG {
+    height: var(--ext-nype-home-logo-height);
+    width: 100%;
+}
+
+.twemoji.extHomeLogoSVG svg {
+    height: var(--ext-nype-home-logo-height);
+    width: 100%;
+    margin: 0 auto;
+    max-height: unset;
+}
+
+#extHomePageHeader + header + .md-container .md-main__inner {
+    margin-top: 0;
 }

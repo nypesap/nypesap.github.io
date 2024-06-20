@@ -1,0 +1,12 @@
+<!-- Logo -->
+{% if config.theme.logo %}
+  {# Customization - Different logo on home page #}
+  {% if page and page.file.src_uri != "index.md" %}
+  <img src="{{ config.theme.logo | url }}" alt="logo" />
+  {% else %}
+  <img src="{{ 'assets/images/logo-syg.png' | url }}" alt="logo" />
+  {% endif %}
+{% else %}
+  {% set icon = config.theme.icon.logo or "material/library" %}
+  {% include ".icons/" ~ icon ~ ".svg" %}
+{% endif %}

@@ -18,6 +18,8 @@
 
   <!-- Site title -->
   <label class="md-nav__title" for="__drawer">
+    {#- Customization - Hide logo on home page -#}
+    {% if page and page.file.src_uri != "index.md" %}
     <a
       href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
       title="{{ config.site_name | e }}"
@@ -27,6 +29,9 @@
     >
       {% include "partials/logo.html" %}
     </a>
+    {% else %}
+    <style>.md-nav__title { height: 0!important; }</style>
+    {% endif %}
     {# Customization - Hide text that is in the logo {{ config.site_name }} #}
   </label>
 
