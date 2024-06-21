@@ -2,22 +2,12 @@
 title: Contact
 template: main-only-content.html
 description: Get in touch and let's work together.
-use_recaptcha: true
 ---
 **Get in touch – we’d love to hear from you.**
 
 Whether you’re looking for developers for your upcoming SAP UI5 or SAP Fiori project or more information on Nype, don’t hesitate to get in touch.
 
-You can contact <span id="extEmailLocation">`Hidden E-mail`</span> directly or fill out the form below.
-
-<button 
-class="g-recaptcha md-button md-button--primary"
-data-sitekey="6LeO1vspAAAAABu8s4D8XPFdncUIw5jIy2Fv6Cbj"
-data-callback="_recaptchaOnShowEmail"
-data-error-callback="_recaptchaOnErrorEmail"
-data-theme="dark"
-data-action="submit"
-id="extShowEmail">Show Email</button>
+You can contact <span id="extShowEmail">`Show Hidden E-mail`</span> directly or fill out the form below.
 
 ## Contact Form
 
@@ -60,13 +50,9 @@ id="extShowEmail">Show Email</button>
             required
         ></textarea>
         <button 
-            class="g-recaptcha md-button md-button--primary"
-            data-sitekey="6LeO1vspAAAAABu8s4D8XPFdncUIw5jIy2Fv6Cbj"
-            data-callback="_recaptchaOnSubmitForm"
-            data-error-callback="_recaptchaOnErrorForm"
-            data-theme="dark"
-            data-action="submit"
+            class="md-button md-button--primary"
             id="extSubmitForm"
+            type="submit"
         >Submit</button>
     </form>
 </div>

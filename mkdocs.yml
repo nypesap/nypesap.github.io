@@ -60,6 +60,8 @@ plugins:
 copyright: Copyright &copy; 2024 Nype
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/extra.js
 markdown_extensions:
   - admonition
   - attr_list

@@ -3,10 +3,6 @@
 {% block extrahead %}
   <link rel="apple-touch-icon" href="{{ 'assets/images/logo-syg.png' | url }}" />
   <meta property="robots" content="index, follow" />
-  {% if page and page.meta.use_recaptcha %}
-  <script src="https://www.google.com/recaptcha/api.js"></script>
-  <script src="{{ 'assets/javascripts/recaptcha.js' | url }}"></script>
-  {% endif %}
 {% endblock %}
 
 {# Custom helper div to use for CSS selector in extra.css #}

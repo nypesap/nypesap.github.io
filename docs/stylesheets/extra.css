@@ -36,6 +36,16 @@ header:not(.md-header--shadow) .md-header__ellipsis {
 }
 
 /* Contact form settings */
+#extShowEmail {
+    cursor: pointer;
+    outline: 0.1em solid var(--md-accent-fg-color);
+    border-radius: 0.2em;
+}
+
+#extShowEmail:hover code {
+    color: var(--md-accent-fg-color);
+}
+
 #extFormWrapper {
     width: 100%;
 }
