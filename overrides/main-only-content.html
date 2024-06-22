@@ -2,6 +2,6 @@
 
 {% block extrahead %}
     {{ super() }}
-    <link rel="stylesheet" href="{{ 'stylesheets/show-only-content.css' | url }}">
+    <link rel="stylesheet" href="{{ 'assets/stylesheets/show-only-content.css' | url }}">
     {% set _ = page.meta.update({ 'hide': ['navigation', 'toc']}) %}
 {% endblock%}    

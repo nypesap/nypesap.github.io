@@ -1,7 +1,7 @@
 /* Custom font */
 @font-face {
     font-family: "EtelkaLight";
-    src: url("fonts/EtelkaLight.otf");
+    src: url("../fonts/EtelkaLight.otf");
 }
 :root {
     --md-text-font: "EtelkaLight"; 

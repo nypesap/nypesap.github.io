@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const hexData = "6148523063484d364c79396d62334a74637935316269317a6447463061574d75593239744c325a76636d317a4c7a646a596d49344d6a557a5957457a596a5934596d4d3059574e6b596a45304d44557a4e7a41334d5445315a6a55794e6d51354d7a673d";
 
             if (!["127.0.0.1", "localhost"].includes(window.location.hostname)) {
-                form.action = atob(String.fromCharCode(...hexData.match(/.{1,2}/g).map(byte => parseInt(byte, 16))));;
+                form.action = atob(String.fromCharCode(...hexData.match(/.{1,2}/g).map(byte => parseInt(byte, 16))));
             }
 
             form.submit();
