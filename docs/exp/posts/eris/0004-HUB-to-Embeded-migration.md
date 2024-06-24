@@ -22,7 +22,8 @@ Go live 29 September 2023
 
 ## Scope
 
-"My Inbox" 
+"My Inbox"
+
 - Adjustments to configuration
 - Adjustments of extension code
 

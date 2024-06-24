@@ -24,9 +24,10 @@ Custom freestyle application for real time reporting of turnover.
 
 ## Details
 
-Application for real-time reporting of turnover and turnover related information for fashion retail shops with back-end in SAP S/4HANA 
--	SAP Fiori design guidelines modeling and wire framing with Axure 
--	SAP UI5 development
--	Backend ABAP programming for SAP S/4HANA
--	oData service configuration 
+Application for real-time reporting of turnover and turnover related information for fashion retail shops with back-end in SAP S/4HANA
+
+- SAP Fiori design guidelines modeling and wire framing with Axure
+- SAP UI5 development
+- Backend ABAP programming for SAP S/4HANA
+- oData service configuration 
 

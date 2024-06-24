@@ -16,6 +16,7 @@ date: 2022-03-11
 This blog post discusses the project roles related to managing SAP Fiori applications. Based on my and my teammates' experience, I'm sharing a practical approach to organizing project roles. This approach factors in the real situation of the projects coming from ECC to S/4HANA and ensures cost-effective app handling without unnecessary delays.
 <!-- more -->
 The post focuses on three project roles:
+
 - Roles and Authorization Expert
 - Functional Application Expert
 - Developer

@@ -33,9 +33,10 @@ This missing feature has been a significant issue for many users. To tackle it, 
 ## How Fiori Tracker Works
 
 Fiori Tracker collects app launch records across the SAP S/4HANA landscape. The app gathers the metrics including:
-- App ID <br>
-- Time stamp <br>
-- Username<br>
+
+- App ID
+- Time stamp
+- Username
 
 These insights can be accessed with report showing all logged records or most frequently used apps in overall, last week, or day.
 All data is available for access or export to visualize or analyze with your favorite analytics tool. 
