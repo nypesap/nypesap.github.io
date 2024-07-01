@@ -1,6 +1,6 @@
 ---
 template: main-only-content.html
-title: SAP UI5 developers
+title: Nype is a business-savvy team of SAP UI5 developers.
 ---
 # NYPE
 
