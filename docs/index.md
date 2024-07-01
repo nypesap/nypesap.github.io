@@ -1,6 +1,6 @@
 ---
 template: main-only-content.html
-title: SAP UI5/SAP Fiori solutions know-how
+title: SAP UI5/SAP Fiori development know-how
 ---
 # NYPE
 
