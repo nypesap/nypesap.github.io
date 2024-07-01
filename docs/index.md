@@ -1,6 +1,6 @@
 ---
 template: main-only-content.html
-title: Nype is a business-savvy team of SAP UI5 developers.
+title: Know-how to implement SAP UI5 or SAP Fiori based solution
 ---
 # NYPE
 
