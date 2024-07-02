@@ -90,8 +90,6 @@ extra:
     provider: google
     property: G-XYHV0G23QV
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/nypesap/
     - icon: fontawesome/brands/linkedin-in
       link: https://linkedin.com/company/nypesap/
     - icon: fontawesome/brands/x-twitter
