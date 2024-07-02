@@ -31,4 +31,4 @@ With the Fiori Tracker and its "Report Issue" function, reporting problems durin
 
 :fontawesome-brands-youtube:{ .youtube } [How Fiori Tracker - Report Issue function works](https://youtu.be/adMJJYTxhks?si=xt0QxRs2tVMbRvTI) - :octicons-clock-24: 1m30s
 
-If streamlining tests is in your interest you might find blog post on Fiori Role Testing interesting: [Spot untested apps automatically](0008-fiori-role-testing.md)
+For streamlined testing, check out also my blog post on Fiori Role Testing: [Spot untested apps automatically](0008-fiori-role-testing.md)
