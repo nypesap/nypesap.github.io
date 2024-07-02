@@ -30,3 +30,5 @@ Screenshot Option: The plugin also captures a screenshot and lets users choose w
 With the Fiori Tracker and its "Report Issue" function, reporting problems during testing becomes simple and fast. Your team will appreciate the streamlined process!
 
 :fontawesome-brands-youtube:{ .youtube } [How Fiori Tracker - Report Issue function works](https://youtu.be/adMJJYTxhks?si=xt0QxRs2tVMbRvTI) - :octicons-clock-24: 1m30s
+
+If streamlining tests is in your interest you might find blog post on Fiori Role Testing interesting: [Spot untested apps automatically](0008-fiori-role-testing.md)
