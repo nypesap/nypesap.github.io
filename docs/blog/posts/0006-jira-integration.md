@@ -5,7 +5,7 @@ tags:
   - SAP Fiori
   - SAP Fiori Launchpad
 categories:
-  - App testing
+  - Testing solutions
 date: 2019-02-10
 description: The Fiori Tracker plugin for SAP Fiori Launchpad speeds up Jira issue creation by automatically identifying the problem app and pre-filling technical details.
 ---

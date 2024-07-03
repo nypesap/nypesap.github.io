@@ -5,7 +5,7 @@ tags:
   - SAP Fiori
   - SAP Fiori Launchpad
 categories:
-  - App testing
+  - Testing solutions
 date: 2024-04-27
 description: The Test User app from Fiori Tracker Suite centralizes test user management for SAP Fiori developers.
 ---

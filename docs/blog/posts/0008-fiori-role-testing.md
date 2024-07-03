@@ -5,7 +5,7 @@ tags:
   - SAP Fiori
   - SAP Fiori Launchpad
 categories:
-  - App testing
+  - Testing solutions
 date: 2024-05-10
 description: Minimize repeated issues in role transitions to production system.
 ---
