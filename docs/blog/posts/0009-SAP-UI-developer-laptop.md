@@ -22,12 +22,13 @@ Set up your laptop for SAP UI5 development with precision. Here's the essential 
 Hardware configuration:
 
 - RAM: 32 GB (minimum), 64 GB (recommended)
-- Processor: Intel Cire i7 2.7GHz, 6 cores or similar
+- Processor: Intel Core i7 2.7GHz, 6 cores or similar
 - Hard Disk: 512 GB
 
 Example models:
 
 - Lenovo Thinkpad T15P
+- HP ZBook Firefly 14 G8
 
 
 Essential software:
