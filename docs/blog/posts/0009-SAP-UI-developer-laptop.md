@@ -30,7 +30,6 @@ Example models:
 - Lenovo Thinkpad T15P
 - HP ZBook Firefly 14 G8
 
-
 Essential software:
 
 - Chrome
