@@ -4,6 +4,7 @@ authors:
 tags:
   - SAP Fiori
   - SAP Fiori Launchpad
+  - SAP S/4HANA
 categories:
   - Testing solutions
 date: 2019-02-10

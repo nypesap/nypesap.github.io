@@ -4,6 +4,7 @@ authors:
 tags:
   - SAP Fiori
   - SAP Fiori Launchpad
+  - SAP S/4HANA
 categories:
   - Quick tips
 date: 2022-10-31

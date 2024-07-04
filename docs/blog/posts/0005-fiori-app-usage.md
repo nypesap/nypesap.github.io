@@ -4,6 +4,7 @@ authors:
 tags:
   - SAP Fiori
   - SAP Fiori Launchpad
+  - SAP S/4HANA
 categories:
   - Project organization
 date: 2019-12-20
