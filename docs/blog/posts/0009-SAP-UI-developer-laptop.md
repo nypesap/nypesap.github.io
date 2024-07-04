@@ -13,20 +13,31 @@ description: SAP UI5 developer laptop setup.
 
 # SAP UI5 developer laptop setup
 
+Set up your laptop for SAP UI5 development with precision. Here's the essential hardware and software configuration you need.
 
 <!-- more -->
 
 ## Windows
 
-Needed software:
+Hardware configuration:
 
-Chrome
-SAP Gui
-Eclipse (2024-06)
-ABAP Development Tools for Eclipse (ADT)
-Visual Studio Code
-Notepad++
-Postman
-MS PowerTools
-ShareX (or other video screen recording tool) 
+- RAM: 32 GB (minimum), 64 GB (recommended)
+- Processor: Intel Cire i7 2.7GHz, 6 cores or similar
+- Hard Disk: 512 GB
+
+Example models:
+
+- Lenovo Thinkpad T15P
+
+
+Essential software:
+
+- Chrome
+- SAP Gui
+- Eclipse
+- ABAP Development Tools for Eclipse (ADT)
+- Visual Studio Code
+- Notepad++
+- MS PowerToys
+- ShareX 
 
