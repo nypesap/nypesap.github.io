@@ -13,9 +13,11 @@ description: The Test User app from Fiori Tracker Suite centralizes test user ma
 
 # Streamlining SAP Fiori Testing with the Test User App from Fiori Tracker Suite
 
-When your custom SAP app is ready, your SAP Fiori developer can jump in and start unit testing. They can see exactly what the SAP Functional expert sees during their tests.
+SAP S/4HANA project teams support SAP Fiori apps available on SAP Fiori Launchpad. An essential aspect of the support is testing. Since the apps are designed based on roles, the team requires test users with those roles. 
 
 <!-- more -->
+
+When your custom SAP app is ready, your SAP Fiori developer can jump in and start unit testing. They can see exactly what the SAP Functional expert sees during their tests.
 
 But test users often hit roadblocks: blocked access, expired passwords, and constant changes. These issues delay sign-offs and production releases.
 
