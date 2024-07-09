@@ -17,7 +17,7 @@ SAP S/4HANA project teams support SAP Fiori apps available on SAP Fiori Launchpa
 
 <!-- more -->
 
-## Why does Fast Test User Access matter?
+## Why Fast Test User Access matters?
 
 Quick access to test users is crucial in several scenarios. During an implementation project, test users are needed to test configured processes and perform unit tests on custom apps or extensions. In the support phase, they're essential for replicating reported issues and verifying if they have been resolved. With test users' details at hand, the SAP Fiori developer can immediately start his work. If not, he waits or gets involved in lengthy email exchanges to get access instead of developing the app, and the work on the request is delayed.
 
