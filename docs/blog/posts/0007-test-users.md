@@ -31,11 +31,11 @@ Details on the user name and pass are just a prerequisite. More problems can blo
 
 ## Centralized Management
 
-To avoid delays, the developer should have access to a centrally managed list of all test users. Functional consultants and authorization experts could decide what roles the test users should have, just as they planned the roles for the end users. Blueprinting the roles for the end users is also a feature available in the Fiori Tracker Suite.
+To avoid delays, the developer should have access to a centrally managed list of all test users. Functional consultants and authorization experts could decide what roles the test users should have, just as they planned the roles for the end users. 
 
 ## Solution: Test User App 
 
-The Test User app from [Fiori Tracker Suite](https://fioritracker.org) provides this function. This app logs all test users. It directly links test user records with roles and indirectly links them with catalogs and apps. The app centralizes management and is accessible to everyone in the QA system, making your testing process swift.
+The Test User app from [Fiori Tracker Suite](https://fioritracker.org) provides this function. This app logs all test users. It directly links test user records with roles and indirectly links them with catalogs and apps. Another Fiori Tracker Suite feature, "Blueprinting the roles for the end users," makes the linking so the role-catalog-app structure is always up to date. The app centralizes management and is accessible to everyone in the QA system, making your testing process swift. 
 
 [![Test users](R0007/tu2.gif)](R0007/tu2.gif)
 
