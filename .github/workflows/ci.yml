@@ -29,7 +29,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict --force
+      - run: mkdocs build --strict
       - name: Prepare deploy archive
         run: |
           zip -r site.zip site/
