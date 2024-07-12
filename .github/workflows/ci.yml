@@ -32,11 +32,11 @@ jobs:
       - run: mkdocs build --strict --force
       - name: Prepare deploy archive
         run: |
-        zip -r site.zip site/
-        sha256sum site.zip > checksum
-        sha256sum -c checksum
-        mkdir -p deploy
-        zip deploy/deploy.zip site.zip checksum
+          zip -r site.zip site/
+          sha256sum site.zip > checksum
+          sha256sum -c checksum
+          mkdir -p deploy
+          zip deploy/deploy.zip site.zip checksum
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4
         with:
