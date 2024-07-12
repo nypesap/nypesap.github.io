@@ -28,5 +28,24 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --strict --force
-      
+      - run: mkdocs build --strict
+      - name: Prepare deploy archive
+        run: |
+          zip -r site.zip site/
+          sha256sum site.zip > checksum
+          sha256sum -c checksum
+          mkdir -p deploy
+          zip deploy/deploy.zip site.zip checksum
+      - name: Deploy files via rsync and SSH
+        uses: easingthemes/ssh-deploy@v5.0.3
+        with:
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: deploy/
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_port: ${{ secrets.SSH_PORT }}
+          remote_user: ${{ secrets.SSH_USER }}
+          target: ${{ secrets.SSH_TARGET }}
+          script_after_required: true
+          script_after: |
+            export SSH_TARGET=${{ secrets.SSH_TARGET }}
+            ${{ secrets.SSH_COMMAND }}
