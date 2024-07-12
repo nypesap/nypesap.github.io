@@ -38,7 +38,7 @@ jobs:
           mkdir -p deploy
           zip deploy/deploy.zip site.zip checksum
       - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           protocol: ftps
           server: ${{ secrets.FTP_HOST }}
@@ -48,7 +48,7 @@ jobs:
           local-dir: deploy/
           server-dir: ${{ secrets.FTP_DIR }}
       - name: Confirm deploy via SSH
-        uses: appleboy/ssh-action@v1
+        uses: appleboy/ssh-action@v1.0.3
         env:
           FTP_DIR: ${{ secrets.FTP_DIR }}
         with:
