@@ -37,25 +37,17 @@ jobs:
           sha256sum -c checksum
           mkdir -p deploy
           zip deploy/deploy.zip site.zip checksum
-      - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy to Staging server
+        uses: easingthemes/ssh-deploy@v5.0.3
         with:
-          server: ${{ secrets.FTP_HOST }}
-          port: ${{ secrets.FTP_PORT }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASS }}
-          local-dir: deploy/
-          server-dir: ${{ secrets.FTP_DIR }}
-      - name: Confirm deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
-        env:
-          FTP_DIR: ${{ secrets.FTP_DIR }}
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          port: ${{ secrets.SSH_PORT }}
-          username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PASS }}
-          envs: FTP_DIR
-          script: ${{ secrets.SSH_COMMAND }}
-          script_stop: true
-          command_timeout: 30s
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: deploy/
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_port: ${{ secrets.SSH_PORT }}
+          remote_user: ${{ secrets.SSH_USER }}
+          target: ${{ secrets.SSH_TARGET }}
+          script_after_required: true
+          script_after: |
+            export SSH_TARGET=${{ secrets.SSH_TARGET }}
+            ${{ secrets.SSH_COMMAND }}
+            echo $RSYNC_STDOUT
