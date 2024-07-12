@@ -50,5 +50,3 @@ jobs:
           script_after: |
             export SSH_TARGET=${{ secrets.SSH_TARGET }}
             ${{ secrets.SSH_COMMAND }}
-            echo $SSH_TARGET
-            echo $RSYNC_STDOUT
