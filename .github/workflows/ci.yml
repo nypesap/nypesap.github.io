@@ -47,6 +47,7 @@ jobs:
           remote_user: ${{ secrets.SSH_USER }}
           target: ${{ secrets.SSH_TARGET }}
           script_after_required: true
+          # Re run edit
           script_after: |
             export SSH_TARGET=${{ secrets.SSH_TARGET }}
             ${{ secrets.SSH_COMMAND }}
