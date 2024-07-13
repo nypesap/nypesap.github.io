@@ -4,6 +4,7 @@ hide:
   - toc
 description: Full-time contract engagement on a daily rate.
 ---
+
 **We offer full-time contract engagement on a daily rate for the following roles:**
 
 SAP UI5 / SAP Fiori developers - as part of a SAP team engaged in designing and developing as part of:

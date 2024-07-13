@@ -9,8 +9,8 @@ nav:
     - jobs/index.md
   - Blog: 
     - blog/index.md
-  - Contact: contact.md
   - Offer: offer.md
+  - Contact: contact.md
 theme: 
   name: 'material'
   language: en
