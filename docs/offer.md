@@ -1,11 +1,14 @@
 ---
-template: main-only-content.html
-description: What we do.
+hide:
+  - navigation
+  - toc
+description: Full-time contract engagement on a daily rate.
 ---
 **We offer full-time contract engagement on a daily rate for the following roles:**
 
-SAP UI5 / SAP Fiori developers - part of a team of Developers and Functional Analysts who are engaged in designing, developing, and implementing:
+SAP UI5 / SAP Fiori developers - as part of a SAP team engaged in designing and developing as part of:
 
+- SAP S/4HANA implementations
 - Transitions from SAP ECC to SAP S/4HANA
 - Upgrades
 - Migrations
