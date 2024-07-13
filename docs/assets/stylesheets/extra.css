@@ -1,6 +1,7 @@
 /* Custom font */
 @font-face {
     font-family: "EtelkaLight";
+    font-display: swap;
     src: url("../fonts/EtelkaLight.otf");
 }
 :root {

@@ -4,7 +4,7 @@
   {% if page and page.file.src_uri != "index.md" %}
   <img src="{{ config.theme.logo | url }}" alt="logo" />
   {% else %}
-  <img src="{{ 'assets/images/logo-syg.png' | url }}" alt="logo" />
+  <img src="{{ 'assets/images/logo-syg.png' | url }}" alt="logo" loading="lazy" />
   {% endif %}
 {% else %}
   {% set icon = config.theme.icon.logo or "material/library" %}
