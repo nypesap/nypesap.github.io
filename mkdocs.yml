@@ -10,6 +10,7 @@ nav:
   - Blog: 
     - blog/index.md
   - Contact: contact.md
+  - Offer: offer.md
 theme: 
   name: 'material'
   language: en
