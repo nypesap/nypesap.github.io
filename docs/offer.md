@@ -15,7 +15,8 @@ description: What we do.
 
 SAP UI5 / SAP Fiori developers - part of a team of Developers and Functional Analysts who are engaged in designing, developing, and implementing:
 
-- Transitions from SAP ECC to S/4 HANA
+- Transitions from SAP ECC to SAP S/4HANA
 - Upgrades
 - Migrations
 
+[Contact us](contact.md) to get a detailed quote.
