@@ -76,6 +76,8 @@ extra_css:
 extra_javascript:
   - assets/javascripts/extra.js
 markdown_extensions:
+  - toc:
+      permalink: true
   - admonition
   - attr_list
   - pymdownx.emoji:
