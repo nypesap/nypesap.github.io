@@ -29,14 +29,12 @@ These three positions are taking on new responsibilities. To ensure these new ta
 
 ## The Solution
 
-To provide the solution, I have listed the three roles and deliverables they are responsible for. To illustrate the split, I chose two popular project processes in SAP S/4HANA projects:
+I have outlined the responsibilities of the three roles involved in the SAP Fiori task to address the need for setting responsibilities. To clarify, I have used two standard project processes in SAP S/4HANA projects as examples:
 
-1. Preparing roles and authorizations and FLP content management concepts
-2. Adding new custom or extended application
+1. Preparation of roles and authorizations concept and FLP content management concept
+2. Addition of new custom or extended applications.
 
-
-
-## Adding new custom or extended application:
+## Adding new custom or extended application
 
 ``` mermaid
 sequenceDiagram
@@ -56,7 +54,7 @@ autonumber
     Note right of Authorizations Expert: New app is available <br/> to end-users
 ```
 
-## Preparing roles and authorizations concept and FLP content management concept
+## Preparation of roles and authorizations concept and FLP content management concept
 
 ``` mermaid
 sequenceDiagram
@@ -78,4 +76,4 @@ autonumber
 
 ## Footnotes
 
-(1) SAP Community Blog post: [Essential Roles for S/4HANA Fiori Projects](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/essential-roles-for-s-4hana-fiori-projects/ba-p/13342812) by Pierre Cassano architect from SAP S/4HANA Regional Implementation Group
+(1) SAP Community Blog post: [Essential Roles for S/4HANA Fiori Projects](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/essential-roles-for-s-4hana-fiori-projects/ba-p/13342812) by Pierre Cassano, architect from SAP S/4HANA Regional Implementation Group
