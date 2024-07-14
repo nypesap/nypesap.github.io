@@ -1,7 +1,6 @@
 ---
-hide:
-  - navigation
-  - toc
+title: Contact
+template: main-only-content.html
 description: Full-time contract engagement on a daily rate.
 ---
 
