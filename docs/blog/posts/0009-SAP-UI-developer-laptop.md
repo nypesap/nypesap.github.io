@@ -7,7 +7,7 @@ tags:
   - SAP S/4HANA
 categories:
   - Developer tools
-date: 2024-07-04
+date: 2023-05-01
 description: SAP UI5 developer laptop setup.
 ---
 
