@@ -15,14 +15,13 @@ SAP UI5 / SAP Fiori developers - as part of a SAP team engaged in designing and 
 - Upgrades
 - Migrations
 
-**Project-based contract for SAP Fiori Lauchpad content management implementation**
+**Project-based contract for SAP Fiori Launchpad content management implementation**
 
 The project includes:
 
 - Audit of the current state
 - Design and preparation of SAP Fiori launchpad content management concept
-- Implementation of the concept
+- Implementation of the concept and roles creation (with the use of [Fiori Tracker Suite](https://fioritracker.org))
 - Handover and initial support
-
 
 [Contact us](contact.md) to get a detailed quote.
