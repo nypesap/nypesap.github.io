@@ -31,9 +31,27 @@ def on_page_markdown(markdown: str, page: Page, config: MkDocsConfig, files):
 
     lines = markdown.split("\n")
 
+    ext_body = ""
+    ext_line = -1
+
     for i, line in enumerate(lines):
-        if f"ext:{HOOK_NAME}" in line:
-            lines[i] = insert_latest_posts(line, config)
+        if f"ext:{HOOK_NAME}" in line and ext_line < 0:
+            if "-->" in line:
+                lines[i] = insert_latest_posts(line, config)
+            else:
+                # TODO consider parsing this as the start tag, instead of fishing for it
+                if "<!--" in lines[i-1]:
+                    lines[i-1] = ""
+                ext_body += line
+                ext_line = i
+                continue
+        if ext_body:
+            ext_body += " " + line.lstrip()
+            lines[i] = ""
+            if "-->" in line:
+                lines[ext_line] = insert_latest_posts(ext_body, config)
+                ext_body = ""
+                ext_line = -1
 
     return "\n".join(lines)
 
@@ -57,6 +75,11 @@ def insert_latest_posts(line, config: MkDocsConfig):
     root = options["root"].rstrip("/") + "/"
     amount = int(options["amount"])
     markdown = True if str(options.get("markdown")).lower() == "true" else False
+    title = options["title"]
+    read_more = options["read_more"]
+    strftime = options.get("strftime")
+    if not strftime:
+        strftime = "(%Y-%m-%d)"
 
     if root not in BLOG_INSTANCE_MAP:
         LOG.warning(f"Blog root {root} does not match any blog instance")
@@ -77,17 +100,15 @@ def insert_latest_posts(line, config: MkDocsConfig):
             break
 
     li_entries = ""
-    icon_shortcode = ""
-    icon_shortcodes = {"exp/": ":ext-sap-ui5:", "blog/": ":ext-nype-logo:"}
 
     if markdown:
         insert_body = MARKDOWN_GRID_TEMPLATE
         blog_index_url = instance.blog.file.src_uri
-        icon_shortcode = icon_shortcodes[root]
         for post in posts:
             href = post.file.src_uri
             text = post.title
-            li_entries += f"    - [{text}]({href})\n"
+            date = post.config.date['created'].strftime(strftime)
+            li_entries += f'    - [{text}]({href}) <span class="extPostDate">{date}</span>\n'
     else:
         insert_body = HTML_TEMPLATE
         blog_index_url = instance.blog.file.url
@@ -100,7 +121,8 @@ def insert_latest_posts(line, config: MkDocsConfig):
         blog_title=blog_title,
         li_entries=li_entries,
         blog_index_url=blog_index_url,
-        icon_shortcode=icon_shortcode,
+        read_more=read_more,
+        title=title,
     )
 
 
@@ -113,24 +135,24 @@ LOG: PrefixedLogger = PrefixedLogger(HOOK_NAME, logging.getLogger(f"mkdocs.hooks
 BLOG_INSTANCE_MAP: dict[str, BlogPlugin] = {}
 """Mapping of active blog instances. Set in on_config"""
 
-REQUIRED_OPTIONS: list[str] = ["root", "amount"]
+REQUIRED_OPTIONS: list[str] = ["root", "amount", "title", "read_more"]
 """List of lowercase required options to validate the input"""
 
 HTML_TEMPLATE: str = (
-    """
+"""
 <p>
-<div>Latest {blog_title} posts:</div>
+<div>{title}</div>
 <ul>
 {li_entries}
 </ul>
-<div><a href="{blog_index_url}">Read more {blog_title} posts</a></div>
+<div><a href="{blog_index_url}">{read_more}</a></div>
 </p>
 """.strip()
 )
 
 MARKDOWN_GRID_TEMPLATE: str = (
-    """
-- {icon_shortcode} Latest {blog_title} posts:
+"""
+- {title}
 
     ---
 
@@ -138,7 +160,7 @@ MARKDOWN_GRID_TEMPLATE: str = (
 
     ---
 
-    [Read more {blog_title} posts]({blog_index_url})
+    [{read_more}]({blog_index_url})
 
 """.lstrip()
 )

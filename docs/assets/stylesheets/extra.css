@@ -8,6 +8,11 @@
     --md-text-font: "EtelkaLight"; 
 }
 
+/* Blog posts on homepage */
+.extPostDate {
+    font-size: 0.75em;
+}
+
 /* Small blog post excerpts */
 .md-post--excerpt { 
     margin-bottom: 0rem;
