@@ -2,7 +2,7 @@ site_name: Nype
 site_description: Nype is a team of SAP UI5 developers with a uniquely business-aware mindset.
 site_url: https://npe.cm
 nav:
-  - Experience:
+  - Projects:
     - exp/index.md 
   - Fiori Tracker: fiori-tracker.md
   - Career: 

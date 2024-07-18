@@ -21,8 +21,10 @@ The project includes:
 
 - Audit of the current state
 - Design and preparation of SAP Fiori launchpad content management concept
-- Implementation of the concept and roles creation (with the use of [Fiori Tracker Suite](https://fioritracker.org))
+- Implementation of the concept and roles creation 
+- Documenting and mapping roles, catalogs, and apps with the use of [Fiori Tracker Suite](https://fioritracker.org)
 - Establishing the processes for requirements gathering, adding new apps, etc
 - Handover and initial support
 
 [Contact us](contact.md) to get a detailed quote.
+
