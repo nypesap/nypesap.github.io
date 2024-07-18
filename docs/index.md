@@ -11,3 +11,10 @@ title: SAP Fiori development know-how
 So while we have the [know-how](exp/index.md) to implement your SAP UI5 or SAP Fiori based solution, we also know how important it is to move fast, maintain quality, and stay flexible as your needs change and grow.
 
 Our practical, agile approach makes all that possible, giving you a solution that meets your demands – **however much they shift.**
+
+<div class="grid cards" markdown>
+
+<!-- ext:latest_blog_posts | root=blog; amount=3; markdown=true -->
+<!-- ext:latest_blog_posts | root=exp; amount=3; markdown=true -->
+
+</div>

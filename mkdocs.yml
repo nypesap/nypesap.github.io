@@ -108,6 +108,7 @@ hooks:
   - overrides/hooks/add_industry_blog_view.py  # Adds the Industry view for the Experience blog
   - overrides/hooks/adjust_redirects_html.py  # Properly sets noindex, follow in the robots meta, and sets absolute links
   - overrides/hooks/sap_icons.py  # Add SAP icons for Markdown rendering
+  - overrides/hooks/latest_blog_posts.py  # Add the option to list out latest blog posts on homepage
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |

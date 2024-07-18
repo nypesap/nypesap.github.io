@@ -1,5 +1,5 @@
 ---
-title: Experience
+title: Projects
 description: Explore our portfolio, showcasing our delivery across industries and technologies.
 ---
 
