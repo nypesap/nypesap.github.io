@@ -15,7 +15,6 @@ LOG: PrefixedLogger = PrefixedLogger(HOOK_NAME, logging.getLogger(f"mkdocs.hooks
 # Combined template of the mkdocs_redirect.plugin.HTML_TEMPLATE +
 # https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/redirect.html
 # config.site_name needs to be filled in before overriding
-# Also sets "noindex, follow"
 HTML_TEMPLATE = """
 <!doctype html>
 <html>
@@ -24,7 +23,7 @@ HTML_TEMPLATE = """
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>{{ config.site_name }}</title>
     <link rel="canonical" href="{url}" />
-    <meta name="robots" content="noindex, follow">
+    <meta name="robots" content="index, follow">
     <noscript>
       <meta http-equiv="refresh" content="0;url={url}" />
     </noscript>
