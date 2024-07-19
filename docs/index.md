@@ -19,16 +19,16 @@ Our practical, agile approach makes all that possible, giving you a solution tha
     root=blog; 
     amount=3; 
     markdown=true; 
-    title=:material-feather:{ .lg .middle } Latest blog posts; 
-    read_more=Read more blog posts;
+    title=:material-feather:{ .lg .middle } New on the blog; 
+    read_more=All blog posts;
 -->
 <!-- 
     ext:latest_blog_posts | 
     root=exp; 
     amount=3; 
     markdown=true; 
-    title=:material-handshake-outline:{ .lg .middle } Latest projects posts; 
-    read_more=Read more projects posts;
+    title=:material-trophy:{ .lg .middle } Recent completions; 
+    read_more=All completed projects;
 -->
 
 </div>
