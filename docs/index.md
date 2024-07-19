@@ -20,7 +20,7 @@ Our practical, agile approach makes all that possible, giving you a solution tha
     amount=3; 
     markdown=true; 
     title=:material-feather:{ .lg .middle } New on the blog; 
-    read_more=All blog posts;
+    read_more=:octicons-arrow-right-24: All blog posts;
 -->
 <!-- 
     ext:latest_blog_posts | 
@@ -28,7 +28,7 @@ Our practical, agile approach makes all that possible, giving you a solution tha
     amount=3; 
     markdown=true; 
     title=:material-trophy:{ .lg .middle } Recent completions; 
-    read_more=All completed projects;
+    read_more=:octicons-arrow-right-24: All completed projects;
 -->
 
 </div>
