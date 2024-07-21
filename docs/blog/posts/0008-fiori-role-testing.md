@@ -13,7 +13,7 @@ description: Minimize repeated issues in role transitions to production system.
 
 # Spot untested apps automatically with Fiori Role Testing
 
-Ensuring the SAP project team thoroughly tests applications before production is vital to avoid errors, downtime, and unhappy users. Fiori Role Testing helps you quickly identify untested apps, ensuring every application gets tested before deployment.
+Ensuring the SAP project team tests applications before production is vital to avoid errors, downtime, and unhappy users. Fiori Role Testing helps you quickly identify untested apps, ensuring every application gets checked before deployment.
 
 <!-- more -->
 
