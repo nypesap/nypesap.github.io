@@ -20,7 +20,7 @@ Ensuring the SAP project team thoroughly tests applications before production is
 ## What is Fiori Role Testing?
 
 
-Fiori Role Testing tracks whether SAP Fiori applications linked to specific roles have been tested. It ensures all these apps are checked before they go live. The tool uses proven [Fiori App Usage](https://fioriappsusage.org) to do this.
+Fiori Role Testing tracks whether SAP Fiori applications linked to specific roles have been tested. It ensures all these apps are checked before they go live. The tool uses proven [Fiori App Usage](https://fioriappsusage.org) to do this. Fiori Role Testing is straightforward and practical. It aims to spot the most common issues with SAP Fiori apps, such as inactive services or missing authorizations.
 
 [![Fiori Role Testing](R0008/frt.png)](R0008/frt.png)
 
