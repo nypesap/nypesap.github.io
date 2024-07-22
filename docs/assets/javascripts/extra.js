@@ -1,5 +1,27 @@
 document.addEventListener("DOMContentLoaded", () => {
     "use strict";
+    // Copied from 
+    // https://github.com/timvink/mkdocs-git-revision-date-localized-plugin/blob/66b952c3ae8eae9fdd3b181bfaf9a3e1ee424208/mkdocs_git_revision_date_localized_plugin/js/timeago_mkdocs_material.js
+
+    if (typeof document$ !== "undefined") {
+        document$.subscribe(function() {
+            const nodes = document.querySelectorAll('.timeago');
+            if (nodes.length > 0) {
+              const locale = nodes[0].getAttribute('locale');
+              timeago.render(nodes, locale);
+            }
+        })
+    } else {
+        const nodes = document.querySelectorAll('.timeago');
+        if (nodes.length > 0) {
+          const locale = nodes[0].getAttribute('locale');
+          timeago.render(nodes, locale);
+        }
+    }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    "use strict";
 
     if (!window.location.pathname.startsWith("/contact")) {
         return;

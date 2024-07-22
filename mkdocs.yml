@@ -74,6 +74,7 @@ copyright: Copyright &copy; 2024 Nype
 extra_css:
   - assets/stylesheets/extra.css
 extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js
   - assets/javascripts/extra.js
 markdown_extensions:
   - toc:

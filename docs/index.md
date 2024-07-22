@@ -25,7 +25,7 @@ So while we have the [know-how](exp/index.md) to implement your SAP UI5 or SAP F
     ext:latest_blog_posts | 
     root=blog; 
     amount=3; 
-    markdown=true; 
+    display=markdown; 
     title=:material-feather:{ .lg .middle } New on the blog; 
     read_more=:octicons-arrow-right-24: All blog posts;
 -->
@@ -33,7 +33,7 @@ So while we have the [know-how](exp/index.md) to implement your SAP UI5 or SAP F
     ext:latest_blog_posts | 
     root=exp; 
     amount=3; 
-    markdown=true; 
+    display=markdown; 
     title=:material-trophy:{ .lg .middle } Recent completions; 
     read_more=:octicons-arrow-right-24: All completed projects;
 -->

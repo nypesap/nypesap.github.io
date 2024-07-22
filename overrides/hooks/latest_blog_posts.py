@@ -80,7 +80,7 @@ def insert_latest_posts(line, config: MkDocsConfig):
     read_more = options["read_more"]
     strftime = options.get("strftime")
     if not strftime:
-        strftime = "(%Y-%m-%d)"
+        strftime = "/timeago"
 
     if root not in BLOG_INSTANCE_MAP:
         LOG.warning(f"Blog root {root} does not match any blog instance")
@@ -108,8 +108,13 @@ def insert_latest_posts(line, config: MkDocsConfig):
         for post in posts:
             href = post.file.src_uri
             text = post.title
-            date = post.config.date["created"].strftime(strftime)
-            li_entries += f'    - [{text}]({href}) <span class="extPostDate">{date}</span>\n'
+            if strftime.startswith("/timeago"):
+                date = post.config.date["created"]
+                date_span = f'<span class="extPostDate" markdown>:material-clock-plus-outline: <span class="timeago" datetime="{date}" locale="en"></span></span>'
+            else:
+                date = post.config.date["created"].strftime(strftime)
+                date_span = f'<span class="extPostDate">{date}</span>'
+            li_entries += f'    - [{text}]({href}) {date_span}\n'
     elif display == "html_simple":
         insert_body = HTML_SIMPLE_TEMPLATE
         blog_index_url = instance.blog.file.url
