@@ -7,7 +7,7 @@ description: Get in touch and let's work together.
 
 Whether you’re looking for developers for your upcoming SAP UI5 or SAP Fiori project or more information on Nype, don’t hesitate to get in touch.
 
-You can contact <span id="extShowEmail">`Show Hidden E-mail`</span> directly or fill out the form below.
+You can contact <span id="extShowEmail">`Show e-mail`</span> or fill out the form:
 
 ## Contact Form
 
