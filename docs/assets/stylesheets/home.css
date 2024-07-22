@@ -29,3 +29,13 @@
         width: 38rem;
     }
 }
+
+/* Homepage blog posts */
+
+.grid.cards ul {
+    list-style: none;
+}
+
+.grid.cards ul li {
+    margin-left: 0;
+}

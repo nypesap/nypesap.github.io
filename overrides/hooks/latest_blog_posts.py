@@ -110,11 +110,12 @@ def insert_latest_posts(line, config: MkDocsConfig):
             text = post.title
             if strftime.startswith("/timeago"):
                 date = post.config.date["created"]
-                date_span = f'<span class="extPostDate" markdown>:material-clock-plus-outline: <span class="timeago" datetime="{date}" locale="en"></span></span>'
+                placeholder = post.config.date["created"].strftime("%Y-%m-%d")
+                date_span = f'<span class="extPostDate" markdown>:material-clock-plus-outline: <span class="timeago" datetime="{date}" locale="en">{placeholder}</span></span>'
             else:
                 date = post.config.date["created"].strftime(strftime)
                 date_span = f'<span class="extPostDate">{date}</span>'
-            li_entries += f'    - [{text}]({href}) {date_span}\n'
+            li_entries += f'    - {date_span}\n    [{text}]({href})\n'
     elif display == "html_simple":
         insert_body = HTML_SIMPLE_TEMPLATE
         blog_index_url = instance.blog.file.url
