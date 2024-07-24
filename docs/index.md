@@ -1,6 +1,8 @@
 ---
 template: home.html
 title: SAP Fiori development know-how
+nype_config:
+  container_css: hide-h1 justify
 ---
 
 <div class="md-grid" markdown>

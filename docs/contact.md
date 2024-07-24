@@ -1,18 +1,21 @@
 ---
 title: Contact
-template: main-only-content.html
 description: Get in touch and let's work together.
+nype_config:
+  js:
+    contact_form: true
+  container_css: hide-h1 content-only justify
 ---
 **Get in touch – we’d love to hear from you.**
 
 Whether you’re looking for developers for your upcoming SAP UI5 or SAP Fiori project or more information on Nype, don’t hesitate to get in touch.
 
-You can contact <span id="extShowEmail">`Show e-mail`</span> or fill out the form:
+You can contact <span class="nype-code-button nype-show-email">`Show e-mail`</span> or fill out the form:
 
 ## Contact Form
 
-<div id="extFormWrapper">
-    <form method="POST">
+<div class="nype-form-wrapper">
+    <form class="nype-form" method="POST">
         <label for="fullname">Full Name:</label>
         <input 
             class="md-input" 
@@ -51,7 +54,6 @@ You can contact <span id="extShowEmail">`Show e-mail`</span> or fill out the for
         ></textarea>
         <button 
             class="md-button md-button--primary"
-            id="extSubmitForm"
             type="submit"
         >Submit</button>
     </form>

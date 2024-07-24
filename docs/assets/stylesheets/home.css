@@ -39,3 +39,29 @@
 .grid.cards ul li {
     margin-left: 0;
 }
+
+/* Homepage settings for logo */
+
+@media screen and (max-width: 45em) {
+    :root {
+        --ext-nype-home-logo-height: 7rem;
+    }
+}
+
+@media screen and (min-width: 45em) {
+    :root {
+        --ext-nype-home-logo-height: 10rem;
+    }
+}
+
+.twemoji.extHomeLogoSVG {
+    height: var(--ext-nype-home-logo-height);
+    width: 100%;
+}
+
+.twemoji.extHomeLogoSVG svg {
+    height: var(--ext-nype-home-logo-height);
+    width: 100%;
+    margin: 0 auto;
+    max-height: unset;
+}

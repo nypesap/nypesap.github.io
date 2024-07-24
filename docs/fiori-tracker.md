@@ -1,7 +1,8 @@
 ---
 title: Fiori Tracker
-template: main-only-content.html
 description: Fiori Tracker is an suite of applications that simplifies Fiori launchpad content management and provides insight on application usage. 
+nype_config:
+  container_css: hide-h1 content-only justify
 ---
 **Our 2018 SAP S/4HANA project was slowed down by repetitive SAP Fiori content management tasks.**
 

@@ -1,7 +1,8 @@
 ---
 title: Offer
-template: main-only-content.html
 description: Full-time contract engagement on a daily rate.
+nype_config:
+  container_css: hide-h1 content-only justify
 ---
 
 We offer:

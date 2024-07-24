@@ -1,19 +1,7 @@
-{% extends "base.html" %}
+{% extends "nype-base.html" %}
 
 {% block extrahead %}
+  {{ super() }}
   <link rel="apple-touch-icon" href="{{ 'assets/images/logo-syg.png' | url }}" />
   <meta property="robots" content="index, follow" />
-{% endblock %}
-
-{# Custom helper div to use for CSS selector in extra.css #}
-{% block header %}
-  {% if page and page.file.dest_uri == "index.html" %}
-  <div id="extHomePageHeader" style="display: none;"></div>
-  {% elif posts %}
-  <div id="extBlogViewHeader" style="display: none;"></div>
-  {% else %}
-  <div id="extNormalPageHeader" style="display: none;"></div>
-  {% endif %}
-  
-  {% include "partials/header.html" %}
 {% endblock %}

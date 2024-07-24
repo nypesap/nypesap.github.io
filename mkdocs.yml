@@ -12,7 +12,7 @@ nav:
   - Offer: offer.md
   - Contact: contact.md
 theme: 
-  name: 'material'
+  name: nype
   language: en
   palette:
     - scheme: slate
@@ -23,6 +23,10 @@ theme:
     - navigation.tabs     # Tabs in nav bar
     - navigation.indexes  # index pages merged with section names
     - navigation.expand   # Sections are open by default
+  nype_config:
+    js:
+      contact_form_action_hex: 6148523063484d364c79396d62334a74637935316269317a6447463061574d75593239744c325a76636d317a4c7a646a596d49344d6a557a5957457a596a5934596d4d3059574e6b596a45304d44557a4e7a41334d5445315a6a55794e6d51354d7a673d
+      contact_form_email_hex: 5047456761484a6c5a6a306962574670624852764f6d64795a576375625746735a58647a61326c41626e6c775a584e686343356a62323069506d64795a576375625746735a58647a61326c41626e6c775a584e686343356a623230384c32452b
 plugins:
   - blog:
       blog_dir: blog
@@ -31,7 +35,7 @@ plugins:
       blog_dir: exp
       # post_date_format: yyyy MMMM
       # Due to a bug in the plugin, this option doesn't work per instance basis.
-      # The patch_blog_date.py hook applies the date format for this instance.
+      # The nype/unique_blog_date plugin applies the date format for this instance.
       post_readtime: false
       authors: false
       archive_name: Annual recap
@@ -69,6 +73,16 @@ plugins:
         "sap-fiori-atlassian-jira-integration-creating-a-support-message.md": "blog/posts/0006-jira-integration.md"
         "sap-ui5-pl.md": "index.md"
         "sap-fiori.md": "index.md"
+  - unique_blog_date
+  - custom_social_logo
+  - custom_blog_categorization:
+      hook_blog_dir: exp
+      render_name: Industries
+      code_name: industries
+      url_format: industry/{slug}
+  - custom_redirects
+  - sap_icons
+  - latest_blog_posts
 
 copyright: Copyright &copy; 2024 Nype
 extra_css:
@@ -102,14 +116,6 @@ extra:
       link: https://twitter.com/nypesap/
     - icon: custom/fioritracker
       link: https://fioritracker.org/?ref=npe
-
-hooks:
-  - overrides/hooks/patch_blog_date.py  # Sets the proper date format for "exp" blog instance.
-  - overrides/hooks/change_logo_for_social_cards.py  # Instead of logo.png use social_logo.png
-  - overrides/hooks/add_industry_blog_view.py  # Adds the Industry view for the Experience blog
-  - overrides/hooks/adjust_redirects_html.py  # Properly sets noindex, follow in the robots meta, and sets absolute links
-  - overrides/hooks/sap_icons.py  # Add SAP icons for Markdown rendering
-  - overrides/hooks/latest_blog_posts.py  # Add the option to list out latest blog posts on homepage
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |

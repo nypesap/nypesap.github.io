@@ -1,7 +1,8 @@
 ---
 title: Career
-template: blog-only-content.html
 description: Explore our current vacancies.
+nype_config:
+  container_css: hide-h1 content-only justify
 ---
 
 **Tired of old, outdated ways of working? Looking for a more dynamic environment where your talents are put to good use?**
