@@ -1,5 +1,5 @@
 ---
-title: Manage Sales Contracts F1851 extension 
+title: Manage Sales Contracts F1851 extension - custom column, filter field with value help
 description: >
   "Manage Sales Contracts" (F1851) extension: Additional custom columns on list
 authors:
@@ -10,7 +10,7 @@ tags:
   - SAP S/4HANA 2021
   - App ID F1851
 industries:
-  - Finance (Germany)
+  - Administration (Germany)
 date: 2024-03-31
 ---
 
@@ -23,6 +23,9 @@ Two additional columns for custom fields:<br>
 1. PSP Project<br>
 2. PSP Product<br>
 
+Filter filed with value help for:<br>
+1. PSP Project<br>
+2. PSP Product<br>
 
 
 ## Screenshots

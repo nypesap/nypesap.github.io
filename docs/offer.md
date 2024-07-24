@@ -26,5 +26,5 @@ The project includes:
 - Establishing the processes for requirements gathering, adding new apps, etc
 - Handover and initial support
 
-[Contact us](contact.md) to get a detailed quote.
+[Contact us](contact.md) to get a quote.
 
