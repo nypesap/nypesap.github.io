@@ -27,3 +27,7 @@ My Inbox integration with multiple backends.
 
 Integration of workflows from multiple systems in SAP Fiori app "My Inbox" [F0862]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0862%27)/S12OP )
 
+
+## Do you want similar solution for your business? 
+
+[Contact us](../../../contact.md) for a proposal.

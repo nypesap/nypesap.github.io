@@ -3,7 +3,7 @@ site_description: Nype is a team of SAP UI5 developers with a uniquely business-
 site_url: https://npe.cm
 nav:
   - Projects:
-    - exp/index.md 
+    - projects/index.md 
   - Fiori Tracker: fiori-tracker.md
   - Career: 
     - jobs/index.md
@@ -28,7 +28,7 @@ plugins:
       blog_dir: blog
       post_url_format: "{slug}"
   - blog:
-      blog_dir: exp
+      blog_dir: projects
       # post_date_format: yyyy MMMM
       # Due to a bug in the plugin, this option doesn't work per instance basis.
       # The patch_blog_date.py hook applies the date format for this instance.
@@ -118,8 +118,8 @@ not_in_nav: |
   /contact-success.md
   /fiori-apps-usage.md
   /tags.md
-  /exp/pending/*
-  /exp/templates/*
+  /projects/pending/*
+  /projects/templates/*
   /discord.md
   /discord2.md
 
