@@ -15,7 +15,7 @@ nype_config:
 <div class="mdx-hero__content" markdown>
 **Nype is a team of SAP UI5 developers with a uniquely business-aware mindset.**
 
-So while we have the [know-how](exp/index.md) to implement your SAP UI5 or SAP Fiori-based solution, we also know how important it is to align with **business needs**.
+So while we have the [know-how](projects/index.md) to implement your SAP UI5 or SAP Fiori-based solution, we also know how important it is to align with **business needs**.
 </div>
 
 </div>
@@ -33,7 +33,7 @@ So while we have the [know-how](exp/index.md) to implement your SAP UI5 or SAP F
 -->
 <!-- 
     ext:latest_blog_posts | 
-    root=exp; 
+    root=projects; 
     amount=3; 
     display=markdown; 
     title=:material-trophy:{ .lg .middle } Recent completions; 
