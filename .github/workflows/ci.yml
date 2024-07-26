@@ -28,6 +28,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
+      - run: python -m mkdocs_nype --minify --inject-minified
       - run: mkdocs build --strict
       - name: Prepare deploy archive
         run: |
