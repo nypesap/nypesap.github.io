@@ -73,7 +73,8 @@ plugins:
         "sap-fiori-atlassian-jira-integration-creating-a-support-message.md": "blog/posts/0006-jira-integration.md"
         "sap-ui5-pl.md": "index.md"
         "sap-fiori.md": "index.md"
-  - unique_blog_date
+  - unique_blog_date:
+      hook_blog_dir: projects
   - custom_social_logo
   - custom_blog_categorization:
       hook_blog_dir: projects
