@@ -52,15 +52,11 @@ plugins:
   - minify:
       enabled: !ENV [CI, true]
       minify_html: true
-      minify_js: true
-      minify_css: true
+      minify_js: false
+      minify_css: false
       htmlmin_opts:
           remove_comments: true
       cache_safe: true
-      js_files:
-        - assets/javascripts/extra.js
-      css_files:
-        - assets/stylesheets/extra.css
   - redirects:
       redirect_maps:
         "blog/2022/03/11/practical-project-roles-in-sap-fiori-application-handling.md": "blog/posts/0001-practical-roles-in-SAP-apps-handling.md"
