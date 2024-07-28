@@ -16,7 +16,7 @@ theme:
   language: en
   palette:
     - scheme: slate
-  favicon: 'assets/images/favicon.ico'
+  favicon: favicon.ico
   logo: 'assets/images/logo.png'
   custom_dir: overrides
   features:
