@@ -26,4 +26,9 @@ If the adaptation project is active, you should see the custom namespace. For ex
 
 [![Diagnostic tool screen shot](R0004/diag-tool.png)](R0004/diag-tool.png)
 
+
+:fontawesome-brands-youtube:{ .youtube } [How to check if the changes from the adaptation project are active](https://youtu.be/rZ3Y68cXi4M) - :octicons-clock-24: 38s
+
+
+
 See also: [Quick tip: How to check if the adaptation project is loading correctly?](0003-adaptation-loading.md)
