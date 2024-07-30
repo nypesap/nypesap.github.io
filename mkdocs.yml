@@ -82,9 +82,9 @@ plugins:
   - sap_icons
   - latest_blog_posts
   - custom_cta_sections:
-      section_title: Need something similar?
-      section_cta: ':fontawesome-solid-handshake: Get a quote'
-      section_target: contact.md
+      title: Need something similar?
+      cta: ':fontawesome-solid-handshake: Get a quote'
+      target: contact.md
       paths:
         - docs/projects/posts
 
