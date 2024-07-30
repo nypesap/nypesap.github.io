@@ -13,7 +13,7 @@ nype_config:
 </div>
 
 <div class="mdx-hero__content" markdown>
-**Nype is a team of SAP UI5 developers with a uniquely business-aware mindset.**
+**Nype is a team of SAP UI5 developers with a business-aware mindset.**
 
 So while we have the [know-how](projects/index.md) to implement your SAP UI5 or SAP Fiori-based solution, we also know how important it is to align with **business needs**.
 </div>
