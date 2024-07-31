@@ -39,4 +39,4 @@ The Test User app from [Fiori Tracker Suite](https://fioritracker.org) provides 
 
 [![Test users](R0007/tu2.gif)](R0007/tu2.gif)
 
-Best of all, Fiori Tracker is free if you let us feature your company name as a user. [Contact us](https://fioritracker.org/contact/) to get the installation file.
+Best of all, Fiori Tracker is free if you let us feature your company name as a user. [Contact us](https://fioritracker.org/free-offer/) to get the installation file.
