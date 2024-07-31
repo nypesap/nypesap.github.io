@@ -13,7 +13,7 @@ description: The Test User app from Fiori Tracker Suite centralizes test user ma
 
 # Streamlining SAP Fiori Testing with the Test User App from the Fiori Tracker Suite
 
-SAP S/4HANA project teams support SAP Fiori apps available on SAP Fiori Launchpad. An essential aspect of the support is testing. Since the apps are [designed based on roles](https://experience.sap.com/fiori-design-web/design-principles/#rolebased), the team requires test users with those roles. 
+The SAP S/4HANA project team supports SAP Fiori applications available through the SAP Fiori Launchpad. A critical aspect of this support is testing. Because these applications are [designed for specific roles](https://experience.sap.com/fiori-design-web/design-principles/#rolebased), reliable testing must take roles into account. The best way to consider roles in testing is using role-dedicated test users.
 
 <!-- more -->
 
