@@ -17,6 +17,7 @@ To streamline the collaboration in SAP team, we developed **Fiori Tracker**, a t
 -   :material-clock-fast:{ .lg .middle } Set up in 1 day
 </div>
 
+[![Fiori Tracker Tiles](res/ss00.png)](res/ss00.png)
 
 **Fiori Tracker is built to support blueprinting.** 
 
