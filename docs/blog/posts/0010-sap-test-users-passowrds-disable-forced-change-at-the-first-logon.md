@@ -6,7 +6,7 @@ tags:
   - SAP S/4HANA
 categories:
   - Testing solutions
-date: 2020-01-20
+date: 2024-08-05
 description: SAP test users passwords - disable forced change at the first logon 
 ---
 
