@@ -7,26 +7,23 @@ tags:
 categories:
   - Testing solutions
 date: 2024-08-05
-description: SAP test users passwords - disable forced change at the first logon 
+description: SAP test users passwords - disable forced change at first logon 
 ---
 
-# SAP test users passwords - disable forced change at the first logon 
+# SAP test users passwords - disable forced change at first logon 
 
-Each implementation project with SAP Fiori's [role-based principle](https://experience.sap.com/fiori-design-web/design-principles/) brings the need to keep numerous test users. Those test users are going to be used by different project members simultaneously, thus the need to share the test users with their passwords.
+When implementing SAP Fiori with its role-based principle, you’ll need numerous test users. These users will be shared among different project members, so they need to have set passwords.
 
 <!-- more -->
 
- Before sharing the list, there is a need to set the user passwords. Manually updating more than 10 passwords seems like a tedious task. Especially that there are two steps needed:
+Updating these passwords manually, especially for more than 10 users, is tedious. You need to:
 
-1. Setting the password,
-2. Avoid forced password change at the first logon to keep password unchanged
-
-Below is the report that automates this job.
-
-The report sets the passwords the same as users, but feel free to adapt the program if you find it disturbing.
+Set the password.
+Disable forced password change at the first logon.
+Here's a report to automate this process. It sets the passwords to match the usernames by default, but you can adjust it as needed.
 
 ``` ABAP
-REPORT zfioripassreset.
+REPORT zpassreset.
 
 DATA: uname TYPE xubname, returny TYPE i, 
 bapimsg LIKE bapiret2 OCCURS 0 WITH HEADER LINE, 
