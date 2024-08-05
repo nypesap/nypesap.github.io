@@ -13,7 +13,7 @@ description: SAP UI5 developer laptop setup.
 
 # SAP UI5 developer laptop setup
 
-This guid will help you make sure that your project laptop is ready for SAP UI5 development. I'm listing the essential hardware and software configuration you need to develop and support SAP UI5 applications.
+This guide will help you make sure that your project laptop is ready for SAP UI5 development. I'm listing the essential hardware and software configuration you need to develop and support SAP UI5 applications.
 
 <!-- more -->
 
