@@ -7,19 +7,19 @@ tags:
 categories:
   - Testing solutions
 date: 2020-01-20
-description: SAP user password mass update report
+description: SAP user password mass update report - disable forced password change at the first logon
 ---
 
-# SAP user password mass update report
+# SAP user password mass update report - disable forced password change at the first logon
 
 Each implementation project with SAP Fiori's role-based principle brings the need to keep numerous test users. Those test users are going to be used by different project members simultaneously, thus the need to share the test users with their passwords.
 
 <!-- more -->
 
- Before sharing the list, there is a need to set the users’ passwords. Manually updating more than 10 passwords seems like a tedious task. Especially that there are two steps needed:
+ Before sharing the list, there is a need to set the user passwords. Manually updating more than 10 passwords seems like a tedious task. Especially that there are two steps needed:
 
 1. Setting the password,
-2. Making sure that there is no forced change at the first logon
+2. Avoid forced password change at the first logon to keep password unchanged
 
 Below is the report that automates this job.
 
