@@ -12,7 +12,7 @@ description: SAP test users passwords - disable forced change at first logon
 
 # SAP test users passwords - disable forced change at first logon 
 
-When implementing SAP Fiori with its role-based principle, you’ll need numerous test users. These users will be shared among different project members, so they need to have set passwords.
+When implementing SAP Fiori with its [role-based principle](https://experience.sap.com/fiori-design-web/design-principles/), you’ll need numerous test users. These users will be shared among different project members, so they need to have set passwords.
 
 <!-- more -->
 
