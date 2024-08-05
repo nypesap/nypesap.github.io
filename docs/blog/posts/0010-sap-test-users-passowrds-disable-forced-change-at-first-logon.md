@@ -18,8 +18,9 @@ When implementing SAP Fiori with its role-based principle, you’ll need numerou
 
 Updating these passwords manually, especially for more than 10 users, is tedious. You need to:
 
-Set the password.
-Disable forced password change at the first logon.
+1. Set the password.
+2. Disable forced password change at the first logon.
+
 Here's a report to automate this process. It sets the passwords to match the usernames by default, but you can adjust it as needed.
 
 ``` ABAP
