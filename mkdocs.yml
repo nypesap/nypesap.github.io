@@ -28,6 +28,9 @@ theme:
     contact_form_email_hex: 5047456761484a6c5a6a306962574670624852764f6d64795a576375625746735a58647a61326c41626e6c775a584e686343356a62323069506d64795a576375625746735a58647a61326c41626e6c775a584e686343356a623230384c32452b
     more_favicons: true
     safari_mask_color: '#00abc8'
+    giscus_prefixes: blog/
+    giscus_category_name: npe.cm comments
+    giscus_category_id: MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMjI3Mzg=
 plugins:
   - blog:
       blog_dir: blog
