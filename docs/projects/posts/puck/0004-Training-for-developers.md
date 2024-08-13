@@ -21,8 +21,12 @@ Series of workshops for SAP UI5 developers.
 
 1. Basics of SAP Business Application Studio, configuring for connecting with SAP S/4HANA backends for app extension and deployment
 2. Developing SAP Fiori Elements based on SAP CDS views based on SAP Flight model
-3. Extending standard SAP Fiori application for adding new column, value help using SAP Custom Field and logic and SAP CDS view extensions (based on real app example Manage Sales Contracts)
-4. Git repository concept and using git in SAP Business Application studio
+3. Extending standard SAP Fiori application for adding new column, value help (based on real app example Manage Sales Contracts)
+ - Using SAP Custom Field and Logic app
+ - SAP CDS view extensions
+ - SAP Service Builder project copy
+ - Extension project with missing frontend local annotations copied from the standard SAP Fiori application
+4. Git repository concept and using git in SAP Business Application Studio and Microsoft Azure DevOps
 5. Debugging SAP UI5 applications in Chrome (based on real app example Manage Sales Contracts)
 
 
