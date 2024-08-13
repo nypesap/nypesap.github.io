@@ -41,6 +41,7 @@ plugins:
       # Due to a bug in the plugin, this option doesn't work per instance basis.
       # The nype/unique_blog_date plugin applies the date format for this instance.
       post_readtime: false
+      post_url_format: "{slug}"
       authors: false
       archive_name: Annual recap
   - blog:
