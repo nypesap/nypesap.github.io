@@ -30,4 +30,4 @@ To start using Fiori Role Testing, check out the [Fiori Roles Testing page](http
 
 ## See also 
 
-For one more tip on making your testing more efficient, read my article on [speeding up Jira issue creation for SAP Fiori applications](0006-jira-integration.md). It explains how to streamline issue creation in Jira or other issues ticketing systems.
+For one more tip on making your testing more efficient, read my article on [speeding up Jira issue creation for SAP Fiori applications](0001-jira-integration.md). It explains how to streamline issue creation in Jira or other issues ticketing systems.
