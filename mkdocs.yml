@@ -47,6 +47,7 @@ plugins:
   - blog:
       blog_dir: jobs
       post_readtime: false
+      post_url_format: "{slug}"
   - tags:
       tags_file: tags.md
   - search
