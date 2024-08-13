@@ -1,11 +1,11 @@
 ---
-title: Series of trainings for SAP UI5 developers
+title: Series of workshops for SAP UI5 developers
 description: >
-  Series of trainings for SAP UI5 developers
+  Series of workshops for SAP UI5 developers
 authors:
   - nype
 categories:
-  - SAP Trainings
+  - SAP Workshops
 tags:
   - SAP S/4HANA 2023
 industries:
@@ -15,7 +15,7 @@ date: 2024-08-01
 
 <!-- more -->
 
-Series of trainings for SAP UI5 developers.
+Series of workshops for SAP UI5 developers.
 
 ## Subjects
 
