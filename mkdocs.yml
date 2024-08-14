@@ -37,6 +37,7 @@ plugins:
       post_url_format: "{slug}"
   - blog:
       blog_dir: projects
+      pagination: false
       # post_date_format: yyyy MMMM
       # Due to a bug in the plugin, this option doesn't work per instance basis.
       # The nype/unique_blog_date plugin applies the date format for this instance.
