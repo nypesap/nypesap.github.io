@@ -30,16 +30,6 @@
     }
 }
 
-/* Homepage blog posts */
-
-.grid.cards ul {
-    list-style: none;
-}
-
-.grid.cards ul li {
-    margin-left: 0;
-}
-
 /* Homepage settings for logo */
 
 @media screen and (max-width: 45em) {
