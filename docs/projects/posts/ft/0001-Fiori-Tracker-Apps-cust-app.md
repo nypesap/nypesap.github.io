@@ -16,10 +16,12 @@ date: 2018-07-01
 <!-- more -->
 
 FT Applications - app for managing list of the applications in SAP S/4HANA migrations, implementations and support
-custom 
+custom.
+
+FT Applications stores and tracks all your Fiori launchpad apps with 'App IDs,' providing a single source of truth for your project’s app info (project's "SAP Fiori library"). A major benefit is having custom and extended app records in one central place.
 
 ## Business scenarios
-- sAP S/4HANA project mangement
+- SAP S/4HANA project management
 - SAP UI5 development management
 - Project documentation
 
