@@ -25,5 +25,7 @@ SAP Enterprise Portal to My Inbox migration.
 
 ## Details
 
-SAP Enterprise Portal 7.5 retirement and replacement with SAP Fiori app "My Inbox" (F0862). Integration of workflows from multiple systems.
+SAP Enterprise Portal 7.5 retirement and replacement with SAP Fiori app "My Inbox" (F0862). 
+
+Integration of workflows from multiple systems.
 
