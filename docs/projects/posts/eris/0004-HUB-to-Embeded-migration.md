@@ -18,7 +18,7 @@ Adjustments to custom and extended SAP Fiori app. Solving issues with apps.
 
 ## Timeframe
 
-Go live 29 September 2023
+Go live in September 2023
 
 ## Scope
 
