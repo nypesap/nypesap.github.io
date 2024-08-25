@@ -6,7 +6,7 @@ nype_config:
 ---
 **Our 2018 SAP S/4HANA project was slowed down by repetitive SAP Fiori content management tasks.**
 
-To streamline the collaboration in SAP team, we developed **Fiori Tracker**, a tool that has become integral to our work ever since.
+To streamline the collaboration in SAP team, we developed [**Fiori Tracker**](https://fioritracker.org/), a tool that has become integral to our work ever since.
 
 **Fiori Tracker benefits**
 
@@ -25,4 +25,4 @@ It imports the system's catalogs and app lists, offering a user-friendly view fo
 
 **We offer Fiori Tracker at no cost for customers who agree to have their name published on the Fiori Tracker customer list.**
 
-Learn more on [Fiori Tracker](https://fioritracker.org/) page.
+Our internal work with Fiori Tracker sharpens the tools we later use for client projects.
