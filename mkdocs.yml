@@ -94,6 +94,7 @@ plugins:
       target: contact.md
       paths:
         - docs/projects/posts
+  - custom_auto_links
 
 copyright: Copyright &copy; 2024 Nype
 extra_css:

@@ -24,9 +24,9 @@ date: 2023-10-20
 3. Create Purchase Requisition
 4. Manage Purchase Requisition
 5. Manage Purchase Requisition Professional
-6. Analyze Installment Plan F2363
-7. Manage Cost Centers F1443A
-8. Analyze Write-Offs F0861
+6. Analyze Installment Plan fal://F2363/2021_FPS01
+7. Manage Cost Centers fal://F1443A/2021_FPS01
+8. Analyze Write-Offs fal://F0861/2021_FPS01
 9. Upload General Journal Entries for General Ledger Accountant
 
 ## Solving issues with apps
