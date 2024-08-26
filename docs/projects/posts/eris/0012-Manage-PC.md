@@ -1,7 +1,7 @@
 ---
-title: Manage Purchase Contracts F3144 Extension
+title: Manage Purchase Contracts F3144 extension - One-time suppliers
 description: >
-  Manage Purchase Contracts F3144 Extension
+  Manage Purchase Contracts F3144 extension
 authors:
   - nype
 categories:
@@ -16,7 +16,7 @@ date: 2024-03-31
 
 <!-- more -->
 
-App: Manage Purchase Contracts [F3144]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F3144%27)/S23OP ) Extension
+App: Manage Purchase Contracts fal://F3144/2021_FPS01 extension
 
 ## Business scenarios
 

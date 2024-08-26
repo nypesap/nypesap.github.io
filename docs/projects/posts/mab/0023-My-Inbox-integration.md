@@ -1,5 +1,5 @@
 ---
-title: My Inbox integration
+title: My Inbox F0862 integration 
 description: >
   My Inbox integration
 authors:
@@ -18,12 +18,12 @@ date: 2024-05-30
 
 <!-- more -->
 
-My Inbox integration with multiple backends.
+My Inbox F0862 integration with multiple backends.
 
 ## Business scenarios
 - Logistics and finance workflows.
 
 ## Details
 
-Integration of workflows from multiple systems in SAP Fiori app "My Inbox" [F0862]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0862%27)/S12OP )
+Integration of workflows from multiple systems in SAP Fiori app "My Inbox" fal://F0862/
 
