@@ -1,5 +1,5 @@
 ---
-title: Manage RFQ extension F2049
+title: Manage RFQ F2049 extension 
 description: >
   Manage RFQ extension
 authors:
@@ -16,7 +16,7 @@ date: 2024-03-31
 
 <!-- more -->
 
-App: "Manage RFQ" extension [F2049]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F2049%27)/S23OP )
+App: "Manage RFQ" extension fal://F2049/2021_FPS01
 
 ## Business scenarios
 

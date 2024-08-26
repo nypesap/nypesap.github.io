@@ -16,7 +16,7 @@ date: 2024-03-31
 
 <!-- more -->
 
-"Create Purchase Requisition" extension ([F1851]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F1851%27)/S23OP ))
+"Create Purchase Requisition" fal://F1851/2021_FPS01  extension 
 
 ## Screenshots
 

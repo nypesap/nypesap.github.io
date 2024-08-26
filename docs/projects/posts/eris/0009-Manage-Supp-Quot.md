@@ -1,5 +1,5 @@
 ---
-title: Manage Supplier Quotations F1991 Extension
+title: Manage Supplier Quotations F1991 Extension - One-time suppliers
 description: >
   Manage Supplier Quotations F1991 Extension
 authors:
@@ -16,7 +16,7 @@ date: 2024-03-31
 
 <!-- more -->
 
-App: Manage Supplier Quotations  Extension [F1991]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F1991%27)/S23OP )
+App: Manage Supplier Quotations fal://F1991/2021_FPS01 extension 
 
 ## Business scenarios
 

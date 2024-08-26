@@ -1,5 +1,5 @@
 ---
-title: My Purchase Requisition extension
+title: My Purchase Requisition F1639 extension
 description: >
   My Purchase Requisition extension
 authors:
@@ -17,6 +17,6 @@ date: 2024-03-31
 <!-- more -->
 
 
-App: "My Purchase Requisition extension" ([F1639]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F1639%27)/S23OP ))
+App: "My Purchase Requisition extension" fal://F1639/2021_FPS01 
 
 

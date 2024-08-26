@@ -1,5 +1,5 @@
 ---
-title: My Inbox F0862 Extension
+title: My Inbox F0862 Extension - One-time suppliers
 description: >
   My Inbox F0862 Extension
 authors:
@@ -16,7 +16,7 @@ date: 2024-03-31
 
 <!-- more -->
 
-App: My Inbox [F0862]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0862%27)/S23OP ) Extension
+App: My Inbox fal://F0862/2021_FPS01 extension
 
 ## Business scenarios
 
