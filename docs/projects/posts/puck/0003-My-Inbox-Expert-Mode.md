@@ -1,14 +1,14 @@
 ---
-title: My Inbox (Expert mode) F0862 Extension
+title: My Inbox (Expert mode) F0862 extension
 description: >
-  My Inbox F0862 Extension
+  My Inbox F0862 extension
 authors:
   - nype
 categories:
   - Extensions of standard apps
 tags:
   - SAP S/4HANA 2021
-  - App ID F1991
+  - App ID F0862
 industries:
   - Administration (Germany)
 date: 2023-07-30
@@ -16,7 +16,7 @@ date: 2023-07-30
 
 <!-- more -->
 
-App: My Inbox [F0862]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0862%27)/S23OP ) Extension
+App: My Inbox fal://F0862/2021_FPS01 extension
 
 ## Business scenarios
 

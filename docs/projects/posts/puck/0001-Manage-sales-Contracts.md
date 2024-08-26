@@ -1,7 +1,7 @@
 ---
-title: Manage Sales Contracts F1851 extension - custom column, filter field with value help
+title: Manage Sales Contracts F1851 extension - custom fields for projects
 description: >
-  "Manage Sales Contracts" (F1851) extension: Additional custom columns on list
+  Manage Sales Contracts F1851 extension: custom column, filter field with value help for projects
 authors:
   - nype
 categories:
@@ -16,7 +16,7 @@ date: 2024-03-31
 
 <!-- more -->
 
-App: "Manage Sales Contracts" [F1851]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F1851%27)/S23OP )
+App: "Manage Sales Contracts" fal://F1851/2021_FPS01
 
 
 Two additional columns for custom fields:<br>

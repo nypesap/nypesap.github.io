@@ -1,7 +1,7 @@
 ---
-title: Manage Dispute Cases F0702 extension
+title: Manage Dispute Cases F0702 extension - fields reordering, reason codes dropdowns, mass approvals
 description: >
-  Manage Dispute Cases extension 
+  Manage Dispute Cases F0702 extension fields reordering, reason codes dropdowns, mass approvals, salve as Tile
 authors:
   - nype
 categories:
@@ -16,7 +16,7 @@ date: 2019-11-01
 
 <!-- more -->
 
-App: "Manage Dispute Cases" extension [F0702]( https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps(%27F0702%27)/S9OP )
+App: "Manage Dispute Cases" fal://F0702/ extension 
 
 ## Business scenarios
 

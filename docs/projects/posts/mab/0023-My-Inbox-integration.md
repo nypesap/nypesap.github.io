@@ -21,7 +21,7 @@ date: 2024-05-30
 My Inbox F0862 integration with multiple backends.
 
 ## Business scenarios
-- Logistics and finance workflows.
+- Human capital management, Logistics and Finance workflows.
 
 ## Details
 
