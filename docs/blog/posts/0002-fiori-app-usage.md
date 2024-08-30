@@ -25,7 +25,7 @@ This missing feature has been a significant issue for many users. To tackle it, 
 
 ## Introducing Fiori Tracker with Fiori App Usage Report
 
-[Fiori App Usage Report report](https://fioriappsusage.org) is part of [Fiori Tracker Suite](https://fioritracker.org)  a custom solution developed by the Nype team to fill the gap left by SAP’s standard.
+[Fiori App Usage Report](https://fioriappsusage.org) is part of [Fiori Tracker Suite](https://fioritracker.org)  a custom solution developed by the Nype team to fill the gap left by SAP’s standard.
 
 [![Fiori App Usage Report screen shot](R0005/fa.png)](R0005/fa.png)
 
@@ -46,7 +46,7 @@ All data is available for access or export to visualize or analyze with your fav
 
 For insights into tracking SAP Fiori application usage, refer to the following SAP notes:
 
-2586237 – Metrics about SAP Fiori Launchpad (is now archived. SAP consolidated all KBAs regarding Fiori Metrics into KBA 3203036.)<br>
+2586237 – Metrics about SAP Fiori Launchpad (is now archived. SAP consolidated all KBAs regarding Fiori Metrics into [KBA 3203036 - Tracking usage of Fiori apps](https://me.sap.com/notes/3203036).)<br>
 2444406 – Google Analytics Integration with SAP Fiori<br>
 2506498 – Monitoring SAP Fiori Application Usage<br>
 2469965 – Tracking usage of mobile applications with SAP Fiori<br>
