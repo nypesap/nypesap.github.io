@@ -27,11 +27,9 @@ App accessible on the road from tablets.
 Serial numbers handling.
 
 Two modes:
-1. Stock based
 
-Stocking out materials based on stock data.
-
-2. 
+1. Stock based - Stocking out materials based on stock data.<br>
+2. Delivery based
 
 
 
