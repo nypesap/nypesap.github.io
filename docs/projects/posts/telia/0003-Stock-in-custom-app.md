@@ -8,7 +8,7 @@ categories:
   - Custom apps
 tags:
   - SAP S/4HANA 1909
-  - SAP Purchasing
+  - SAP Procure to Pay 
 industries:
   - Telecommunication (Lithuania)
 date: 2018-11-01

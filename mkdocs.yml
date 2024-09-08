@@ -103,6 +103,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js
   - assets/javascripts/extra.js
 markdown_extensions:
+  - pymdownx.keys
   - toc:
       permalink: true
   - admonition
@@ -117,6 +118,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - md_in_html
+
 extra:
   analytics:
     provider: google
@@ -128,6 +130,7 @@ extra:
       link: https://twitter.com/nypesap/
     - icon: custom/fioritracker
       link: https://fioritracker.org/?ref=npe
+
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
