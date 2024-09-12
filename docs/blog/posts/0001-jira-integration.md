@@ -1,5 +1,5 @@
 ---
-title: How to speed up Jira issue creation for SAP Fiori apps
+title: Blog post How to speed up Jira issue creation for SAP Fiori apps
 description: The Fiori Tracker plugin for SAP Fiori Launchpad speeds up Jira issue creation by automatically identifying the problem app and pre-filling technical details.
 authors:
   - greg
