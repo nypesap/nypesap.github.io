@@ -1,4 +1,6 @@
 ---
+title: Blog: How to check if adaptation project changes are active
+description: Step-by-step procedure on how to check if the adaptation project is active.
 authors:
   - greg
 tags:
