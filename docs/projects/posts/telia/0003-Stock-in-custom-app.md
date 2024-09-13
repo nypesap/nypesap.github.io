@@ -12,6 +12,7 @@ tags:
 industries:
   - Telecommunication (Lithuania)
 date: 2018-11-01
+slug: stock-in-material-movements-custom-app
 ---
 
 <!-- more -->
