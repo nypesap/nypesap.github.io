@@ -29,7 +29,7 @@ Serial numbers handling.
 
 Once the stock atrrives users can use [Stock-in](https://npe.cm/projects/stock-in-material-movements-custom-app) to make goods receipt. 
 
-
+If the user wants to "stock out" of his location, he can use the Push or Pull app to create the order and the outbound delivery. After that, he can make the goods issue with the [Stock-out](https://npe.cm/projects/stock-out-material-movements-custom-app) app.
 
 
 

@@ -27,8 +27,7 @@ App accessible on the road from tablets.
 
 Serial numbers handling.
 
-
-
+If the user wants to "stock out" of his location, he can use the Push or Pull app to create the order and the outbound delivery. After that, he can make the goods issue with the Stock-out app.
 
 
 
