@@ -1,4 +1,5 @@
 ---
+description: SAP UI5 developer laptop setup.
 authors:
   - greg
 tags:
@@ -8,7 +9,7 @@ tags:
 categories:
   - Developer tools
 date: 2023-05-01
-description: SAP UI5 developer laptop setup.
+
 ---
 
 # SAP UI5 developer laptop setup

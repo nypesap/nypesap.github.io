@@ -1,4 +1,5 @@
 ---
+description: SAP test users passwords - disable forced change at first logon 
 authors:
   - greg
 tags:
@@ -7,7 +8,6 @@ tags:
 categories:
   - Testing solutions
 date: 2024-08-05
-description: SAP test users passwords - disable forced change at first logon 
 ---
 
 # SAP test users passwords - disable forced change at first logon 

@@ -1,4 +1,5 @@
 ---
+description: In SAP Fiori's changing landscape, tracking app usage is crucial for organization and optimization, but standard SAP lacks built-in reporting tools for this.
 authors:
   - greg
 tags:
@@ -8,7 +9,7 @@ tags:
 categories:
   - Project organization
 date: 2019-12-20
-description: In SAP Fiori's changing landscape, tracking app usage is crucial for organization and optimization, but standard SAP lacks built-in reporting tools for this.
+
 ---
 
 # Tracking SAP Fiori Application Usage

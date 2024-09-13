@@ -1,4 +1,5 @@
 ---
+description: Minimize repeated issues in role transitions to production system.
 authors:
   - greg
 tags:
@@ -8,7 +9,7 @@ tags:
 categories:
   - Testing solutions
 date: 2024-05-10
-description: Minimize repeated issues in role transitions to production system.
+
 ---
 
 # Spot untested apps automatically with Fiori Role Testing
