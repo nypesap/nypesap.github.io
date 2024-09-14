@@ -27,9 +27,9 @@ App accessible on the road from tablets.
 
 Serial numbers handling.
 
-Once the stock arrives, users can use [Stock-in](https://npe.cm/projects/stock-in-material-movements-custom-app) to make goods receipt. 
+Once the stock arrives, users can use [Stock-in](0003-Stock-in-custom-app.md) to make goods receipt. 
 
-If the user wants to "stock out" of his location, he can use the Push or Pull app to create the order and the outbound delivery. After that, he can make the goods issue with the [Stock-out](https://npe.cm/projects/stock-out-material-movements-custom-app) app.
+If the user wants to "stock out" of his location, he can use the Push or Pull app to create the order and the outbound delivery. After that, he can make the goods issue with the [Stock-out](0004-Stock-out-custom-app.md) app.
 
 
 
