@@ -13,10 +13,7 @@ slug: SAP-Fiori-custom-app-identification
 
 # SAP Fiori custom application identification
 
-In SAP S/4HANA projects, App IDs play a critical role in managing SAP Fiori applications. While standard apps come with unique IDs that make them easy to track, custom and extended apps rarely get the same attention.
-
-<!-- more -->
-Failing to record the custom App IDs correctly can lead to project confusion, support delays, and documentation gaps. This blog will explore why custom App IDs matter, the challenges teams face without them, and best practices for proper identification and maintenance. I will also highlight the tools available for managing App IDs and the importance of accurate tracking for long-term project success.
+In SAP S/4HANA projects, App IDs play a critical role in managing SAP Fiori applications. While standard apps come with unique IDs that make them easy to track, custom and extended apps rarely get the same attention. <!-- more -->Failing to record the custom App IDs correctly can lead to project confusion, support delays, and documentation gaps. This blog will explore why custom App IDs matter, the challenges teams face without them, and best practices for proper identification and maintenance. I will also highlight the tools available for managing App IDs and the importance of accurate tracking for long-term project success.
 
 ## Why custom app IDs matter in SAP S/4HANA projects
 
@@ -28,11 +25,7 @@ Having a list of apps with IDs already serves as documentation. Although it take
 Another example is naming transport packages with all ABAP dictionary objects created for the custom app. By following the contents of such a transport package, it is possible to gain insight into how the app is built without the need to reiterate it in technical documents. Keeping a list of the apps with their IDs will also remind you to update your documentation constantly.
 
 ## Reason 2: Communication in Projects
-Clear identification of the applications in scope helps address the following challenges:
-1. How can users identify the correct app when contacting the support center agent?
-2. How can project members indicate the applications that require:
-   - Status tracking during the development, testing, and documentation process
-   - Assignment to a specific business area to establish responsibility during the development, testing, and support of applications
+Clear identification of the applications in scope helps address the following challenges: How can users identify the correct app when contacting the support center agent? How can project members indicate the applications that require: Status tracking during the development, testing, and documentation process Assignment to a specific business area to establish responsibility during the development, testing, and support of applications.
 
 ## Reason 3: Scope management
 The list custom apps and SAP standard apps enabled in FLP determine the project's scope. Adding a new app to the Fiori launchpad, especially a custom one, has a major cost impact thus, you should track it. By keeping the rule of including the app entry in the documentation before implementing it, you will gain scope control, together with documentation accuracy.
