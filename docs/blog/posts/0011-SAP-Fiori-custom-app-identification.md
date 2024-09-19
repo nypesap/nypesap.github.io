@@ -13,7 +13,7 @@ slug: SAP-Fiori-custom-app-identification
 
 # SAP Fiori custom application identification
 
-In SAP S/4HANA projects, App IDs play a critical role in managing SAP Fiori applications. While standard apps come with unique IDs that make them easy to track, custom and extended apps rarely get the same attention. <!-- more -->Failing to record the custom App IDs correctly can lead to project confusion, support delays, and documentation gaps. This post will cover the importance of custom App IDs, the challenges teams face without them, and provide a recommendation for proper identification. I will also suggest a tool for managing App IDs and emphasize the significance of accurate tracking for long-term project success.
+In SAP S/4HANA projects, application IDs play a critical role in managing SAP Fiori applications. While standard apps come with unique IDs that make them easy to track, custom and extended apps rarely get the same attention. <!-- more -->Failing to record the custom app IDs correctly can lead to project confusion, support delays, and documentation gaps. This post will cover the importance of custom app IDs, the challenges teams face without them, and provide a recommendation for proper identification. I will also suggest a tool for managing app IDs and emphasize the significance of accurate tracking for long-term project success.
 
 ## Why custom app IDs matter in SAP S/4HANA projects
 
@@ -21,15 +21,17 @@ SAP Fiori standard apps are easily identifiable by a unique App ID, which helps 
 
 ## Reason 1: Finding and maintaining documentation
 
-A list of custom apps with IDs is already a foundation of technical documentation. Although it takes time to specify the requirements and features of custom apps, maintaining an official list of the apps is a quick yet fundamental long-term step. Initially, the app list provides an understanding of the extent of custom solutions for the project. Additionally, unique App IDs can facilitate live documentation by linking the names of objects stored outside your app directory. For instance, if the git repository's name matches the app ID, every project member can effortlessly locate it and utilize the information stored there (commit descriptions).
-Another example is naming transport packages with all ABAP dictionary objects created for the custom app. By following the contents of such a transport package, project members gain insight into how developers built the app without restating it in technical documents. Keeping a list of the apps with their IDs will also remind you to update your documentation constantly.
+A list of custom apps with IDs is already a foundation of technical documentation. Although it takes time to specify the requirements and features of custom apps, maintaining an official list of the apps is a quick yet fundamental long-term step. Ultimately, you need a list what needs documentation.
+
+The app list shows the extent of custom solutions are in the project. App IDs help connect these with external docs. For example, if your git repo is named after the app ID, everyone can easily find source with comments and the history of commit descriptions. Similarly, naming transport packages with ABAP objects lets the team see how the app structure without extra documentation. Orientating documentation around app id will help to keep it current.
 
 ## Reason 2: Communication in Projects
+
 Identifying the applications in scope is crucial. It helps with several challenges. First, users can find the right app when contacting support. Next, project members can easily track the status of apps during development, testing, and documentation. Finally, assigning apps to specific business areas clarifies responsibility throughout the project.
 
 ## Reason 3: Scope management
 
-The apps enabled in the Fiori Launchpad, whether custom or standard, define the project’s scope. Adding a new app, especially a custom one, can be costly. So, it’s crucial to track it. To maintain scope control and accurate documentation, always include the app in your documentation before implementing it. This simple step ensures clarity and avoids surprises.
+The apps enabled in the Fiori Launchpad, whether custom or standard, define the project’s scope. Adding a new app, especially a custom one, can be costly. So, it’s crucial to track it. To maintain scope control and accurate documentation, always include the app in your documentation before implementing it. This simple step ensures clarity and helps maintain control over the scope.
 
 ## Proper identification
 
