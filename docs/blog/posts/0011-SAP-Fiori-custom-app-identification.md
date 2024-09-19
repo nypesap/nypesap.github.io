@@ -1,5 +1,5 @@
 ---
-description: SAP test users passwords - disable forced change at first logon 
+description: App IDs are key in SAP S/4HANA projects but custom/extended SAP Fiori apps often lack clear IDs
 authors:
   - greg
 tags:
