@@ -13,7 +13,7 @@ slug: SAP-Fiori-custom-app-identification
 
 # SAP Fiori custom application identification
 
-In SAP S/4HANA projects, App IDs play a critical role in managing SAP Fiori applications. While standard apps come with unique IDs that make them easy to track, custom and extended apps rarely get the same attention. <!-- more -->Failing to record the custom App IDs correctly can lead to project confusion, support delays, and documentation gaps. This blog will explore why custom App IDs matter, the challenges teams face without them, and best practices for proper identification and maintenance. I will also highlight the tools available for managing App IDs and the importance of accurate tracking for long-term project success.
+In SAP S/4HANA projects, App IDs play a critical role in managing SAP Fiori applications. While standard apps come with unique IDs that make them easy to track, custom and extended apps rarely get the same attention. <!-- more -->Failing to record the custom App IDs correctly can lead to project confusion, support delays, and documentation gaps. This post will cover the importance of custom App IDs, the challenges teams face without them, and provide a recommendation for proper identification. I will also suggest a tool for managing App IDs and emphasize the significance of accurate tracking for long-term project success.
 
 ## Why custom app IDs matter in SAP S/4HANA projects
 
