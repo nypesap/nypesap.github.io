@@ -23,7 +23,7 @@ SAP Fiori standard apps are easily identifiable by a unique App ID, which helps 
 
 A list of custom apps with IDs is already a foundation of technical documentation. Although specifying the requirements and features of custom apps takes time, maintaining an official list of the apps is a quick yet fundamental long-term step. Ultimately, you need a list of what needs documentation.
 
-The app list shows the extent of custom solutions in the project. App IDs help connect these with external docs. For example, if your git repo is named after the app ID, everyone can easily find source with comments and the history of commit descriptions. Similarly, naming transport packages with ABAP objects lets the team see app's structure without extra documentation. Orientating documentation around app id will help to keep it current.
+The app list shows the extent of custom solutions in the project. App IDs help connect these with external docs. For example, if your git repo is named after the app ID, everyone can easily find the source with comments and the history of commit descriptions. Similarly, naming transport packages with ABAP objects lets the team see the app's structure without extra documentation. Orientating documentation around the app ID will help keep it current.
 
 ## Reason 2: Communication in Projects
 
