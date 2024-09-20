@@ -4,49 +4,16 @@ on:
     branches:
       - master 
       - main
-env:
-  CI: true
+  workflow_dispatch: {}
 permissions:
   contents: write
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - run: mkdir -p .cache; echo mkdocs-material > .cache/safe
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ hashfiles('.cache/**') }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install -r requirements.txt
-      - run: python -m mkdocs_nype --minify --inject-minified
-      - run: mkdocs build --strict
-      - name: Prepare deploy archive
-        run: |
-          zip -r site.zip site/
-          sha256sum site.zip > checksum
-          sha256sum -c checksum
-          mkdir -p deploy
-          zip deploy/deploy.zip site.zip checksum
-      - name: Deploy files via rsync and SSH
-        uses: easingthemes/ssh-deploy@v5.0.3
-        with:
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: deploy/
-          remote_host: ${{ secrets.SSH_HOST }}
-          remote_port: ${{ secrets.SSH_PORT }}
-          remote_user: ${{ secrets.SSH_USER }}
-          target: ${{ secrets.SSH_TARGET }}
-          script_after_required: true
-          script_after: |
-            export SSH_TARGET=${{ secrets.SSH_TARGET }}
-            ${{ secrets.SSH_COMMAND }}
+    uses: nypesap/mkdocs-nype/.github/workflows/reusable_deploy.yml@main
+    secrets:
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      SSH_HOST: ${{ secrets.SSH_HOST }}
+      SSH_PORT: ${{ secrets.SSH_PORT }}
+      SSH_USER: ${{ secrets.SSH_USER }}
+      SSH_TARGET: ${{ secrets.SSH_TARGET }}
+      SSH_COMMAND: ${{ secrets.SSH_COMMAND }}
