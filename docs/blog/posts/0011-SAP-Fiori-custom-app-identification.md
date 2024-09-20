@@ -37,7 +37,7 @@ The apps enabled in the Fiori Launchpad, whether custom or standard, define the 
 
 Out of experience, I recommend using the same convention SAP uses in its Fiori application library for App IDs: the letter and four digits. SAP names standard apps using letters other than Z or Y for. This allows projects to use Z and Y for custom and extended apps. For example, "Z0061" is a clear cue immediately showing users they are dealing with a custom app.
 
-When maintaining a list of applications, the choice of tool is not critical as long as the project stores an official list of app IDs in one location. Projects can accomplish this using a SharePoint Excel spreadsheet, a Confluence page, or a similar tool. If you need to connect your App IDs with other records such as Fiori Launchpad catalogs, roles, test users, usage logs, and change requests, consider using a dedicated tool like [Fiori Tracker](https://fioritracker.org).
+When maintaining a list of applications, the choice of tool is not critical as long as the project stores an official list of app IDs in one accessible location. Projects can accomplish this using a SharePoint Excel spreadsheet, a Confluence page, or a similar tool. If you need to connect your app IDs with other records such as Fiori Launchpad catalogs, roles, test users, usage logs, and change requests, consider using a dedicated tool like [Fiori Tracker](https://fioritracker.org).
 
 ## Conclusion
 
