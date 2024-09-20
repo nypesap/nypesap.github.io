@@ -23,7 +23,7 @@ SAP Fiori standard apps are easily identifiable by a unique App ID, which helps 
 
 A list of custom apps with IDs is already a foundation of technical documentation. Although specifying the requirements and features of custom apps takes time, maintaining an official list of the apps is a quick yet fundamental long-term step. Ultimately, you need a list of what needs documentation.
 
-The app list shows the extent of custom solutions in the project. App IDs help connect these with external docs. For example, if your git repo is named after the app ID, everyone can easily find the source with comments and the history of commit descriptions. Similarly, naming transport packages with ABAP objects lets the team see the app's structure without extra documentation. Orientating documentation around the app ID will help keep it current.
+The app list shows the extent of custom solutions in the project. App IDs help connect these with external docs. For example, if your git repo is named after the app ID, everyone can easily find the source with comments and the history of commit descriptions. Similarly, naming transport packages with ABAP objects lets the team see the app's structure without extra documentation. Same applys for MS Word or PDF documents. Orientating documentation around the app ID will help keep it current.
 
 ## Reason 2: Communication in Projects
 
@@ -31,11 +31,11 @@ Identifying the applications in scope is crucial. It helps with several challeng
 
 ## Reason 3: Scope management
 
-The apps enabled in the Fiori Launchpad, whether custom or standard, define the project’s scope. Adding a new app, especially a custom one, can be costly. So, it’s crucial to track it. To maintain scope control and accurate documentation, always include the app in your documentation before implementing it. This simple step ensures clarity and helps maintain control over the scope.
+The apps enabled in the Fiori Launchpad, whether custom or standard, define the project’s scope. Adding a new app, especially a custom one, can be costly. So it’s crucial to track it. To control scope, have the PM approve app additions to the official list before implementation. This simple step ensures clarity and helps maintain control over the scope.
 
 ## Proper identification
 
-Out of experience, I recommend using the same convention SAP uses in its Fiori application library for App IDs: the letter and four digits. SAP follows a naming convention for its standard apps, using letters other than Z and Y for SAP Gui transactions. This allows projects to use Z and Y for their custom and extended apps. For example, "Z0061" is a simple and clear indication that immediately informs the user that they are dealing with a custom app.
+Out of experience, I recommend using the same convention SAP uses in its Fiori application library for App IDs: the letter and four digits. SAP names standard apps using letters other than Z or Y for. This allows projects to use Z and Y for custom and extended apps. For example, "Z0061" is a clear cue immediately showing users they are dealing with a custom app.
 
 When maintaining a list of applications, the choice of tool is not critical as long as the project stores an official list of app IDs in one location. Projects can accomplish this using a SharePoint Excel spreadsheet, a Confluence page, or a similar tool. If you need to connect your App IDs with other records such as Fiori Launchpad catalogs, roles, test users, usage logs, and change requests, consider using a dedicated tool like [Fiori Tracker](https://fioritracker.org).
 
