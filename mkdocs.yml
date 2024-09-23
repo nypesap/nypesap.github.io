@@ -53,6 +53,8 @@ plugins:
   - tags:
       tags_file: tags.md
   - search
+  - macros:
+      on_error_fail: !ENV [CI, false]
   - social:
       enabled: !ENV [CI, false]
       cards_layout_options:
