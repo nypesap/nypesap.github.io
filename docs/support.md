@@ -4,6 +4,7 @@ description: We're here to support and help you.
 nype_config:
   js:
     discord_invite: https://discord.gg/xGNzmej4KE
+  container_css: content-only justify
 ---
 # Nype Support Discord
 

@@ -11,6 +11,7 @@ nav:
     - blog/index.md
   - Offer: offer.md
   - Contact: contact.md
+  - Support: support.md
 theme: 
   name: nype
   language: en
@@ -76,6 +77,8 @@ plugins:
         "blog/2019/12/20/tracking-sap-fiori-application-usage.md": "blog/posts/0002-fiori-app-usage.md"
         "report-on-sap-fiori-application-usage-apps-popularity.md": "blog/posts/0002-fiori-app-usage.md"
         "career.md": "jobs/index.md"
+        "discord.md": "support.md"
+        "discord2.md": "support.md"
         "sap-fiori-atlassian-jira-integration-creating-a-support-message.md": "blog/posts/0001-jira-integration.md"
         "sap-ui5-pl.md": "index.md"
         "sap-fiori.md": "index.md"
