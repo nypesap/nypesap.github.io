@@ -10,9 +10,8 @@ permissions:
 jobs:
   deploy:
     uses: nypesap/mkdocs-nype/.github/workflows/reusable_deploy.yml@main
-    with:
-      INPUT_ENV: ${{ vars.INPUT_ENV }}
     secrets:
+      INPUT_ENV: ${{ vars.INPUT_ENV }}
       SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       SSH_HOST: ${{ secrets.SSH_HOST }}
       SSH_PORT: ${{ secrets.SSH_PORT }}
