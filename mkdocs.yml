@@ -137,6 +137,10 @@ extra:
     - icon: custom/fioritracker
       link: https://fioritracker.org/?ref=npe
 
+# Exclude pages from being added, keep in serve mode
+draft_docs: |
+  /projects/pending/
+  /projects/templates/
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
