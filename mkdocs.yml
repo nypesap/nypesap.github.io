@@ -27,7 +27,6 @@ theme:
   nype_config:
     contact_form_action_hex: !ENV [FORM_ACTION, "localhost"]
     contact_form_email_hex: !ENV [CONTACT_EMAIL, "nype@localhost"]
-    obfuscate_keys: [contact_form_action_hex, contact_form_email_hex]
     more_favicons: true
     safari_mask_color: '#00abc8'
     giscus_prefixes: blog/
