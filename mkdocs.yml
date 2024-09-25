@@ -32,6 +32,9 @@ theme:
     giscus_prefixes: blog/
     giscus_category_name: npe.cm comments
     giscus_category_id: MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMjI3Mzg=
+    exclude_via_robots: |
+      /projects/pending/
+      /projects/templates/
 plugins:
   - blog:
       blog_dir: blog
@@ -135,11 +138,6 @@ extra:
       link: https://twitter.com/nypesap/
     - icon: custom/fioritracker
       link: https://fioritracker.org/?ref=npe
-
-# Exclude pages from being added, keep in serve mode
-draft_docs: |
-  /projects/pending/
-  /projects/templates/
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
