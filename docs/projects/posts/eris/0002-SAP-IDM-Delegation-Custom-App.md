@@ -5,7 +5,7 @@ description: >
 authors:
   - nype
 categories:
-  - Custom Application
+  - Custom applications
 tags:
   - SAP S/4HANA 2021
   - SAP IDM 8.0

@@ -5,7 +5,7 @@ description: >
 authors:
   - nype
 categories:
-  - Custom apps
+  - Custom applications
 tags:
   - SAP S/4HANA
 industries:

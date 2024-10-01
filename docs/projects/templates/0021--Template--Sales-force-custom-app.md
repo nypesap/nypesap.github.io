@@ -5,7 +5,7 @@ description: >
 authors:
   - nype
 categories:
-  - Custom apps
+  - Custom applications
 tags:
   - ECC 6.0 (SAP Business Suite)
   - SAP CRM

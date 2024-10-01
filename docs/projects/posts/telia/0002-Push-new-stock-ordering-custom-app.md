@@ -5,7 +5,7 @@ description: >
 authors:
   - nype
 categories:
-  - Custom apps
+  - Custom applications
 tags:
   - SAP S/4HANA 1909
   - SAP Procure to Pay 

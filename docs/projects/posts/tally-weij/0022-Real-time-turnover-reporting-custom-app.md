@@ -5,7 +5,7 @@ description: >
 authors:
   - nype
 categories:
-  - Custom apps
+  - Custom applications
 industries:
   - Clothing retail (Switzerland)
 tags:
