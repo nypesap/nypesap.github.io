@@ -40,6 +40,7 @@ plugins:
       blog_dir: blog
       pagination: false
       post_url_format: "{slug}"
+      hide_read_more: true
   - blog:
       blog_dir: projects
       pagination: false
@@ -50,10 +51,12 @@ plugins:
       post_url_format: "{slug}"
       authors: false
       archive_name: Annual recap
+      hide_read_more: true
   - blog:
       blog_dir: jobs
       post_readtime: false
       post_url_format: "{slug}"
+      hide_read_more: true
   - tags:
       tags_file: tags.md
   - search
