@@ -26,7 +26,7 @@ App: Manage Purchase Contracts fal://F3144/2021_FPS01 extension
 
 Handling:
 
-1. Error when One-time supplier is chosen
+1. Error message when One-time supplier is chosen
 
 
 
