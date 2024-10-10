@@ -1,7 +1,7 @@
 ---
 title: Business Partner Financial Overview F2429 extension
 description: >
-  Business Partner Financial Overview F2429  extension - Custom column with code on contract level
+  Business Partner Financial Overview F2429  extension - Custom column with code and reason on BP and contract level
 authors:
   - nype
 categories:
@@ -20,7 +20,8 @@ App: Business Partner Financial Overview fal://F2429/2021_FPS01 extension
 
 ## Business scenario
 
-1. Custom column with code on contract level
+1. Custom column with code and reason on main list of Business partners
+2. Custom column with code on contract level
 
 
 
