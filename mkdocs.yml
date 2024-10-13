@@ -74,6 +74,15 @@ plugins:
       htmlmin_opts:
           remove_comments: true
       cache_safe: true
+  - server_redirects:
+      raw_redirects:
+        /exp(.*): /projects$1
+        /projects/\d{4}/\d{2}/\d{2}(.*): /projects$1
+        /projects/page/\d/?$: /projects/
+        /projects(.*)/page/\d/?$: /projects$1
+        /jobs/\d{4}/\d{2}/\d{2}(.*): /jobs$1
+        /jobs/page/\d/?$: /jobs/
+        /jobs(.*)/page/\d/?$: /jobs$1
   - redirects:
       redirect_maps:
         "blog/2022/03/11/practical-project-roles-in-sap-fiori-application-handling.md": "blog/posts/0005-practical-roles-in-SAP-apps-handling.md"
