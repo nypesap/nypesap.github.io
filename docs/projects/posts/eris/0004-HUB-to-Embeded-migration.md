@@ -28,7 +28,9 @@ Go live in September 2023
 
 2. Migrating SAP UI5 custom applications and extensions code from SAP WebIDE to SAP Business Application Studio
 
-3. Adjusted applications:
+3. Migrating git repositories from SAP Cloud git repo to Bitbucket.
+
+4. Adjusted applications:
 
 "My Inbox"
 
