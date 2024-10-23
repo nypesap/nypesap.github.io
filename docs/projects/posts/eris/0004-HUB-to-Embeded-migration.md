@@ -26,7 +26,7 @@ Go live in September 2023
 
 1. Evidencing all custom and extended applications with [Fiori Tracker](https://fioritracker.org)
 
-2. Migrating SAP UI code from SPA WebIDE to SAP Business Application Studio
+2. Migrating SAP UI5 custom applications and extensions code from SAP WebIDE to SAP Business Application Studio
 
 3. Adjusted applications:
 
