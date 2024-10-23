@@ -32,7 +32,7 @@ Go live in September 2023
 
 4. Adjusted applications:
 
-"My Inbox"
+"My Inbox" fal://F0862/2021_FPS01
 
 - Adjustments to configuration
 - Adjustments of extension code
