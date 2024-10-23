@@ -37,4 +37,6 @@ Go live in September 2023
 - Adjustments to configuration
 - Adjustments of extension code
 
+5. Re-development of the extensions
+
 
