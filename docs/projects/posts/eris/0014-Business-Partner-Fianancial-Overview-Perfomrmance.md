@@ -11,7 +11,7 @@ tags:
   - App ID F2429 
 industries:
   - Finance (Germany)
-date: 2024-10-20
+date: 2024-10-25
 ---
 
 <!-- more -->
