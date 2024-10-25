@@ -10,7 +10,7 @@ tags:
   - SAP S/4HANA 2023
 industries:
   - Administration (Germany)
-date: 2024-10-24
+date: 2024-10-20
 ---
 
 <!-- more -->
