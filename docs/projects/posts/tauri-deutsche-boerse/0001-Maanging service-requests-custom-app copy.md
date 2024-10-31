@@ -7,11 +7,11 @@ authors:
 categories:
   - Custom applications
 industries:
-  - Finance (Germany)
+  - Finance (Luxembourg)
 tags:
   - SAP CRM 7.0
 
-date: 2022-01-01
+date: 2021-12-01
 ---
 
 <!-- more -->
