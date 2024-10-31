@@ -9,10 +9,9 @@ categories:
 industries:
   - Pharmaceuticals (United Kingdom)
 tags:
-  - Confirm Receipt of Goods (SRM) F1824 extensions
   - App ID F1824
   - ECC 6.0 (SAP Business Suite)
-date: 2017-04-01
+date: 2017-05-01
 ---
 
 <!-- more -->
