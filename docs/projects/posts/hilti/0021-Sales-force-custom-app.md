@@ -11,7 +11,7 @@ tags:
   - SAP CRM
 industries:
   - Tools manufacturing (Switzerland)
-date: 2017-03-01
+date: 2016-11-01
 ---
 
 <!-- more -->
