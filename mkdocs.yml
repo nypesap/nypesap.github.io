@@ -114,7 +114,13 @@ plugins:
       target: contact.md
       paths:
         - docs/projects/posts
-  - custom_auto_links
+  - custom_auto_links:
+      fal:
+        fallback_id: 2020  # (local) fiori id
+        tags_map:  # tag pattern (regex) -> (local) fiori id
+          ECC 6.0: ECC
+        releases_map:  # (local) fiori id -> (remote) url release id
+          ECC: W26
 
 copyright: Copyright &copy; 2024 Nype
 extra_css:

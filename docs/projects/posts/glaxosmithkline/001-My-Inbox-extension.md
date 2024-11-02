@@ -17,7 +17,7 @@ date: 2017-04-01
 
 <!-- more -->
 
-My Inbox F0862 extensions.
+My Inbox fal://F0862 extensions.
 
 ## Business scenarios
 Extensions for My Inbox feeding workflow tasks from: 
