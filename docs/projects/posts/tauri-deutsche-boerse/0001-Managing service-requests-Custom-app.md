@@ -10,6 +10,7 @@ industries:
   - Finance (Luxembourg)
 tags:
   - SAP CRM 7.0
+  - ECC 6.0 (SAP Business Suite)
 
 date: 2021-12-01
 ---
