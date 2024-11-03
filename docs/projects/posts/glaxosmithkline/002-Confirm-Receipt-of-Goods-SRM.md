@@ -16,10 +16,10 @@ date: 2017-05-01
 
 <!-- more -->
 
-Confirm Receipt of Goods (SRM) F1824 extensions.
+Confirm Receipt of Goods (SRM) fal://F1824 extensions.
 
 ## Business scenarios
-Extensions for Confirm Receipt of Goods (SRM) F1824 extensions integrated with SAP SRM as backend system.
+Extensions for Confirm Receipt of Goods (SRM) fal://F1824 extensions integrated with SAP SRM as backend system.
 
 
 

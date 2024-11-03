@@ -16,7 +16,7 @@ date: 2017-06-01
 
 <!-- more -->
 
-Approve Purchase Contracts for Purchaser F0400 extensions
+Approve Purchase Contracts for Purchaser fal://F0400 extensions
 
 
 
