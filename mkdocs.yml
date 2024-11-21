@@ -167,6 +167,7 @@ not_in_nav: |
   /projects/templates/*
   /discord.md
   /discord2.md
+  /impressum.md
 
 # Together with --strict flag it allows to crash CI if an error occurs and prevent shipping broken sites
 validation:
