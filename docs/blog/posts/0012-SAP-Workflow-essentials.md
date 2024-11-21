@@ -13,7 +13,7 @@ slug: SAP-Workflow-Essentials-for-SAP-Fiori-Developers
 
 # SAP Workflow Essentials for SAP Fiori Developer working with "My Inbox"
 
-If you're a SAP Fiori developer working on "My Inbox" or migrating from SAP Workflow in SAP Business Suite, Unified Inbox, or SAP Portal, it is important to understand SAP Workflow basics. This guide breaks down the essentials you need to streamline your work with "My Inbox".
+If you're a SAP Fiori developer working on "My Inbox" or migrating from SAP Workflow in SAP Business Suite, Unified Inbox, or SAP Portal, it is important to understand SAP Workflow basics. This guide breaks down the essentials you need to streamline your work with "My Inbox".<!-- more -->
 
 ## Terminology summary
 
