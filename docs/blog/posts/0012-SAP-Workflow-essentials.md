@@ -18,10 +18,10 @@ If you're a SAP Fiori developer working on "My Inbox" or migrating from SAP Work
 ## Terminology summary
 
 `Workflow Scenario`
-: A collection of tasks, agent-determination rules, and related artifacts that can be sequenced to construct workflows. Identified by Workflow ID  f.e. WS000800238
+: A collection of tasks, agent-determination rules, and related artifacts that can be sequenced to construct workflows. Identified by Workflow ID  f.e. WS99100200
 
 `Task`
-: The description and context of what needs to be performed in a workflow step/activity. Part of Workflow Scenarios. Identified by Task ID f.e. TS00800531
+: The description and context of what needs to be performed in a workflow step/activity. Part of Workflow Scenarios. Identified by Task ID f.e. TS12300116
 
 `Work item`
 : The instance of a task.
