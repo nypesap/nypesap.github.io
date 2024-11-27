@@ -36,3 +36,11 @@ If you're a SAP Fiori developer working on "My Inbox" or migrating from SAP Work
 
 `PFTC`	
 : Template, task management (WS, TS)
+
+## Recreating the workflow item presentation
+
+Existing workflows are like small apps, some of which have been customized for specific user experiences. As part of the migration project, you will aim to maintain the look and behavior of these workflows in the "My Inbox" app. You may need to adjust your "My Inbox" settings to align with your existing workflows to achieve similar results. The following customizations will need adjustments in "My Inbox":
+
+1. Decision buttons modelled as "Activity steps"
+    - configuration to display button
+    - configuration to handle button press
