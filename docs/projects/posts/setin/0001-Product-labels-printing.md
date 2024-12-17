@@ -1,5 +1,5 @@
 ---
-title: Product label printing
+title: Product label printing - Custom app
 description: >
   Custom application for printing product labels
 authors:
