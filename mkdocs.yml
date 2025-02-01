@@ -57,8 +57,7 @@ plugins:
       post_readtime: false
       post_url_format: "{slug}"
       hide_read_more: true
-  - tags:
-      tags_file: tags.md
+  - tags
   - search
   - macros:
       on_error_fail: !ENV [CI, false]
