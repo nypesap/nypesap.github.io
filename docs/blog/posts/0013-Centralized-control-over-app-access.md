@@ -8,7 +8,7 @@ tags:
   - SAP Fiori
   - SAP Fiori Launchpad
   - SAP S/4HANA
-date: 2022-03-11
+date: 2025-01-11
 slug: Centralized-control-over-SAP-Fiori-app-access
 ---
 
