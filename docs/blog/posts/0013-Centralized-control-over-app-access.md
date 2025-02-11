@@ -29,4 +29,4 @@ Here is a summaryÂ of the impacts of not having a long-term role (support mode)Â
 
 ## See also 
 
-If you're looking for more tips on organizing your SAP S/4HANA project, take a look at [my article about the different roles in managing SAP Fiori applications](0005-practical-roles-in-SAP-apps-handling). It breaks down who does what when it comes to handling those apps.
+If you're looking for more tips on organizing your SAP S/4HANA project, take a look at [my article about the different roles in managing SAP Fiori applications](0005-practical-roles-in-SAP-apps-handling.md). It breaks down who does what when it comes to handling those apps.
