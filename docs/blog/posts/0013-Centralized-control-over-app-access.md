@@ -4,7 +4,6 @@ authors:
 categories:
   - Project organization
 tags:
-  - SAP UI5
   - SAP Fiori
   - SAP Fiori Launchpad
   - SAP S/4HANA
@@ -28,3 +27,6 @@ Here is a summaryÂ of the impacts of not having a long-term role (support mode)Â
 4. Lack of records/documentation resulting in instability during personnel shifts (knowledge loss)
 5. Delayed delivery of SAP Fiori custom and extended apps
 
+## See also 
+
+If you're looking for more tips on organizing your SAP S/4HANA project, take a look at [my article about the different roles in managing SAP Fiori applications](0005-practical-roles-in-SAP-apps-handling). It breaks down who does what when it comes to handling those apps.
