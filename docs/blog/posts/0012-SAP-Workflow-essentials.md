@@ -34,6 +34,8 @@ If you're a SAP Fiori developer working on "My Inbox" or migrating from SAP Work
 `SWIA`	
 : Work item administration (WI)
 
+You can find the details of the workflow item. To identify the workflow item id while running My Inbox app check the URL. The last part of the URL is the work item number.
+
 `PFTC`	
 : Template, task management (WS, TS)
 

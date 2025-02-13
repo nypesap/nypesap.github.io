@@ -16,7 +16,6 @@ slug: Centralized-control-over-SAP-Fiori-app-access
 Although there is no official Fiori Launchpad content manager role in the SAP methodology, I suggest SAP project should establish one. Depending on the number of apps in the project scope, this role can be handled by a single individual who can also manage other tasks. The estimated effort required for this role ranges from one man-day a week to full-time.
 <!-- more -->
 
-
 ## Why Fiori Launchpad needs a dedicated content manager?
 
 Here is a summary of the impacts of not having a long-term role (support mode) FLP content manager:
