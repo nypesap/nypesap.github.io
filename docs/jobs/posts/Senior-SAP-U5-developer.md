@@ -4,8 +4,8 @@ description: >
   SAP UI5 senior developer 
 authors:
   - nype
-date: 2024-05-10
+date: 2025-02-17
 ---
 
-We are looking for a person for the position of SAP UI5 senior developer.
-We are open for freelance rates and partnering.
+We are looking for a person for the SAP UI5 senior developer position.
+We are open to freelance rates and partnering.
