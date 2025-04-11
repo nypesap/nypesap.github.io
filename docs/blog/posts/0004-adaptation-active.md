@@ -22,7 +22,7 @@ Run the SAPUI5 Diagnostic by using the following shortcut: CTRL+SHIFT+ALT+S
 
 Expand the "Flexibility section"
 
-If the adaptation project is active, you should see the custom namespace. For example: "com.acme"
+If the adaptation project is active, you should see the custom namespace you set in your adaptation. For example: "customer.com.acme".
 
 [![Diagnostic tool screen shot](R0004/diag-tool.png)](R0004/diag-tool.png)
 
