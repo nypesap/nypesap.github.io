@@ -1,5 +1,5 @@
 ---
-title: Resolving SSL connection issues
+title: Resolved SSL connection issues
 description: >
   My Inbox integration - Rest API over SSL
 authors:

@@ -1,5 +1,5 @@
 ---
-title: Configuring OAuth 2.0 Client
+title: OAuth 2.0 Client Configuration
 description: >
   My Inbox integration - Rest API with OAuth
 authors:
