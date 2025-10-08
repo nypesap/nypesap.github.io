@@ -17,7 +17,13 @@ date: 2025-10-01
 
 <!-- more -->
 
-Custom application for printing product labels
+The work focused on analyzing and re-engineering existing SAP Cloud Process Integration (SAP CPI) flows to support the transition to SAP S/4HANA. The analyzed integration scenarios included connections between SAP Business Suite and SAP Configure Price Quote (SAP CPQ).
+
+Key integration scenarios included:
+
+- Material replication
+
+
 
 
 
