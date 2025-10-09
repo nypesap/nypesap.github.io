@@ -21,7 +21,16 @@ The work focused on analyzing and re-engineering existing SAP Cloud Process Inte
 
 Key integration scenarios included:
 
-- Material replication
+- Inbound to SAP CPQ
+    * Material master  
+    * Cost
+    * Price
+    * Exchange 
+
+- Outbound from SAP CPQ:
+    * Sales contract 
+    * Sales order 
+
 
 
 
