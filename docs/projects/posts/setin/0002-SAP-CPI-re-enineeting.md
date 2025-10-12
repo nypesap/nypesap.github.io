@@ -1,7 +1,7 @@
 ---
-title: Reverse-Engineering Existing SAP CPI Flows for S/4HANA Integration 
+title: Reverse-Engineering SAP CPI Flows to enable Mimgration of country organizations to SAP S/4HANA
 description: >
-  Reverse-Engineering Existing SAP Cloud Process Integration Flows to enable SAP S/4HANA implementation
+  Reverse-Engineering and Adapting SAP CPI Integration Flows to Support the Migration of Three Country-Wide Organizations from SAP Business Suite into an Existing S/4HANA Landscape
 authors:
   - nype
 categories:
@@ -16,8 +16,7 @@ date: 2025-10-01
 ---
 
 <!-- more -->
-
-The work focused on analyzing and re-engineering existing SAP Cloud Process Integration (SAP CPI) flows to support the transition to SAP S/4HANA. The analyzed integration scenarios included connections between SAP Business Suite and SAP Configure Price Quote (SAP CPQ).
+The work focused on analyzing and reverse-engineering existing SAP Cloud Process Integration (SAP CPI) flows to enable the migration of three country-wide organizations from SAP Business Suite into an existing SAP S/4HANA environment. The effort ensured that all critical integrations between SAP Business Suite and SAP Configure Price Quote (SAP CPQ) were compatible with the new S/4HANA architecture.
 
 Key integration scenarios included:
 
