@@ -20,7 +20,7 @@ You can contact {% include 'hidden_email.md' %} or fill out the form:
 ## Location
 
 **Nype**<br>
-ul. Ludwika Braillea 2a/23<br>
-60-687 Poznan<br>
+ul. Naramowicka 37/29 <br>
+61-622 Poznan<br>
 Poland<br>
 
