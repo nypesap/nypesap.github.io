@@ -24,7 +24,7 @@ Key integration scenarios included:
     * Material master  
     * Cost
     * Price
-    * Exchange 
+    * Exchange rates
 
 - Outbound from SAP CPQ:
     * Sales contract 
