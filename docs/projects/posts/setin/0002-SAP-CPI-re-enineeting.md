@@ -1,5 +1,5 @@
 ---
-title: Reverse-Engineering SAP CPI Flows to enable Mimgration of country organizations to SAP S/4HANA
+title: Reverse-Engineering SAP CPI Flows to enable Migration of country organizations to SAP S/4HANA
 description: >
   Reverse-Engineering and Adapting SAP CPI Integration Flows to Support the Migration of Three Country-Wide Organizations from SAP Business Suite into an Existing S/4HANA Landscape
 authors:
@@ -24,7 +24,7 @@ Key integration scenarios included:
     * Material master  
     * Cost
     * Price
-    * Exchange rates
+    * Exchange 
 
 - Outbound from SAP CPQ:
     * Sales contract 
