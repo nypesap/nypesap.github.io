@@ -4,7 +4,7 @@ description: >
   Practice / Internship
 authors:
   - nype
-date: 2025-10-20
+date: 2025-10-10
 ---
 
 We are looking for a motivated individual to join us as an intern. The minimum requirements are:
