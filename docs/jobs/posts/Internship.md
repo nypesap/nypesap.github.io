@@ -1,10 +1,13 @@
 ---
-title: Practice / Internship
+title: Internship / Practical Placement 
 description: >
   Practice / Internship
 authors:
   - nype
-date: 2025-02-17
+date: 2025-10-20
 ---
 
-We are looking for a person for an Internship / Practice. The minimal requirements are basic knowledge of programming and the ability to clone the repo and run our project locally.
+We are looking for a motivated individual to join us as an intern. The minimum requirements are:
+
+- Basic knowledge of programming
+- Comfortable working with git repositories and running JavaScript code locally
