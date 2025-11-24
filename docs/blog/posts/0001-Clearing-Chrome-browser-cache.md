@@ -18,7 +18,7 @@ To fix issues with SAP Fiori app in Chrome/Edge, clear the cache by following th
 <!-- more -->
 
 1. Press function key ++f12++ on a keyboard
-2. Right click with the mouse on Chrome toolbar button “Reload this page”
-3. From the list of tree function choose the last one: “Empty Cache and Hard Reload”
+2. Right click with the mouse on the Chrome toolbar button “Reload this page”
+3. From the list of tree functions, choose the last one: “Empty Cache and Hard Reload”
 
 Your Chrome browser cache is cleared.
