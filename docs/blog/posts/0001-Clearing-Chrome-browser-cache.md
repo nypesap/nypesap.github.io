@@ -8,17 +8,17 @@ tags:
 categories:
   - Testing solutions
 date: 2018-01-10
-description: The Fiori Tracker plugin for SAP Fiori Launchpad speeds up Jira issue creation by automatically identifying the problem app and pre-filling technical details.
+description: Quick tip: A quick guide to clearing your Chrome or Edge browser cache to resolve common SAP Fiori display issues
 ---
 
-# Quick tip: How to clear Chrome browser cache
+# Quick tip: How to clear Chrome/Edge browser cache
 
-To fix issues with SAP Fiori app in Chrome, clear the cache by following these steps:"
+To fix issues with SAP Fiori app in Chrome/Edge, clear the cache by following these steps:"
 
 <!-- more -->
 
 1. Press function key ++f12++ on a keyboard
-2. Right click with the mouse on Chrom toolbar button “Reload this page”
-3. From the list of tree fucntion choose the last one: “Empty Cache and Hard Reload”
+2. Right click with the mouse on Chrome toolbar button “Reload this page”
+3. From the list of tree function choose the last one: “Empty Cache and Hard Reload”
 
 Your Chrome browser cache is cleared.
