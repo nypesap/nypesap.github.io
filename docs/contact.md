@@ -3,7 +3,7 @@ title: Contact
 description: Get in touch and let's work together.
 nype_config:
   js:
-    contact_form_allow_personal_emails: true
+    contact_form_allow_personal_emails: false
   container_css: hide-h1 content-only justify
   js_include: contact_form_action_hex contact_form_email_hex
 ---
