@@ -1,5 +1,5 @@
 ---
-title: Resolved SSL connection issues
+title: SSL and trust configuration for REST API integration
 description: >
   My Inbox integration - Rest API over SSL
 authors:
@@ -18,5 +18,5 @@ date: 2025-03-15
 
 <!-- more -->
 
-"My Inbox" fal://F0862/ integration with REST API backend required STRUST SSL authority debugging for the connection with the external server.
+"My Inbox" fal://F0862/ integration with REST API backend with the use of STRUST SSL authority debugging for the connection with the external server.
 
