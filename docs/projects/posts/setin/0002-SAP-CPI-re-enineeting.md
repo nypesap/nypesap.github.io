@@ -8,6 +8,8 @@ categories:
   - Integration
 tags:
   - SAP Cloud Process Integration
+  - SAP CPI
+  - SAP CPQ
   - SAP S/4HANA 2021
   - SAP Business Suite
 industries:
