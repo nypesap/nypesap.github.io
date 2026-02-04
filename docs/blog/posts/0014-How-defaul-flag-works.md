@@ -18,9 +18,9 @@ slug: SAP-odata-service-alias-default-flag-explained
 | Multi origin (`;mo` parameter in request URL) | No | Yes | Not supported |
 | Type | Requests routed to one system | Requests retrieving from multiple systems | One-system-only requests |
 | Example |  |  | $metadata request |
-| Multitude | N | N | N |
+| Multitude | 1 | N | 1 |
 | “Default” flag used | Yes | No | Yes |
 
 
-The “Default” flag is used by the system only in cases A and C, where it determines which system alias is
+The “Default” flag is used by the system only in cases A and C, where it determines which system alias is selected.
 
