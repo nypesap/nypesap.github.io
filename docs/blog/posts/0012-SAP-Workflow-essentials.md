@@ -3,8 +3,8 @@ description: SAP Workflow Essentials for SAP Fiori Developer working with "My In
 authors:
   - greg
 tags:
-  - SAP S/4HANA
-  - SAP Fiori
+  - SAP Workflow
+  - SAP My Inbox
 categories:
   - Development
 date: 2024-11-16
