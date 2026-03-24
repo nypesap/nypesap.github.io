@@ -13,6 +13,9 @@ slug: SAP-odata-service-alias-default-flag-explained
 
 # How the “Default” flag works in the SAP System alias to the OData Service assignment
 
+Here is a clear breakdown of how SAP OData service aliases work, with a focus on the purpose and behavior of the default flag in system selection:
+<!-- more -->
+
 | Case | A | B | C |
 |------------------|---|---|---|
 | Multi origin (`;mo` parameter in request URL) | No | Yes | Not supported |
@@ -20,7 +23,6 @@ slug: SAP-odata-service-alias-default-flag-explained
 | Example |  |  | $metadata request |
 | Multitude | 1 | N | 1 |
 | “Default” flag used | Yes | No | Yes |
-
 
 The “Default” flag is used by the system only in cases A and C, where it determines which system alias is selected.
 
