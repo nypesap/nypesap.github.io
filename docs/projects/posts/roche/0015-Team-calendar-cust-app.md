@@ -1,7 +1,7 @@
 ---
 title: Team calendar custom app
 description: >
-  SAP UI5 custom ap
+  SAP UI5 custom app
 authors:
   - nype
 categories:

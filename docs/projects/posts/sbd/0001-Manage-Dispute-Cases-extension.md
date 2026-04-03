@@ -1,7 +1,7 @@
 ---
 title: Manage Dispute Cases F0702 extension - fields reordering, reason codes dropdowns, mass approvals
 description: >
-  Manage Dispute Cases F0702 extension fields reordering, reason codes dropdowns, mass approvals, salve as Tile
+  Manage Dispute Cases F0702 extension fields reordering, reason codes dropdowns, mass approvals, save as Tile
 authors:
   - nype
 categories:
