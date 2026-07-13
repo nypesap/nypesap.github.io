@@ -36,6 +36,7 @@ theme:
       /projects/pending/
       /blog-pending/
       /projects/templates/
+      /jobs-pending/
 plugins:
   - blog:
       blog_dir: blog
@@ -157,6 +158,7 @@ not_in_nav: |
   /tags.md
   /projects/pending/*
   /blog-pending/*
+  /jobs-pending/*
   /projects/templates/*
   /discord.md
   /discord2.md
