@@ -7,6 +7,6 @@ authors:
 date: 2026-07-01
 ---
 
-We are looking for a person who will own the incident management process for SAP systems, driving issue resolution, stakeholder communication, root cause analysis, and continuous service improvement.
+We are looking for a person to own the incident management process for our SAP landscape, driving incident resolution, stakeholder communication, root cause analysis, and continuous service improvement.
 
-Required is very good command of eEnglish. SAP experience is nice to have. 
+A very good command of English is required. Experience with SAP is an advantage but not essential.
